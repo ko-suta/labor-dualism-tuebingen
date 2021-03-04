@@ -1,0 +1,21 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "About this site",
+      "description": "Some additional details about the website",
+      "author": [],
+      "contents": "\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-03-04T17:55:00+09:00"
+    },
+    {
+      "path": "index.html",
+      "title": "Labor Market Dualism - UniTuebingen",
+      "description": "Welcome to the website. I hope you enjoy it!\n",
+      "author": [],
+      "contents": "\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-03-04T17:55:03+09:00"
+    }
+  ],
+  "collections": []
+}
