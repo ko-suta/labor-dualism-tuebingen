@@ -6,7 +6,7 @@ navbar:
     image: images/worker.jpg
   right:
     - text: "Slides"
-      href: figures.html
+      href: slides/SASE-2019.html
     - text: "Worksheets"
       href: worksheets.html
     - icon: fab fa-github
