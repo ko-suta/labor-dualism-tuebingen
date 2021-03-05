@@ -1,12 +1,21 @@
-name: "labor-dualism-tuebingen"
-title: "Labor Market Dualism - UniTuebingen"
-description: |
-  Labor Market Dualism - UniTuebingen
-output_dir: "docs"
+---
+name: "Market-Dualism"
+title: "Labor Market Dualism -- University of Tübingen"
 navbar:
+  logo:
+    image: images/worker.jpg
   right:
-    - text: "Home"
-      href: index.html
-    - text: "About"
-      href: about.html
+    - text: "Slides"
+      href: figures.html
+    - text: "Worksheets"
+      href: worksheets.html
+    - icon: fab fa-github
+      href: https://github.com/ko-suta/labor-dualism-tuebingen
+  left:
+    - text: "Schedule"
+      href: schedule.html
+    - text: "Syllabus"
+      href: syllabus.html
+
 output: distill::distill_article
+---
