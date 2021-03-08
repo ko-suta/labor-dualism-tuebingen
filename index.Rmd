@@ -1,6 +1,6 @@
 ---
-title: "Transdisciplinary Course Program"
-description: Labor Market Dualism 
+title: "Labor Market Dualism"
+description: Transdisciplinary Course Program 
 site: distill::distill_website
 ---
 
@@ -12,7 +12,8 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ```
 
-This is the home page for SDS 375, Data Visualization in R. All course materials will be posted on this site.
+This is the home page for the "Labor Market Dualism" course at the University of Tübingen (Fall 2021).
+All course materials will be posted on this site.
 
 Instructor: [Kostiantyn Ovsiannikov](https://kovsiannikov.com)  
 Meeting times: to be decided 

@@ -2,11 +2,11 @@
   "articles": [
     {
       "path": "index.html",
-      "title": "Transdisciplinary Course Program",
-      "description": "Labor Market Dualism",
+      "title": "Labor Market Dualism",
+      "description": "Transdisciplinary Course Program",
       "author": [],
-      "contents": "\r\nThis is the home page for SDS 375, Data Visualization in R. All course materials will be posted on this site.\r\nInstructor: Kostiantyn Ovsiannikov\r\nMeeting times: to be decided Venue: online\r\nSyllabus: click here\r\nUpcoming lectures and assignments: click here\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-03-08T18:11:40+09:00"
+      "contents": "\r\nThis is the home page for the “Labor Market Dualism” course at the University of Tübingen (Fall 2021). All course materials will be posted on this site.\r\nInstructor: Kostiantyn Ovsiannikov\r\nMeeting times: to be decided Venue: online\r\nSyllabus: click here\r\nUpcoming lectures and assignments: click here\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-03-08T18:16:03+09:00"
     },
     {
       "path": "schedule.html",
@@ -14,7 +14,7 @@
       "description": "",
       "author": [],
       "contents": "\r\n\r\nContents\r\nLectures\r\n\r\nLectures\r\n1. Sep 1, 2021—Introduction\r\n\r\nMaterials:\r\n\r\nSlides\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-03-08T18:11:44+09:00"
+      "last_modified": "2021-03-08T18:16:05+09:00"
     },
     {
       "path": "syllabus.html",
@@ -22,7 +22,7 @@
       "description": "",
       "author": [],
       "contents": "\r\n\r\nContents\r\nCourse title and instructor\r\nPurpose and contents of the class\r\nPrerequisites\r\nTextbook\r\n\r\nCourse title and instructor\r\nTitle: Dual Labor Market\r\nInstructor: Kostiantyn OvsiannikovEmail: k.ovsiannikov@gmail.comOffice Hours: by appointment GitHub: ko-suta \r\nPurpose and contents of the class\r\nPrerequisites\r\nTextbook\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-03-08T18:11:45+09:00"
+      "last_modified": "2021-03-08T18:16:06+09:00"
     }
   ],
   "collections": []
