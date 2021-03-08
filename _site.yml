@@ -7,7 +7,7 @@ base_url: https://dual-labor.netlify.app/
 repository_url: https://github.com/ko-suta/labor-dualism-tuebingen
 navbar:
   logo:
-    image: Nyanko.png
+    image: worker.jpg
   search: true
   right:
     - text: "Home"
