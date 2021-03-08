@@ -3,7 +3,11 @@ title: "Labor Market Dualism"
 description: |
   Labor Market Dualism
 output_dir: "_site"
+base_url: https://dual-labor.netlify.app/
+repository_url: https://github.com/ko-suta/labor-dualism-tuebingen
 navbar:
+  logo:
+    image: Nyanko.png
   search: true
   right:
     - text: "Home"
