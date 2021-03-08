@@ -4,6 +4,9 @@ description: |
   Labor Market Dualism
 output_dir: "_site"
 navbar:
+  logo:
+    image: images/worker.jpg
+  search: true
   right:
     - text: "Home"
       href: index.html
