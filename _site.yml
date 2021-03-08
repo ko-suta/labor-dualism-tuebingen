@@ -4,6 +4,7 @@ title: "Labor Market Dualism -- University of Tübingen"
 navbar:
   logo:
     image: images/worker.jpg
+  search: true
   right:
     - icon: fab fa-github
       href: https://github.com/ko-suta/labor-dualism-tuebingen
