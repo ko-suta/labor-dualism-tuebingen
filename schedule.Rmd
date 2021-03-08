@@ -1,0 +1,21 @@
+---
+title: "Dual Labor Market Schedule Autumn 2021"
+description: ""
+output:
+  distill::distill_article:
+    toc: true
+    toc_depth: 2
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Lectures
+
+### 1. Sep 1, 2021—Introduction
+
+<p class="nospace">Materials:</p>
+
+- [Slides](slides/SASE-2019/SASE-2019.html) 
+

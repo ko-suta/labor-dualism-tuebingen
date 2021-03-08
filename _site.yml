@@ -10,8 +10,10 @@ navbar:
     image: images/worker.jpg
   search: true
   right:
-    - text: "Home"
-      href: index.html
-    - text: "About"
-      href: about.html
+    - text: "Schedule"
+      href: schedule.html
+    - text: "Syllabus"
+      href: syllabus.html
+    - icon: fab fa-github
+      href: https://github.com/ko-suta/labor-dualism-tuebingen
 output: distill::distill_article
