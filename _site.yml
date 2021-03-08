@@ -5,10 +5,6 @@ navbar:
   logo:
     image: images/worker.jpg
   right:
-    - text: "Slides"
-      href: slides/SASE-2019.html
-    - text: "Worksheets"
-      href: worksheets.html
     - icon: fab fa-github
       href: https://github.com/ko-suta/labor-dualism-tuebingen
   left:
