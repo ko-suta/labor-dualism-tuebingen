@@ -1,5 +1,6 @@
 ---
-title: "Dual Labor Market Schedule Autumn 2021"
+title: "Labor Market Dualism in the International Context"
+subtitle: "Autumn 2021 Semester Schedule"
 description: ""
 output:
   distill::distill_article:
@@ -13,7 +14,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Lectures
 
-### 1. Sep 1, 2021—Introduction
+### 1. Oct 18, 2021 -- Introduction
 
 <p class="nospace">Materials:</p>
 

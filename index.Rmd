@@ -1,5 +1,5 @@
 ---
-title: "Labor Market Dualism"
+title: "Labor Market Dualism in the International Context"
 description: Transdisciplinary Course Program 
 site: distill::distill_website
 ---
@@ -16,7 +16,7 @@ This is the home page for the "Labor Market Dualism" course at the University of
 All course materials will be posted on this site.
 
 Instructor: [Kostiantyn Ovsiannikov](https://kovsiannikov.com)  
-Meeting times: to be decided 
+Meeting times: to be decided  
 Venue: online  
 Syllabus: [click here](syllabus.html)  
 Upcoming lectures and assignments: [click here](schedule.html)  
