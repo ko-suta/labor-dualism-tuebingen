@@ -1,7 +1,7 @@
 ---
 title: "Labor Market Dualism in the International Context"
 description: | 
-  "Winter 2021 Semester Schedule"
+  Winter 2021 Semester Schedule
 output:
   distill::distill_article:
     toc: true
