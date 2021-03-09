@@ -14,7 +14,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Course title and instructor
 
-**Title:** Dual Labor Market<br>
+**Title:** Labor Market Dualism in the International Context (Winter 2021)<br>
 
 
 **Instructor:** Kostiantyn Ovsiannikov<br>
