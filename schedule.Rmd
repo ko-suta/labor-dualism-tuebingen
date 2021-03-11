@@ -18,5 +18,5 @@ knitr::opts_chunk$set(echo = FALSE)
 
 <p class="nospace">Materials:</p>
 
-- [Slides](slides/SASE-2019/SASE-2019.html) 
+- [Slides](slides/Dual-Market-OECD/Labor-Market-Dualism-OECD.html) 
 

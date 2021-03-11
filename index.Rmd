@@ -12,7 +12,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ```
 
-This is the home page for the "Labor Market Dualism" course at the University of Tübingen (Winter 2021).
+This is the home page for the "Labor Market Dualism in the International Context" course at the University of Tübingen (Winter 2021).
 All course materials will be posted on this site.
 
 Instructor: [Kostiantyn Ovsiannikov](https://kovsiannikov.com)  

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" version="1.0">
   <url>
-    <loc>https://dual-labor.netlify.app/</loc>
-    <lastmod>2021-03-09T14:47:28+09:00</lastmod>
+    <loc>https://dual-market.netlify.app/</loc>
+    <lastmod>2021-03-11T11:38:38+09:00</lastmod>
   </url>
   <url>
-    <loc>https://dual-labor.netlify.app/schedule.html</loc>
-    <lastmod>2021-03-09T14:49:39+09:00</lastmod>
+    <loc>https://dual-market.netlify.app/schedule.html</loc>
+    <lastmod>2021-03-11T15:18:54+09:00</lastmod>
   </url>
   <url>
-    <loc>https://dual-labor.netlify.app/syllabus.html</loc>
-    <lastmod>2021-03-09T14:47:30+09:00</lastmod>
+    <loc>https://dual-market.netlify.app/syllabus.html</loc>
+    <lastmod>2021-03-11T11:34:30+09:00</lastmod>
   </url>
 </urlset>
