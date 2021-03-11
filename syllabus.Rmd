@@ -29,4 +29,3 @@ knitr::opts_chunk$set(echo = FALSE)
 
 
 ## Literature to be used in the class 
-
