@@ -211,13 +211,14 @@ knitr::include_graphics("assets/img/nonreg-ind.png")
 
 ---
 
-##  Estimated Unionization Rate. Source: Basic Survey on Labour Unions (2015), as cited in Ministry of Health, Labour and Welfare (2015, p. 16) 
+##  Estimated Unionization Rate 
 
 
-```{r unions, echo=FALSE, fig.align="center", out.width = "60%"}
+```{r unions, echo=FALSE, fig.align="center", out.width = "40%"}
 knitr::include_graphics("assets/img/unions.png")
 ```
 
+.footnote[Basic Survey on Labour Unions (2015), as cited in Ministry of Health, Labour and Welfare (2015, p. 16) ]
 
 ---
 
