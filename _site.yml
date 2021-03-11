@@ -4,6 +4,7 @@ description: |
   Labor Market Dualism
 output_dir: "_site"
 base_url: https://dual-market.netlify.app/
+google_analytics: "G-PNBY03CMKW"
 repository_url: https://github.com/ko-suta/labor-dualism-tuebingen
 navbar:
   #logo:
