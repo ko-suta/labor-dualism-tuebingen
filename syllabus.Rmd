@@ -17,15 +17,29 @@ knitr::opts_chunk$set(echo = FALSE)
 **Title:** Labor Market Dualism in the International Context (Winter 2021)<br>
 
 
-**Instructor:** Kostiantyn Ovsiannikov<br>
+**Instructor:** [Kostiantyn Ovsiannikov](https://kovsiannikov.com)<br>
 **Email:** k.ovsiannikov@gmail.com<br>
 **Office Hours:** by appointment <br>
 **GitHub:** [ko-suta](https://github.com/ko-suta) <br>
 
 ## Purpose and contents of the class
 
+The proposed course will concentrate on the *labor dualism* issue from the comparative perspective. 
+It will focus on the underlying causes as well as the socio-economic consequences of this phenomenon.
+From an empirical point, it will investigate countries that range from those where low labor turnover costs are combined with representative industrial unions (e.g. Sweden), to those where labor bifurcation is relatively more rigid and centered on inter-corporate rather than industrial coordination (e.g. Japan). 
+
+According to the "dual labor market hypothesis" formulated by Doeringer & Piore (1971), employers often benefit from classifying their personnel into "internal" and "external" camps. 
+While the members of the internal labor market enjoy long-term career paths, on-the-job training and accompanying social benefits, external market is mostly composed of non-regular workers who can be fired relatively easy as part of the "optimization efforts" during the economic crises such as the one caused by the COVID-19 pandemic.
+
 
 ## Prerequisites
 
+The class is suitable for the students who are interested in the cutting-edge political and economic issues around the world.
+If you are willing to explore labor-related problems pertaining to different countries and to engage in the comparative analysis, this course is for you.
+It fits best into the "Thinking and acting economically" cluster of the Transdisciplinary Course Program.
 
-## Literature to be used in the class 
+## Selected literature to be used for the class 
+
++ Rueda, D. (2006). Social democracy and active labour-market policies: insiders, outsiders and the politics of employment promotion. *British Journal of Political Science, 36*(3), 385-406.
++ Thelen, K., & Kume, I. (2006). Coordination as a political problem in coordinated market economies. *Governance, 19*(1), 11-42.
++ Witt, M.A. & Jackson, G., (2016). Varieties of Capitalism and institutional comparative advantage: a test and reinterpretation. *Journal of International Business Studies, 47*(7), pp.778-806.
