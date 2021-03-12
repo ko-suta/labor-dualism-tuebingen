@@ -56,10 +56,15 @@ xaringanExtra::style_share_again(
 --
 
 + concerns about labor market conditions
+
 + widespread deficits of available decent work opportunities
+
 + linkages among poverty eradication, full and productive employment and decent work for all
+
 + urging all governments to address the global challenge of youth employment
+
 + need to generate remunerative employment and productive occupational opportunities
+
 + need of generating employment for vulnerable groups, specifically women, urban poor, unemployed rural labour as well as low-income urban residents
 
 
@@ -153,8 +158,11 @@ Realistically, they may become blurred in the long run, because everyone has int
 ##  Non-Regular Employment: Definitions 
 
 + Standard (regular) employment: full-time & indefinite
+
 + ILO Part-Time Work Convention (1994): "A part-time worker is an employed person whose normal hours of work are less than those of comparable full-time workers"
+
 + For statistical purposes: part-time work is < 35 (30) hours per week
+
 + De jure definitions are problematic when dealing with specific institutional context (e.g. Japanese)
 
 
