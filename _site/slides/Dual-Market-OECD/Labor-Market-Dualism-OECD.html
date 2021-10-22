@@ -4,14 +4,52 @@
     <title>Labor Market Dualism Across the OECD States</title>
     <meta charset="utf-8" />
     <meta name="author" content="Kostiantyn Ovsiannikov, Ph.D." />
-    <meta name="date" content="2021-03-12" />
+    <meta name="date" content="2021-11-17" />
     <script src="libs/header-attrs/header-attrs.js"></script>
+    <link href="libs/remark-css/rutgers-fonts.css" rel="stylesheet" />
+    <script src="libs/fabric/fabric.min.js"></script>
+    <link href="libs/xaringanExtra-scribble/scribble.css" rel="stylesheet" />
+    <script src="libs/xaringanExtra-scribble/scribble.js"></script>
+    <script>document.addEventListener('DOMContentLoaded', function() { window.xeScribble = new Scribble({"pen_color":["#FF0000"],"pen_size":3,"eraser_size":30,"palette":[]}) })</script>
+    <link href="libs/tile-view/tile-view.css" rel="stylesheet" />
+    <script src="libs/tile-view/tile-view.js"></script>
+    <link href="libs/tachyons/tachyons.min.css" rel="stylesheet" />
+    <link href="libs/panelset/panelset.css" rel="stylesheet" />
+    <script src="libs/panelset/panelset.js"></script>
     <script src="libs/clipboard/clipboard.min.js"></script>
     <link href="libs/shareon/shareon.min.css" rel="stylesheet" />
     <script src="libs/shareon/shareon.min.js"></script>
     <link href="libs/xaringanExtra-shareagain/shareagain.css" rel="stylesheet" />
     <script src="libs/xaringanExtra-shareagain/shareagain.js"></script>
-    <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
+    <script src="libs/js-cookie/js.cookie.js"></script>
+    <script src="libs/peerjs/peerjs.min.js"></script>
+    <script src="libs/tiny.toast/toast.min.js"></script>
+    <link href="libs/xaringanExtra-broadcast/broadcast.css" rel="stylesheet" />
+    <script src="libs/xaringanExtra-broadcast/broadcast.js"></script>
+    <script src="libs/mark.js/mark.min.js"></script>
+    <link href="libs/xaringanExtra-search/search.css" rel="stylesheet" />
+    <script src="libs/xaringanExtra-search/search.js"></script>
+    <script>window.addEventListener('load', function() { window.xeSearch = new RemarkSearch({"position":"bottom-left","caseSensitive":false,"showIcon":true,"autoSearch":true}) })</script>
+    <link href="libs/xaringanExtra-extra-styles/xaringanExtra-extra-styles.css" rel="stylesheet" />
+    <script src="libs/xaringanExtra-progressBar/progress-bar.js"></script>
+    <meta name="github-repo" content="ko-suta/academic-new"/>
+    <meta name="twitter:title" content="Market Valuation of Corporate Technological Assets: &lt;br&gt; The Case of Japan&#39;s Institutional Adaptability"/>
+    <meta name="twitter:description" content="Market Valuation of Corporate Technological Assets. Presented at 2021 SASE Conference."/>
+    <meta name="twitter:url" content="https://kovsiannikov.com/slides/sase-2021/sase-2021"/>
+    <meta name="twitter:image" content="https://kovsiannikov.com/img/Techno-screen.png"/>
+    <meta name="twitter:image:alt" content="2021 SASE Conference Presentation"/>
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:creator" content="@kovsiann"/>
+    <meta name="twitter:site" content="@kovsiann"/>
+    <meta property="og:title" content="Market Valuation of Corporate Technological Assets: &lt;br&gt; The Case of Japan&#39;s Institutional Adaptability"/>
+    <meta property="og:description" content="Market Valuation of Corporate Technological Assets. Presented at 2021 SASE Conference."/>
+    <meta property="og:url" content="https://kovsiannikov.com/slides/sase-2021/sase-2021"/>
+    <meta property="og:image" content="https://kovsiannikov.com/img/Techno-screen.png"/>
+    <meta property="og:image:alt" content="2021 SASE Conference Presentation"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:locale" content="en_US"/>
+    <meta property="article:author" content="Kostiantyn Ovsiannikov"/>
+    <link rel="stylesheet" href="rutgers-new.css" type="text/css" />
   </head>
   <body>
     <textarea id="source">
@@ -20,7 +58,8 @@ class: center, middle, inverse, title-slide
 # Labor Market Dualism Across the OECD States
 ## Transdisciplinary Course Program at the University of Tübingen
 ### Kostiantyn Ovsiannikov, Ph.D.
-### 12 March 2021
+### .white.bg-green[Kochi University of Technology]
+### 17 November 2021
 
 ---
 
@@ -29,6 +68,66 @@ class: center, middle, inverse, title-slide
 
 
 
+
+
+<style>.shareagain-bar {
+--shareagain-foreground: white;
+--shareagain-background: black;
+--shareagain-pinterest: none;
+--shareagain-pocket: none;
+--shareagain-reddit: none;
+}</style><div>
+<style type="text/css">.xaringan-extra-logo {
+width: 220px;
+height: 256px;
+z-index: 0;
+background-image: url(assets/img/KUT.jpg);
+background-size: contain;
+background-repeat: no-repeat;
+position: absolute;
+top:2em;right:2em;
+}
+</style>
+<script>(function () {
+  let tries = 0
+  function addLogo () {
+    if (typeof slideshow === 'undefined') {
+      tries += 1
+      if (tries < 10) {
+        setTimeout(addLogo, 100)
+      }
+    } else {
+      document.querySelectorAll('.remark-slide-content:not(.hide_logo)')
+        .forEach(function (slide) {
+          const logo = document.createElement('div')
+          logo.classList = 'xaringan-extra-logo'
+          logo.href = null
+          slide.appendChild(logo)
+        })
+    }
+  }
+  document.addEventListener('DOMContentLoaded', addLogo)
+})()</script>
+</div><style>.xe__progress-bar__container {
+  top:0;
+  opacity: 1;
+  position:absolute;
+  right:0;
+  left: 0;
+}
+.xe__progress-bar {
+  height: 10px;
+  background-color: #0051BA;
+  width: calc(var(--slide-current) / var(--slide-total) * 100%);
+}
+.remark-visible .xe__progress-bar {
+  animation: xe__progress-bar__wipe 200ms forwards;
+  animation-timing-function: cubic-bezier(.86,0,.07,1);
+}
+@keyframes xe__progress-bar__wipe {
+  0% { width: calc(var(--slide-previous) / var(--slide-total) * 100%); }
+  100% { width: calc(var(--slide-current) / var(--slide-total) * 100%); }
+}</style>
 
 
 
@@ -225,10 +324,10 @@ class: inverse, center, middle
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
 <script src="macros.js"></script>
 <script>var slideshow = remark.create({
-"highlightStyle": "solarized-dark",
+"highlightStyle": "github",
 "highlightLines": true,
 "countIncrementalSlides": false,
-"ratio": "191:100"
+"ratio": "16:9"
 });
 if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
   window.dispatchEvent(new Event('resize'));
