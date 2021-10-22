@@ -58,12 +58,12 @@ BibOptions(check.entries = FALSE,
            style = "markdown",
            hyperlink = FALSE,
            dashed = FALSE)
-# myBib <- ReadBib(here("static", "slides", "SASE-2021", "Innovation.bib"), check = FALSE)
+myBib <- ReadBib(here("slides", "Dual-Market-OECD", "Labor-Dualism.bib"), check = FALSE)
 ```
 
 
 ```{r xaringan-extra, echo=FALSE}
-
+ 
 xaringanExtra::use_scribble()
 xaringanExtra::use_tile_view()
 xaringanExtra::use_tachyons()
@@ -98,10 +98,6 @@ xaringanExtra::use_progress_bar(
   )
 ```
 
-
-```{r xaringan-themer, include=FALSE, warning=FALSE}
-style_duo(primary_color = "#ffffff", secondary_color = "#515151")
-```
 
 ```{r metathis, echo=FALSE, include=FALSE}
 meta() %>%
@@ -194,8 +190,7 @@ Realistically, they may become blurred in the long run, because everyone has int
 
 + If outsiders had opposed Social Democrats, what would be the viable political alternative?
 
-+ Because of the household relationships, outsiders are also likely to support labor market regulations (Emmenegger, 2009)
-
++ Because of the household relationships, outsiders are also likely to support labor market regulations `r Citep(myBib, "emmenegger2009joesp", .opts = list(cite.style = "authoryear", style = "html"))`
 
 
 ---
@@ -204,8 +199,7 @@ Realistically, they may become blurred in the long run, because everyone has int
 
 + Had the labor dualism been reinforced by Social Democrats, the sharpest divide would be observed in Scandinavian countries
 
-+ However, in Europe, labor dualism is most pronounced in France and Germany, where Social Democrats are weaker than in Scandinavia (Palier & Thelen, 2010)
-
++ However, in Europe, labor dualism is most pronounced in France and Germany, where Social Democrats are weaker than in Scandinavia `r Citep(myBib, "palier2010", .opts = list(cite.style = "authoryear", style = "html"))` 
 
 
 ---
@@ -222,7 +216,7 @@ Realistically, they may become blurred in the long run, because everyone has int
 .pull-right[
 * **Political Economy of institutions**
   + labor dualism is an entrenched tradeoff maintained by managers and political elites to contain and to 'silence' workers
-  + cooperation between management and regular workers  🢂 *destabilizing* effect (Thelen & Kume, 2006); gradual erosion of the industrial relations system (Palier & Thelen, 2010)
+  + cooperation between management and regular workers  🢂 *destabilizing* effect `r Citep(myBib, "thelen2006g", .opts = list(cite.style = "authoryear", style = "html"))`; gradual erosion of the industrial relations system `r Citep(myBib, "palier2010", .opts = list(cite.style = "authoryear", style = "html"))`
 ]
 
 
@@ -236,7 +230,7 @@ Realistically, they may become blurred in the long run, because everyone has int
 
 + For statistical purposes: part-time work is < 35 (30) hours per week
 
-+ De jure definitions are problematic when dealing with specific institutional context (e.g. Japanese)
++ De-jure definitions are problematic when dealing with specific institutional context (e.g. Japanese)
 
 
 
@@ -247,9 +241,9 @@ Realistically, they may become blurred in the long run, because everyone has int
 
 + Thus, services account for highest proportion of temporary workers
 
-+ "Employers like to divide the labour market into the internal and external markets, since they want a buffer against the fluctuation and uncertainty of product demand and since they need to restrict the number and power of internal workers in order to suppress wage costs and need to maintain the flexibility of labour management" (Ishikawa, 2002, p. 248).
++ "Employers like to divide the labour market into the internal and external markets, since they want a buffer against the fluctuation and uncertainty of product demand and since they need to restrict the number and power of internal workers in order to suppress wage costs and need to maintain the flexibility of labour management"  `r Citep(myBib, "ishikawa2001b", .opts = list(cite.style = "authoryear", style = "html"))`.
 
-+ "Employment protection for insiders remained relatively unchanged in Japan even after labor market reforms, whereas outsiders were exposed to a much higher risk of unemployment, low wages, and poor welfare benefits" (Song, 2012, p. 423).
++ "Employment protection for insiders remained relatively unchanged in Japan even after labor market reforms, whereas outsiders were exposed to a much higher risk of unemployment, low wages, and poor welfare benefits" `r Citep(myBib, "song2012g", .opts = list(cite.style = "authoryear", style = "html"))`.
 
 
 
@@ -259,22 +253,20 @@ Realistically, they may become blurred in the long run, because everyone has int
 
 + Post-bubble strategy of limiting the hiring of regular workers Regulars = long-term contracts + social benefits, Lower proportion of core workforce  🢂 **curbing average labor costs** during economic downturns
 
-+ "Sharp **contraction of self-employment and family labor**, a rise in the numbers of the elderly seeking work, and the increase of job-seeking women previously not in the wage labor force" (Gordon, 2017, p. 16). 
++ "Sharp **contraction of self-employment and family labor**, a rise in the numbers of the elderly seeking work, and the increase of job-seeking women previously not in the wage labor force" `r Citep(myBib, "gordon2017ssjj", .opts = list(cite.style = "authoryear", style = "html"))`. 
 
 + **Negative externality of the departure from the stakeholder model** of corporate governance. While this model has not been completely abandoned, non-regular employees appear as *outsiders* whose interests are put in jeopardy in order to maintain the protection of *insiders* that include regular employees.
-
 
 
 ---
 
 ##  Continuation 
 
-+ "In Japan, political coalitions between conservative policymakers, large firms, and core regular workers were the driving force of the reinforcement of dualism and inequality by shielding labor market insiders from the pressure for regulatory reforms but extensively eroding regulations protecting outsiders for flexibility" (Song, 2012, pp. 416-417).
++ "In Japan, political coalitions between conservative policymakers, large firms, and core regular workers were the driving force of the reinforcement of dualism and inequality by shielding labor market insiders from the pressure for regulatory reforms but extensively eroding regulations protecting outsiders for flexibility" `r Citep(myBib, "song2012g", .opts = list(cite.style = "authoryear", style = "html"))`.
 
-+ Flexibilization of labor is not a problem *per se*, if it exists in the environment with low labor turnover costs and representative unions, as in Nordic countries(Witt & Jackson, 2016, p. 795).
++ Flexibilization of labor is not a problem *per se*, if it exists in the environment with low labor turnover costs and representative unions, as in Nordic countries `r Citep(myBib, "song2012g", .opts = list(cite.style = "authoryear", style = "html"))`.
 
-+ "Non-regular employment [in Japan] does not play a role of a steppingstone to move toward better jobs like regular employment, but that of a 'dead-end' trap" (Lee & Shin, 2017, p. 18).
-
++ "Non-regular employment [in Japan] does not play a role of a steppingstone to move toward better jobs like regular employment, but that of a 'dead-end' trap" `r Citep(myBib, "witt2016jibs", .opts = list(cite.style = "authoryear", style = "html"))`.
 
 
 ---
@@ -305,10 +297,17 @@ knitr::include_graphics("assets/img/unions.png")
 
 ##  International Comparisons 
 
-+ Currently, proportion of non-regular employees is almost **40%**, their chances of switching to regular employment are **1.7 ~ 10.3 %** compared to 30% in the UK and 45% in Germany (Aoyagi & Ganelli, 2015) 🢂 labor bifurcation
++ Currently, proportion of non-regular employees is almost **40%**, their chances of switching to regular employment are **1.7 ~ 10.3 %** compared to 30% in the UK and 45% in Germany `r Citep(myBib, "aoyagi2015labor", .opts = list(cite.style = "authoryear", style = "html"))` 🢂 labor bifurcation
 
-+ In Japan "non-regular workers are paid only 56.8% of what regular employees earn on average as compared with 89.1% in France, 79.3% in Germany and 70.8% in Britain" (Japan Times, 2016, as cited in Ishii, 2018, p. 2).
++ In Japan "non-regular workers are paid only 56.8% of what regular employees earn on average as compared with 89.1% in France, 79.3% in Germany and 70.8% in Britain" (Japan Times, 2016, as cited in `r Citep(myBib, "ishii2018apjhr", .opts = list(cite.style = "authoryear", style = "html"))`.
 
+---
+
+# References
+
+```{r refs, echo=FALSE, results="asis"}
+PrintBibliography(myBib)
+```
 ---
 
 class: inverse, center, middle
