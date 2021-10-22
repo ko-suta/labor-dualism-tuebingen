@@ -299,7 +299,7 @@ knitr::include_graphics("assets/img/unions.png")
 
 + Currently, proportion of non-regular employees is almost **40%**, their chances of switching to regular employment are **1.7 ~ 10.3 %** compared to 30% in the UK and 45% in Germany `r Citep(myBib, "aoyagi2015labor", .opts = list(cite.style = "authoryear", style = "html"))` 🢂 labor bifurcation
 
-+ In Japan "non-regular workers are paid only 56.8% of what regular employees earn on average as compared with 89.1% in France, 79.3% in Germany and 70.8% in Britain" (Japan Times, 2016, as cited in `r Citep(myBib, "ishii2018apjhr", .opts = list(cite.style = "authoryear", style = "html"))`.
++ In Japan "non-regular workers are paid only 56.8% of what regular employees earn on average as compared with 89.1% in France, 79.3% in Germany and 70.8% in Britain" (Japan Times, 2016).
 
 ---
 
