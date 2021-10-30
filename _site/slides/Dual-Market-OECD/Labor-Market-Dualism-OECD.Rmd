@@ -178,6 +178,8 @@ knitr::include_graphics("assets/img/SDG8.png")
 .pull-right[
 .white.bg-black[Coordinated market economies (CMEs)]: .blue[Japan, Germany, France]
 
+  <br>
+
   - long-term commitments,
   
   <br>
