@@ -114,8 +114,8 @@ thead, tfoot, tr:nth-child(even) { background: none; }
 
 /* Add image and change bg color */
 .title-slide {
-  background-image: url(assets/img/Techno.jpg);
-  background-position: 300% 50%;
+  background-image: url(assets/img/berries.jpg);
+  background-position: 415% 50%;
   background-size: 1100px;
   background-color: #000000;
  /* padding-left: 100px;  /* delete this for 4:3 aspect ratio */
@@ -285,7 +285,7 @@ ru-blockquote {
 /* additional custom templates added by me */
 
 .regression table {
-  font-size: 15px;     
+  font-size: 15px;
 }
 
 .pull-left-narrow {
@@ -298,7 +298,7 @@ ru-blockquote {
   width: 75%;
 }
 
-.highlight-last-item > ul > li, 
+.highlight-last-item > ul > li,
 .highlight-last-item > ol > li {
   opacity: 0.5;
 }
