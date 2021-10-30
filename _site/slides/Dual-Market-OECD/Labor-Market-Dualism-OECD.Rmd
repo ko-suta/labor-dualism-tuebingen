@@ -431,8 +431,23 @@ knitr::include_graphics("assets/img/unions.png")
 ```{r refs, echo=FALSE, results="asis"}
 PrintBibliography(myBib)
 ```
+
 ---
 
-class: inverse, center, middle
+class: title-slide-final, middle
+background-image: url(assets/img/SASE.png)
+background-size: 200px
+background-position: 5% 1%
 
-#  Thank you for your attention!
+# Thank You for Your attention!
+
+## Questions / Suggestions?
+
+### You can access the presentation & contact me `r fa("arrow-alt-circle-down", fill = "#cc0033")`
+
+|                                                                                                            |                                   |
+| :--------------------------------------------------------------------------------------------------------- | :-------------------------------- |
+| <a href="mailto:ovsiannikov@kochi-tech.ac.jp">`r fa("paper-plane", fill = "#cc0033")`          | ovsiannikov@kochi-tech.ac.jp |
+|                                                                                                |                              |
+| <a href="https://dual-market.netlify.app/slides/dual-market-oecd/labor-market-dualism-oecd">`r fa("link", fill = "#cc0033")` | dual-market.netlify.app             |
+
