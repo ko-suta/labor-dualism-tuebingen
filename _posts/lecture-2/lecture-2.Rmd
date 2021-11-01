@@ -1,13 +1,16 @@
 ---
-title: "Lecture 2"
+title: "Defining non-standard employment"
 description: |
-  Defining non-standard employment
+  Lecture 2
 # author:
 #   - name: Kostiantyn Ovsiannikov
 date: 2021-11-01
 output:
   distill::distill_article:
+    toc: true
+    toc_depth: 3
     self_contained: false
+    # code_folding: hide
 creative_commons: CC BY
 ---
 
@@ -62,11 +65,13 @@ myBib <- ReadBib(here("_posts", "lecture-2", "Labor-Dualism.bib"), check = FALSE
 capture.output(print(myBib["kalleberg2000ars"]))
 ```
 
+# Article discussed
 
-::: {.define .article style="color: blue;"}
-Kalleberg, A. L. (2000). Nonstandard employment relations: Part-time, temporary and contract work. *Annual review of sociology, 26*(1), 341-365.
+::: {.define .article style="color: brown;"}
+[Kalleberg, A. L. (2000). Nonstandard employment relations: Part-time, temporary and contract work. *Annual review of sociology, 26*(1), 341-365](https://www.annualreviews.org/doi/abs/10.1146/annurev.soc.26.1.341)
 :::
 
+---
 
 # Background
 
@@ -74,6 +79,49 @@ Kalleberg, A. L. (2000). Nonstandard employment relations: Part-time, temporary 
 
 Nonstandard employment relations are not new.
 In fact, internal labor markets in the post-World War II period were more of an **exception** than a regularity.
+
+
+# Part-time work
+
+### Definitions, incidence, trends
+
+Part-time work -- regular wage employment in which the hours of work are **less than "normal"**.
+Different definitions across countries:
+
+- <span style="color:darkred">U.S.</span>: < 35 hours/week
+- <span style="color:darkred">Japan</span>: related to a **status within the firm** -- not to hours worked `r fa("arrow-alt-circle-right", fill = "#cc0033")` around 30\% of "part-timers" work full time
+
+Part time proportions:
+
+ - U.S.: 20\%
+ - Netherlands: 38\%
+ - Scandinavian countries: 20\%
+ - Italy: 5\%
+
+<br>
+
+Rapid increase of part-time employment in Europe:
+
+ - a way to alleviate unemployment
+ - major source of employment growth since 1980s
+ 
+<br>
+ 
+In all industrial countries, most part-time workers are **women**:
+
+ - U.S.: 65\%
+ - Germany, France: 90\%
+ - Japan: 80\%
+
+Lower proportion in the U.S. -- many students (both male and female) work part-time.
+
+
+### Demand for part-time jobs
+
+- Pre-1970s U.S. -- growth of **voluntary** part-time work
+- Post-1970s U.S. -- growth of **involuntary** part-time work
+
+
 
 
 
