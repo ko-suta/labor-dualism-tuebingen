@@ -65,15 +65,14 @@ myBib <- ReadBib(here("_posts", "lecture-2", "Labor-Dualism.bib"), check = FALSE
 capture.output(print(myBib["kalleberg2000ars"]))
 ```
 
-# Article discussed
+<!-- ## Article discussed -->
 
 ::: {.define .article style="color: brown;"}
-[Kalleberg, A. L. (2000). Nonstandard employment relations: Part-time, temporary and contract work. *Annual review of sociology, 26*(1), 341-365](https://www.annualreviews.org/doi/abs/10.1146/annurev.soc.26.1.341)
+[Kalleberg, A. L. (2000). Nonstandard employment relations: Part-time, temporary and contract work. *Annual review of sociology, 26* (1), 341-365](https://www.annualreviews.org/doi/abs/10.1146/annurev.soc.26.1.341)
 :::
 
----
 
-# Background
+## Background
 
 1970s' **oil crises** `r fa("arrow-alt-circle-right", fill = "#cc0033")` sluggish economic growth `r fa("arrow-alt-circle-right", fill = "#cc0033")` high unemployment in the West `r fa("arrow-alt-circle-right", fill = "#cc0033")` inability to generate full employment for everyone `r Citep(myBib, "emmenegger2009joesp", .opts = list(cite.style = "authoryear", style = "html"))`.
 
@@ -81,7 +80,7 @@ Nonstandard employment relations are not new.
 In fact, internal labor markets in the post-World War II period were more of an **exception** than a regularity.
 
 
-# Part-time work
+## Part-time work
 
 ### Definitions, incidence, trends
 
