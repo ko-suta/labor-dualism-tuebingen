@@ -1,0 +1,79 @@
+---
+title: "Lecture 2"
+description: |
+  Defining non-standard employment
+# author:
+#   - name: Kostiantyn Ovsiannikov
+date: 2021-11-01
+output:
+  distill::distill_article:
+    self_contained: false
+creative_commons: CC BY
+---
+
+
+```{r setup, include=FALSE}
+library(knitr)
+library(summarytools)
+library(here)
+library(ymlthis)
+library(tidyverse)
+library(fontawesome)
+library(readr)
+library(ggthemes)
+library(ggpubr)
+library(RColorBrewer)
+library(kableExtra)
+library(data.table)
+library(metathis)
+library(xaringanthemer)
+library(xaringanExtra)
+library(data.table)
+library(RefManageR)
+library(plm)
+library(mgcv)
+library(mgcViz)
+library(stargazer)
+library(plotly)
+library(htmlwidgets)
+library(modelsummary)
+```
+
+
+```{r echo=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(collapse = TRUE,
+                      fig.retina = 3)
+```
+
+
+```{r, load_refs, include=FALSE, cache=FALSE}
+
+BibOptions(check.entries = FALSE,
+           bib.style = "authoryear",
+           cite.style = "alphabetic",
+           style = "markdown",
+           hyperlink = FALSE,
+           dashed = FALSE)
+myBib <- ReadBib(here("_posts", "lecture-2", "Labor-Dualism.bib"), check = FALSE)
+```
+
+```{r echo=FALSE, include=FALSE}
+capture.output(print(myBib["kalleberg2000ars"]))
+```
+
+
+::: {.define .article style="color: blue;"}
+Kalleberg, A. L. (2000). Nonstandard employment relations: Part-time, temporary and contract work. *Annual review of sociology, 26*(1), 341-365.
+:::
+
+
+# Background
+
+1970s' **oil crises** `r fa("arrow-alt-circle-right", fill = "#cc0033")` sluggish economic growth `r fa("arrow-alt-circle-right", fill = "#cc0033")` high unemployment in the West `r fa("arrow-alt-circle-right", fill = "#cc0033")` inability to generate full employment for everyone `r Citep(myBib, "emmenegger2009joesp", .opts = list(cite.style = "authoryear", style = "html"))`.
+
+Nonstandard employment relations are not new.
+In fact, internal labor markets in the post-World War II period were more of an **exception** than a regularity.
+
+
+
