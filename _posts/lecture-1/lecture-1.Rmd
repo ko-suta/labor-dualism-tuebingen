@@ -164,3 +164,34 @@ Firms tend to avoid being a **joint employer** by specifying a period, after whi
 Problems of control `r fa("arrow-alt-circle-right", fill = "#cc0033")` difficulties with unionizing temps.
 If a client firm is not a "joint employer" `r fa("arrow-alt-circle-right", fill = "#cc0033")` it can fire employees for joining a union.
 Presence of temporary agency `r fa("arrow-alt-circle-right", fill = "#cc0033")` **decreased** mobility among low-rank permanent workers, **increased** mobility among advanced workers.
+
+Further careers:
+
+ - about 58\% find permanent jobs after a year-and-half
+ - about 42\% either become unemployed or remain with an agency
+ 
+Temps: 1/3 less salary and much fewer fringe benefits than regulars.
+Largest wage differences -- for clerical and industrial workers.
+<span style="color:darkred">However</span>, temp **engineers** and technicians often earn more than their regular counterparts.
+
+
+### Contract work
+
+Contrary to temp agencies, contract companies supervise their employees' work.
+It has existed for a long time in the **construction industry**.
+
+Since 1970s -- firms started to contract out (outsource) services previously done in-house:
+
+ - advertising
+ - credit
+ - mailing
+ - maintenance & cleaning
+ - data processing
+ - R&D
+ 
+Cost-saving strategy: firms have **little incentives** of paying high wages to replaceable, easily-monitored workers who perform **peripheral duties**.
+
+<span style="color:darkred">Problem of control</span>: managers sometimes avoid training contract workers to avoid **co-employment liabilities**.
+
+Presence of contractors in some industries (e.g. aerospace) `r fa("arrow-alt-circle-right", fill = "#cc0033")` less employee trust.
+Yet, contractors can earn more than regulars and usually perform not worse.
