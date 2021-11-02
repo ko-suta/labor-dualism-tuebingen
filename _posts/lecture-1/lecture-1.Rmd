@@ -1,7 +1,7 @@
 ---
 title: "Defining non-standard employment"
 description: |
-  Lecture 2
+  Lecture 1
 # author:
 #   - name: Kostiantyn Ovsiannikov
 date: 2021-11-01
@@ -58,7 +58,7 @@ BibOptions(check.entries = FALSE,
            style = "markdown",
            hyperlink = FALSE,
            dashed = FALSE)
-myBib <- ReadBib(here("_posts", "lecture-2", "Labor-Dualism.bib"), check = FALSE)
+myBib <- ReadBib(here("_posts", "lecture-1", "Labor-Dualism.bib"), check = FALSE)
 ```
 
 ```{r echo=FALSE, include=FALSE}
@@ -117,10 +117,50 @@ Lower proportion in the U.S. -- many students (both male and female) work part-t
 
 ### Demand for part-time jobs
 
-- Pre-1970s U.S. -- growth of **voluntary** part-time work
-- Post-1970s U.S. -- growth of **involuntary** part-time work
+- Pre-1970s U.S. -- growth of **voluntary** part-time work `r fa("arrows-alt-h", fill = "blue")` 
+The need of **workforce** for shorter hours.
+- Post-1970s U.S. -- growth of **involuntary** part-time work `r fa("arrows-alt-h", fill = "blue")`
+**Employers'** preferences for lower costs and flexible staffing.
+Expansion of industries such as: services, retail trade, finance, insurance, real estate.
 
 
+### Good vs. bad part-time jobs
 
+Europe: part-time work is often associated with low-paid, low-status jobs (sales, catering, cleaning). 
+Legal differences:
 
+ - Sweden, France, Belgium, Netherlands, Spain: **equal treatment** between full- and part-time workers
+ - U.K., Germany, Japan: part-timers are excluded from comprehensive social coverage
+ 
 
+## Employment intermediaries
+
+### Temporary help agencies
+
+"Detached workers": **triangular** employment relations where a worker establishes connections with several employers.
+
+Changes in temporary work `r fa("arrows-alt-h", fill = "blue")` business cycles, economic fluctuations.
+Temporary agencies were largely banned before 1980s.
+About 60\% work in temporary jobs involuntarily.
+Temporary help agencies -- "reserve labor army" that helps employers to address under-staffing and over-staffing. 
+
+Major temp agencies `r fa("arrows-alt-h", fill = "blue")` firms.
+Use of temporary workers has become a **permanent strategy** for them.
+<span style="color:darkred">Yet</span>, hourly costs to employees may be more for temporaries than for permanent employees.
+In 1995, client firms paid 40\% more for temporary workers than they received wages.
+However, these wages are relatively low.
+
+Deliberate **wage differences** -- illegal vis-à-vis full-time regular workers, but doable in case of full-time vs. temporary workers. 
+More fringe benefits for regular employees `r fa("arrow-alt-circle-right", fill = "#cc0033")` higher likelihood to use temporary help agencies.
+
+Triangular employment relationship: 
+
+ - legal employer: <span style="color:darkred">temporary agency</span>
+ - employee supervisor: <span style="color:darkred">client organization</span>
+ 
+Main issues: liability for accidents and other aspects `r fa("arrow-alt-circle-right", fill = "#cc0033")`
+Firms tend to avoid being a **joint employer** by specifying a period, after which a temp is obliged to leave a company.
+
+Problems of control `r fa("arrow-alt-circle-right", fill = "#cc0033")` difficulties with unionizing temps.
+If a client firm is not a "joint employer" `r fa("arrow-alt-circle-right", fill = "#cc0033")` it can fire employees for joining a union.
+Presence of temporary agency `r fa("arrow-alt-circle-right", fill = "#cc0033")` **decreased** mobility among low-rank permanent workers, **increased** mobility among advanced workers.
