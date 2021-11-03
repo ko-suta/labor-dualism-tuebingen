@@ -195,3 +195,17 @@ Cost-saving strategy: firms have **little incentives** of paying high wages to r
 
 Presence of contractors in some industries (e.g. aerospace) `r fa("arrow-alt-circle-right", fill = "#cc0033")` less employee trust.
 Yet, contractors can earn more than regulars and usually perform not worse.
+
+
+## Short-term employment
+
+### Types, incidence, trends
+
+EU -- 25\% increase during 1990s, but representing only 11.5\% of the workforce.
+Has grown less than part-time work.
+Particularly important for countries with strong anti-layoff regulations.
+Labor market rigidities `r fa("arrows-alt-h", fill = "blue")` greater use of temporary workers:
+
+ - <span style="color:darkred">Spain, France</span> (**strong restrictions** on dismissals): proportion of fixed-term contracts between 1985 and 1996 -- **doubled up** to 34\% and 13\% respectively
+ - <span style="color:darkred">U.K., Germany</span>: proportion of fixed-term contracts between 1985 and 1996 -- stood at 7\% and 11\% respectively
+ - <span style="color:darkred">Belgium, Greece, Portugal</span>: **decrease** in fixed-term contracts' proportion between 1985 and 1996
