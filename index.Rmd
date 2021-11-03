@@ -6,10 +6,6 @@ site: distill::distill_website
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
-
-# Learn more about creating websites with Distill at:
-# https://rstudio.github.io/distill/website.html
-
 ```
 
 This is the home page for the "Labor Market Dualism in the International Context" course at the University of Tübingen (Winter 2021).

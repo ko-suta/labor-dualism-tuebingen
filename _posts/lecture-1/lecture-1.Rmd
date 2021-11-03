@@ -51,7 +51,6 @@ knitr::opts_chunk$set(collapse = TRUE,
 
 
 ```{r, load_refs, include=FALSE, cache=FALSE}
-
 BibOptions(check.entries = FALSE,
            bib.style = "authoryear",
            cite.style = "alphabetic",
@@ -78,6 +77,9 @@ capture.output(print(myBib["kalleberg2000ars"]))
 
 Nonstandard employment relations are not new.
 In fact, internal labor markets in the post-World War II period were more of an **exception** than a regularity.
+The main organizational concern of that time: how to internalize their workforce `r fa("arrow-alt-circle-right", fill = "#cc0033")` develop their skills; protect from external market competition.
+
+Main organizational concern today: achieving flexibility by **externalizing** some of their activites.
 
 
 ## Part-time work
@@ -203,9 +205,54 @@ Yet, contractors can earn more than regulars and usually perform not worse.
 
 EU -- 25\% increase during 1990s, but representing only 11.5\% of the workforce.
 Has grown less than part-time work.
+Unlike part-time work, does not normally mitigate unemployment `r fa("arrow-alt-circle-right", fill = "#cc0033")` indicator of a **weak worker position** in a labor market.
 Particularly important for countries with strong anti-layoff regulations.
 Labor market rigidities `r fa("arrows-alt-h", fill = "blue")` greater use of temporary workers:
 
  - <span style="color:darkred">Spain, France</span> (**strong restrictions** on dismissals): proportion of fixed-term contracts between 1985 and 1996 -- **doubled up** to 34\% and 13\% respectively
  - <span style="color:darkred">U.K., Germany</span>: proportion of fixed-term contracts between 1985 and 1996 -- stood at 7\% and 11\% respectively
  - <span style="color:darkred">Belgium, Greece, Portugal</span>: **decrease** in fixed-term contracts' proportion between 1985 and 1996
+ 
+ 
+### Organizations' use of short-term temporaries
+
+U.K.: older organizations are less likely to use fixed-term temporaries.
+Temporaries' productivity is usually **lower** than regulars'.
+Use of temporaries `r fa("arrow-alt-circle-right", fill = "#cc0033")` waste of organizational training efforts.
+Inter-country differences:
+
+ - <span style="color:darkred">U.K.</span>: obtaining **numerical flexibility** (ability to decrease workforce size)
+ - <span style="color:darkred">Germany</span>: obtaining **functional flexibility** (employees' ability to do variety of tasks); necessary skills' acquisition `r fa("arrow-alt-circle-right", fill = "#cc0033")` possible permanent contract
+ 
+
+## Contingent work
+
+Related to short-term, unstable employment.
+Conditional on employers' need for labor `r fa("arrow-alt-circle-right", fill = "#cc0033")` weak worker-employer connection.
+No explicit contract, minimum working hours vary non-systematically.
+Their proportion has declined in the U.S. between 1970s and 1990s.
+
+Possible **mental consequences**: 
+
+ - job insecurity & unpredictability
+ - low control over their work
+ - perceiving themselves as disadvantaged
+ 
+Most likely employers: firms in dynamic **competitive environments**.
+
+
+## Independent contractors
+
+Self-employed, no wage contract, responsible for their own tax arrangements.
+U.S.: relatively little change since 1970s.
+
+
+Their clients are not "vicariously liable" for contractors' actions (unlike vis-à-vis their employees) `r fa("arrow-alt-circle-right", fill = "#cc0033")` not required to provide fringe benefits and to pay unemployment compensation.
+
+In the U.S., 38\% of employers **intentionally misclassify** their employees as "independent contractors" to **avoid payroll taxes**.
+
+
+### Career
+
+Many earn more than normal employees, but are less likely to receive health insurance and pensions.
+"Portfolio workers" -- benefiting from moving between firms (e.g. Silicon Valley).
