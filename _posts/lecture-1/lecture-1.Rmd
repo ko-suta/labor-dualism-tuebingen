@@ -225,13 +225,13 @@ Inter-country differences:
  - <span style="color:darkred">Germany</span>: obtaining **functional flexibility** (employees' ability to do variety of tasks); necessary skills' acquisition `r fa("arrow-alt-circle-right", fill = "#cc0033")` possible permanent contract
  
 
-### Different types of "flexibility" (`r Citep(myBib, "atkinson1984manpower", .opts = list(cite.style = "authoryear", style = "html"))`)
+### Different types of "flexibility"
 
 - <span style="color:darkred">numerical</span>: loosening the hire/fire procedure `r fa("arrow-alt-circle-right", fill = "#cc0033")` promptly adjusting the number of workers to employer's needs
 
 - <span style="color:darkred">functional</span>: smooth redeployment of workers between activities and tasks `r fa("arrow-alt-circle-right", fill = "#cc0033")` anticipating the technological and production changes
 
-- <span style="color:darkred">financial</span>: widening payment differentials between skilled and unskilled workers `r fa("arrow-alt-circle-right", fill = "#cc0033")` assessment-based system facilitating numerical and functional flexibility
+- <span style="color:darkred">financial</span>: widening payment differentials between skilled and unskilled workers `r fa("arrow-alt-circle-right", fill = "#cc0033")` assessment-based system facilitating numerical and functional flexibility `r Citep(myBib, "atkinson1984manpower", .opts = list(cite.style = "authoryear", style = "html"))`
  
 
 ## Contingent work
