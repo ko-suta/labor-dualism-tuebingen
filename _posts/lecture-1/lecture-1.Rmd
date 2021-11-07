@@ -73,7 +73,7 @@ capture.output(print(myBib["kalleberg2000ars"]))
 
 ## Background
 
-1970s' **oil crises** `r fa("arrow-alt-circle-right", fill = "#cc0033")` sluggish economic growth `r fa("arrow-alt-circle-right", fill = "#cc0033")` high unemployment in the West `r fa("arrow-alt-circle-right", fill = "#cc0033")` inability to generate full employment for everyone `r Citep(myBib, "emmenegger2009joesp", .opts = list(cite.style = "authoryear", style = "html"))`.
+1970s' **oil crises** `r fa("arrow-alt-circle-right", fill = "#cc0033")` sluggish economic growth `r fa("arrow-alt-circle-right", fill = "#cc0033")` high unemployment in the West `r fa("arrow-alt-circle-right", fill = "#cc0033")` inability to generate full employment for everyone.
 
 Nonstandard employment relations are not new.
 In fact, internal labor markets in the post-World War II period were more of an **exception** than a regularity.
@@ -223,6 +223,15 @@ Inter-country differences:
 
  - <span style="color:darkred">U.K.</span>: obtaining **numerical flexibility** (ability to decrease workforce size)
  - <span style="color:darkred">Germany</span>: obtaining **functional flexibility** (employees' ability to do variety of tasks); necessary skills' acquisition `r fa("arrow-alt-circle-right", fill = "#cc0033")` possible permanent contract
+ 
+
+### Different types of "flexibility" (`r Citep(myBib, "atkinson1984manpower", .opts = list(cite.style = "authoryear", style = "html"))`)
+
+- <span style="color:darkred">numerical</span>: loosening the hire/fire procedure `r fa("arrow-alt-circle-right", fill = "#cc0033")` promptly adjusting the number of workers to employer's needs
+
+- <span style="color:darkred">functional</span>: smooth redeployment of workers between activities and tasks `r fa("arrow-alt-circle-right", fill = "#cc0033")` anticipating the technological and production changes
+
+- <span style="color:darkred">financial</span>: widening payment differentials between skilled and unskilled workers `r fa("arrow-alt-circle-right", fill = "#cc0033")` assessment-based system facilitating numerical and functional flexibility
  
 
 ## Contingent work
