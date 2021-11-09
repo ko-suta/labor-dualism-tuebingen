@@ -1,0 +1,166 @@
+---
+title: "Coordination as a political problem"
+description: |
+  Lecture 2
+# author:
+#   - name: Kostiantyn Ovsiannikov
+date: 2021-11-09
+output:
+  distill::distill_article:
+    toc: true
+    toc_depth: 3
+    self_contained: false
+    # code_folding: hide
+creative_commons: CC BY
+---
+
+
+```{r setup, include=FALSE}
+library(knitr)
+library(summarytools)
+library(here)
+library(ymlthis)
+library(tidyverse)
+library(fontawesome)
+library(readr)
+library(ggthemes)
+library(ggpubr)
+library(RColorBrewer)
+library(kableExtra)
+library(data.table)
+library(metathis)
+library(xaringanthemer)
+library(xaringanExtra)
+library(data.table)
+library(RefManageR)
+library(plm)
+library(mgcv)
+library(mgcViz)
+library(stargazer)
+library(plotly)
+library(htmlwidgets)
+library(modelsummary)
+```
+
+
+```{r echo=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(collapse = TRUE,
+                      fig.retina = 3)
+```
+
+
+```{r, load_refs, include=FALSE, cache=FALSE}
+BibOptions(check.entries = FALSE,
+           bib.style = "authoryear",
+           cite.style = "alphabetic",
+           style = "markdown",
+           hyperlink = FALSE,
+           dashed = FALSE)
+myBib <- ReadBib(here("_posts", "lecture-1", "Labor-Dualism.bib"), check = FALSE)
+```
+
+
+<!-- ## Article discussed -->
+
+::: {.define .article style="color: blue;"}
+[Thelen, K., & Kume, I. (2006). Coordination as a political problem in coordinated market economies. *Governance, 19* (1), 11-42.](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1468-0491.2006.00302.x)
+:::
+
+## Gist
+
+**Purpose**: to examine the differences in how *employer coordination* has been organized in Sweden, Germany, and Japan in the area of industrial relations.
+
+**Argument**: intensification of *cooperation between labor and management* in some firms and industries has paradoxically had <span style="color:darkred">deeply destabilizing collateral effects</span> that have undermined these systems as they were traditionally constituted.
+
+
+## Background
+
+Recent **Varieties of Capitalism** (VoC): industrial relations depend not only upon labor organization and strength, but also on the *coordination between employers*.
+
+Coordinated market economies (CMEs):
+
+ - Continental Europe
+ - Japan
+
+Liberal market economies (LMEs):
+
+ - U.S.
+ - U.K.
+
+Some argue that globalization and deregulation will lead to convergence – all capitalist systems will become liberal.
+
+**<span style="color:white;background-color:black">VoC opinion</span>**:
+
+ - **continued diversity** and even stronger divergence between LMEs and CMEs
+ - employers in the developed democracies will build on and deepen previous sources of **comparative institutional advantage**
+ 
+    - employers in the <span style="color:darkred">U.S.</span> and the <span style="color:darkred">U.K.</span> -- will seek **deregulation**;
+    - employers in <span style="color:darkred">Germany</span>, <span style="color:darkred">Sweden</span>, and <span style="color:darkred">Japan</span> -- will hold to high degree of **labor cooperation**, strong investment in workers' **skill acquisition**, and peaceful plant relations.
+ 
+**Basic logic**: employers have organized their competitive strategies around these institutions `r fa("arrow-alt-circle-right", fill = "#cc0033")` will not abandon them in the face of new market pressures.
+
+
+## Challenges to the VoC framework
+
+> Do institutions really resist deregulation thanks to employers’ genuine interest?
+
+Alternative explanations: 
+
+ - institutional inertia 
+ - successful union strategies
+ 
+Significant tensions in <span style="color:darkred">Sweden</span>, <span style="color:darkred">Germany</span> (declining union membership) and <span style="color:darkred;class="bg-danger>Japan</span> (departure from seniority wages and lifetime employment). 
+Thus, not only “coordination”, but also **struggles** matter.
+
+
+
+Contemporary market conditions:
+
+ - not only new conflicts between labor and capital (as is widely known and theorized) 
+ - new tensions **among firms and industries** that are differently situated in domestic and international markets
+ - employers' coordination as a **political problem**
+ 
+> Intensification of cooperation between labor and management in some firms and industries (that the VoC literature correctly emphasizes) has paradoxically deep **destabilizing** collateral effects.
+
+
+## Coordinaiton as a political process: case studies
+
+### Germany
+
+Background: organizational disarray in the Association of German Metalworking firms (*Gesamtmetall*) and its union counterpart (*IG Metall*), which together have played the key flagship role in Germany’s *de facto* system of **pattern bargaining** over most of the postwar period.
+
+Firms calling for greater flexibility to adapt central bargains to the needs of individual firms.
+
+1960s: **collective bargaining** was covering 80\% of all firms accounting for 90\% of all workers.
+
+**Union organization** in <span style="color:darkred">Germany</span>: around 30\% of all workers throughout the postwar period vs. <span style="color:darkred">Swedish</span> unions’ 80\%.
+
+**<span style="color:white;background-color:black">However</span>**, German employers have traditionally been extremely well-organized `r fa("arrow-alt-circle-right", fill = "#cc0033")` contracts signed by the employer associations cover all workers in the member firms, regardless of their status as union members or not `r fa("arrow-alt-circle-right", fill = "#cc0033")` stabilized encompassing bargaining
+
+**Large export firms** `r fa("arrows-alt-h", fill = "blue")` sizable sector of small and medium-sized firms (*Mittelstand*):
+
+ - large firms dominated the employer association, but also bore the **burden of industrial conflicts** `r fa("arrow-alt-circle-right", fill = "#cc0033")` settlements with the unions on a range of issues such as wages
+
+Some of the most <span style="color:darkred">destabilizing trends</span>: intensified **cooperation between labor and capital** at the plant level (especially in larger firms).
+
+Clear tensions since 1980s: negotiations over **working hours' reduction** (down to 35):
+
+ - larger firms -- allowed greater flexibility in working times, expanding shift work or devising differentiated working time arrangements `r fa("arrow-alt-circle-right", fill = "#cc0033")` **offsetting the costs** of such reductions
+ - smaller companies -- not able to make same kinds of adjustments `r fa("arrow-alt-circle-right", fill = "#cc0033")` were **hit more heavily** by the sheer costs of reduced working hours
+ 
+Subsequent collective bargaining rounds in the 1990s `r fa("arrow-alt-circle-right", fill = "#cc0033")` exacerbated **problems of solidarity** on the employer side.
+
+German producers: facing much **stiffer competition** from high-quality (lower-cost) producers in Japan and elsewhere.
+Late 1990s: bargaining rounds that featured remarkable displays of **disunity on the part of metalworking employers** (that became risk-averse).
+
+Weaker firms: <span style="color:darkred">opting out</span> of the industry-level contract altogether `r fa("arrow-alt-circle-right", fill = "#cc0033")` shrinking number of firms participating in central bargaining.
+
+Union leaders' ability to conclude binding and encompassing agreements `r fa("arrows-alt-h", fill = "blue")` continued organizational viability of employers.
+Unions' achievements were muted, frequently accompanied by expressions of concern about the **weakness of employers' association**.
+
+**Lack of unity and discord**: prominent features of the IG Metall’s internal politics at present.
+
+In 2003, the *IG Metall* strike (over reducing the working time in East Germany from 38 to 35 hours, as in the West) failed for the first time since 1950s.
+
+Employers such as *Gesamtmetall*’s head Kannegiesser explicitly defend the **collective bargaining** system for the “order” and “predictability” that it helps to impose on the labor market.

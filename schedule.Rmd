@@ -14,16 +14,23 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Lectures
 
-### 1. Oct 18, 2021 -- Introduction
+### 1. Nov. 18, 2021 -- Introduction
 
 <p class="nospace">Materials:</p>
 
 - [Slides](slides/Dual-Market-OECD/Labor-Market-Dualism-OECD.html) 
 
 
-### 2. Oct 19, 2021 -- Lecture 1
+### 2. Nov. 19, 2021 -- Lecture 1
 
 <p class="nospace">Materials:</p>
 
 - [Notes](posts/lecture-1/) 
+
+
+### 2. Nov. 25, 2021 -- Lecture 2
+
+<p class="nospace">Materials:</p>
+
+- [Notes](posts/lecture-2/) 
 

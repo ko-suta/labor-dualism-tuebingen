@@ -87,638 +87,39 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
   <!--radix_placeholder_meta_tags-->
-  <title>Labor Market Dualism: Labor Market Dualism in the International Context</title>
+  <title>Coordination as a political problem</title>
 
-  <meta property="description" itemprop="description" content="Winter 2021 Semester Schedule"/>
+  <meta property="description" itemprop="description" content="Lecture 2"/>
 
+  <link rel="license" href="https://creativecommons.org/licenses/by/4.0/"/>
 
+  <!--  https://schema.org/Article -->
+  <meta property="article:published" itemprop="datePublished" content="2021-11-09"/>
+  <meta property="article:created" itemprop="dateCreated" content="2021-11-09"/>
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Labor Market Dualism: Labor Market Dualism in the International Context"/>
+  <meta property="og:title" content="Coordination as a political problem"/>
   <meta property="og:type" content="article"/>
-  <meta property="og:description" content="Winter 2021 Semester Schedule"/>
+  <meta property="og:description" content="Lecture 2"/>
   <meta property="og:locale" content="en_US"/>
-  <meta property="og:site_name" content="Labor Market Dualism"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Labor Market Dualism: Labor Market Dualism in the International Context"/>
-  <meta property="twitter:description" content="Winter 2021 Semester Schedule"/>
+  <meta property="twitter:title" content="Coordination as a political problem"/>
+  <meta property="twitter:description" content="Lecture 2"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","output"]}},"value":[{"type":"character","attributes":{},"value":["Labor Market Dualism in the International Context"]},{"type":"character","attributes":{},"value":["Winter 2021 Semester Schedule\n"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["toc","toc_depth"]}},"value":[{"type":"logical","attributes":{},"value":[true]},{"type":"integer","attributes":{},"value":[3]}]}]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","date","output","creative_commons"]}},"value":[{"type":"character","attributes":{},"value":["Coordination as a political problem"]},{"type":"character","attributes":{},"value":["Lecture 2\n"]},{"type":"character","attributes":{},"value":["2021-11-09"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["toc","toc_depth","self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[true]},{"type":"integer","attributes":{},"value":[3]},{"type":"logical","attributes":{},"value":[false]}]}]},{"type":"character","attributes":{},"value":["CC BY"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
+  
+  <script type="text/json" id="radix-resource-manifest">
+  {"type":"character","attributes":{},"value":["Labor-Dualism.bib","lecture-2_files/anchor/anchor.min.js","lecture-2_files/bowser/bowser.min.js","lecture-2_files/distill/template.v2.js","lecture-2_files/header-attrs/header-attrs.js","lecture-2_files/jquery/jquery-3.6.0.js","lecture-2_files/jquery/jquery-3.6.0.min.js","lecture-2_files/jquery/jquery-3.6.0.min.map","lecture-2_files/popper/popper.min.js","lecture-2_files/tippy/tippy-bundle.umd.min.js","lecture-2_files/tippy/tippy-light-border.css","lecture-2_files/tippy/tippy.css","lecture-2_files/tippy/tippy.umd.min.js","lecture-2_files/webcomponents/webcomponents.js","Notes - Thelen & Kume.docx"]}
+  </script>
   <!--radix_placeholder_navigation_in_header-->
-  <meta name="distill:offset" content=""/>
-
-  <script type="application/javascript">
-
-    window.headroom_prevent_pin = false;
-
-    window.document.addEventListener("DOMContentLoaded", function (event) {
-
-      // initialize headroom for banner
-      var header = $('header').get(0);
-      var headerHeight = header.offsetHeight;
-      var headroom = new Headroom(header, {
-        tolerance: 5,
-        onPin : function() {
-          if (window.headroom_prevent_pin) {
-            window.headroom_prevent_pin = false;
-            headroom.unpin();
-          }
-        }
-      });
-      headroom.init();
-      if(window.location.hash)
-        headroom.unpin();
-      $(header).addClass('headroom--transition');
-
-      // offset scroll location for banner on hash change
-      // (see: https://github.com/WickyNilliams/headroom.js/issues/38)
-      window.addEventListener("hashchange", function(event) {
-        window.scrollTo(0, window.pageYOffset - (headerHeight + 25));
-      });
-
-      // responsive menu
-      $('.distill-site-header').each(function(i, val) {
-        var topnav = $(this);
-        var toggle = topnav.find('.nav-toggle');
-        toggle.on('click', function() {
-          topnav.toggleClass('responsive');
-        });
-      });
-
-      // nav dropdowns
-      $('.nav-dropbtn').click(function(e) {
-        $(this).next('.nav-dropdown-content').toggleClass('nav-dropdown-active');
-        $(this).parent().siblings('.nav-dropdown')
-           .children('.nav-dropdown-content').removeClass('nav-dropdown-active');
-      });
-      $("body").click(function(e){
-        $('.nav-dropdown-content').removeClass('nav-dropdown-active');
-      });
-      $(".nav-dropdown").click(function(e){
-        e.stopPropagation();
-      });
-    });
-  </script>
-
-  <style type="text/css">
-
-  /* Theme (user-documented overrideables for nav appearance) */
-
-  .distill-site-nav {
-    color: rgba(255, 255, 255, 0.8);
-    background-color: #0F2E3D;
-    font-size: 15px;
-    font-weight: 300;
-  }
-
-  .distill-site-nav a {
-    color: inherit;
-    text-decoration: none;
-  }
-
-  .distill-site-nav a:hover {
-    color: white;
-  }
-
-  @media print {
-    .distill-site-nav {
-      display: none;
-    }
-  }
-
-  .distill-site-header {
-
-  }
-
-  .distill-site-footer {
-
-  }
-
-
-  /* Site Header */
-
-  .distill-site-header {
-    width: 100%;
-    box-sizing: border-box;
-    z-index: 3;
-  }
-
-  .distill-site-header .nav-left {
-    display: inline-block;
-    margin-left: 8px;
-  }
-
-  @media screen and (max-width: 768px) {
-    .distill-site-header .nav-left {
-      margin-left: 0;
-    }
-  }
-
-
-  .distill-site-header .nav-right {
-    float: right;
-    margin-right: 8px;
-  }
-
-  .distill-site-header a,
-  .distill-site-header .title {
-    display: inline-block;
-    text-align: center;
-    padding: 14px 10px 14px 10px;
-  }
-
-  .distill-site-header .title {
-    font-size: 18px;
-    min-width: 150px;
-  }
-
-  .distill-site-header .logo {
-    padding: 0;
-  }
-
-  .distill-site-header .logo img {
-    display: none;
-    max-height: 20px;
-    width: auto;
-    margin-bottom: -4px;
-  }
-
-  .distill-site-header .nav-image img {
-    max-height: 18px;
-    width: auto;
-    display: inline-block;
-    margin-bottom: -3px;
-  }
-
-
-
-  @media screen and (min-width: 1000px) {
-    .distill-site-header .logo img {
-      display: inline-block;
-    }
-    .distill-site-header .nav-left {
-      margin-left: 20px;
-    }
-    .distill-site-header .nav-right {
-      margin-right: 20px;
-    }
-    .distill-site-header .title {
-      padding-left: 12px;
-    }
-  }
-
-
-  .distill-site-header .nav-toggle {
-    display: none;
-  }
-
-  .nav-dropdown {
-    display: inline-block;
-    position: relative;
-  }
-
-  .nav-dropdown .nav-dropbtn {
-    border: none;
-    outline: none;
-    color: rgba(255, 255, 255, 0.8);
-    padding: 16px 10px;
-    background-color: transparent;
-    font-family: inherit;
-    font-size: inherit;
-    font-weight: inherit;
-    margin: 0;
-    margin-top: 1px;
-    z-index: 2;
-  }
-
-  .nav-dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: white;
-    min-width: 200px;
-    border: 1px solid rgba(0,0,0,0.15);
-    border-radius: 4px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
-    z-index: 1;
-    margin-top: 2px;
-    white-space: nowrap;
-    padding-top: 4px;
-    padding-bottom: 4px;
-  }
-
-  .nav-dropdown-content hr {
-    margin-top: 4px;
-    margin-bottom: 4px;
-    border: none;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  }
-
-  .nav-dropdown-active {
-    display: block;
-  }
-
-  .nav-dropdown-content a, .nav-dropdown-content .nav-dropdown-header {
-    color: black;
-    padding: 6px 24px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-
-  .nav-dropdown-content .nav-dropdown-header {
-    display: block;
-    padding: 5px 24px;
-    padding-bottom: 0;
-    text-transform: uppercase;
-    font-size: 14px;
-    color: #999999;
-    white-space: nowrap;
-  }
-
-  .nav-dropdown:hover .nav-dropbtn {
-    color: white;
-  }
-
-  .nav-dropdown-content a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-
-  .nav-right .nav-dropdown-content {
-    margin-left: -45%;
-    right: 0;
-  }
-
-  @media screen and (max-width: 768px) {
-    .distill-site-header a, .distill-site-header .nav-dropdown  {display: none;}
-    .distill-site-header a.nav-toggle {
-      float: right;
-      display: block;
-    }
-    .distill-site-header .title {
-      margin-left: 0;
-    }
-    .distill-site-header .nav-right {
-      margin-right: 0;
-    }
-    .distill-site-header {
-      overflow: hidden;
-    }
-    .nav-right .nav-dropdown-content {
-      margin-left: 0;
-    }
-  }
-
-
-  @media screen and (max-width: 768px) {
-    .distill-site-header.responsive {position: relative; min-height: 500px; }
-    .distill-site-header.responsive a.nav-toggle {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-    .distill-site-header.responsive a,
-    .distill-site-header.responsive .nav-dropdown {
-      display: block;
-      text-align: left;
-    }
-    .distill-site-header.responsive .nav-left,
-    .distill-site-header.responsive .nav-right {
-      width: 100%;
-    }
-    .distill-site-header.responsive .nav-dropdown {float: none;}
-    .distill-site-header.responsive .nav-dropdown-content {position: relative;}
-    .distill-site-header.responsive .nav-dropdown .nav-dropbtn {
-      display: block;
-      width: 100%;
-      text-align: left;
-    }
-  }
-
-  /* Site Footer */
-
-  .distill-site-footer {
-    width: 100%;
-    overflow: hidden;
-    box-sizing: border-box;
-    z-index: 3;
-    margin-top: 30px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    text-align: center;
-  }
-
-  /* Headroom */
-
-  d-title {
-    padding-top: 6rem;
-  }
-
-  @media print {
-    d-title {
-      padding-top: 4rem;
-    }
-  }
-
-  .headroom {
-    z-index: 1000;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-  }
-
-  .headroom--transition {
-    transition: all .4s ease-in-out;
-  }
-
-  .headroom--unpinned {
-    top: -100px;
-  }
-
-  .headroom--pinned {
-    top: 0;
-  }
-
-  /* adjust viewport for navbar height */
-  /* helps vertically center bootstrap (non-distill) content */
-  .min-vh-100 {
-    min-height: calc(100vh - 100px) !important;
-  }
-
-  </style>
-
-  <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
-  <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
-  <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
-  <script src="site_libs/headroom-0.9.4/headroom.min.js"></script>
-  <script src="site_libs/autocomplete-0.37.1/autocomplete.min.js"></script>
-  <script src="site_libs/fuse-6.4.1/fuse.min.js"></script>
-
-  <script type="application/javascript">
-
-  function getMeta(metaName) {
-    var metas = document.getElementsByTagName('meta');
-    for (let i = 0; i < metas.length; i++) {
-      if (metas[i].getAttribute('name') === metaName) {
-        return metas[i].getAttribute('content');
-      }
-    }
-    return '';
-  }
-
-  function offsetURL(url) {
-    var offset = getMeta('distill:offset');
-    return offset ? offset + '/' + url : url;
-  }
-
-  function createFuseIndex() {
-
-    // create fuse index
-    var options = {
-      keys: [
-        { name: 'title', weight: 20 },
-        { name: 'categories', weight: 15 },
-        { name: 'description', weight: 10 },
-        { name: 'contents', weight: 5 },
-      ],
-      ignoreLocation: true,
-      threshold: 0
-    };
-    var fuse = new window.Fuse([], options);
-
-    // fetch the main search.json
-    return fetch(offsetURL('search.json'))
-      .then(function(response) {
-        if (response.status == 200) {
-          return response.json().then(function(json) {
-            // index main articles
-            json.articles.forEach(function(article) {
-              fuse.add(article);
-            });
-            // download collections and index their articles
-            return Promise.all(json.collections.map(function(collection) {
-              return fetch(offsetURL(collection)).then(function(response) {
-                if (response.status === 200) {
-                  return response.json().then(function(articles) {
-                    articles.forEach(function(article) {
-                      fuse.add(article);
-                    });
-                  })
-                } else {
-                  return Promise.reject(
-                    new Error('Unexpected status from search index request: ' +
-                              response.status)
-                  );
-                }
-              });
-            })).then(function() {
-              return fuse;
-            });
-          });
-
-        } else {
-          return Promise.reject(
-            new Error('Unexpected status from search index request: ' +
-                        response.status)
-          );
-        }
-      });
-  }
-
-  window.document.addEventListener("DOMContentLoaded", function (event) {
-
-    // get search element (bail if we don't have one)
-    var searchEl = window.document.getElementById('distill-search');
-    if (!searchEl)
-      return;
-
-    createFuseIndex()
-      .then(function(fuse) {
-
-        // make search box visible
-        searchEl.classList.remove('hidden');
-
-        // initialize autocomplete
-        var options = {
-          autoselect: true,
-          hint: false,
-          minLength: 2,
-        };
-        window.autocomplete(searchEl, options, [{
-          source: function(query, callback) {
-            const searchOptions = {
-              isCaseSensitive: false,
-              shouldSort: true,
-              minMatchCharLength: 2,
-              limit: 10,
-            };
-            var results = fuse.search(query, searchOptions);
-            callback(results
-              .map(function(result) { return result.item; })
-            );
-          },
-          templates: {
-            suggestion: function(suggestion) {
-              var img = suggestion.preview && Object.keys(suggestion.preview).length > 0
-                ? `<img src="${offsetURL(suggestion.preview)}"</img>`
-                : '';
-              var html = `
-                <div class="search-item">
-                  <h3>${suggestion.title}</h3>
-                  <div class="search-item-description">
-                    ${suggestion.description || ''}
-                  </div>
-                  <div class="search-item-preview">
-                    ${img}
-                  </div>
-                </div>
-              `;
-              return html;
-            }
-          }
-        }]).on('autocomplete:selected', function(event, suggestion) {
-          window.location.href = offsetURL(suggestion.path);
-        });
-        // remove inline display style on autocompleter (we want to
-        // manage responsive display via css)
-        $('.algolia-autocomplete').css("display", "");
-      })
-      .catch(function(error) {
-        console.log(error);
-      });
-
-  });
-
-  </script>
-
-  <style type="text/css">
-
-  .nav-search {
-    font-size: x-small;
-  }
-
-  /* Algolioa Autocomplete */
-
-  .algolia-autocomplete {
-    display: inline-block;
-    margin-left: 10px;
-    vertical-align: sub;
-    background-color: white;
-    color: black;
-    padding: 6px;
-    padding-top: 8px;
-    padding-bottom: 0;
-    border-radius: 6px;
-    border: 1px #0F2E3D solid;
-    width: 180px;
-  }
-
-
-  @media screen and (max-width: 768px) {
-    .distill-site-nav .algolia-autocomplete {
-      display: none;
-      visibility: hidden;
-    }
-    .distill-site-nav.responsive .algolia-autocomplete {
-      display: inline-block;
-      visibility: visible;
-    }
-    .distill-site-nav.responsive .algolia-autocomplete .aa-dropdown-menu {
-      margin-left: 0;
-      width: 400px;
-      max-height: 400px;
-    }
-  }
-
-  .algolia-autocomplete .aa-input, .algolia-autocomplete .aa-hint {
-    width: 90%;
-    outline: none;
-    border: none;
-  }
-
-  .algolia-autocomplete .aa-hint {
-    color: #999;
-  }
-  .algolia-autocomplete .aa-dropdown-menu {
-    width: 550px;
-    max-height: 70vh;
-    overflow-x: visible;
-    overflow-y: scroll;
-    padding: 5px;
-    margin-top: 3px;
-    margin-left: -150px;
-    background-color: #fff;
-    border-radius: 5px;
-    border: 1px solid #999;
-    border-top: none;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion {
-    cursor: pointer;
-    padding: 5px 4px;
-    border-bottom: 1px solid #eee;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion:last-of-type {
-    border-bottom: none;
-    margin-bottom: 2px;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item {
-    overflow: hidden;
-    font-size: 0.8em;
-    line-height: 1.4em;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item h3 {
-    font-size: 1rem;
-    margin-block-start: 0;
-    margin-block-end: 5px;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-description {
-    display: inline-block;
-    overflow: hidden;
-    height: 2.8em;
-    width: 80%;
-    margin-right: 4%;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-preview {
-    display: inline-block;
-    width: 15%;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-preview img {
-    height: 3em;
-    width: auto;
-    display: none;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-preview img[src] {
-    display: initial;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion.aa-cursor {
-    background-color: #eee;
-  }
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion em {
-    font-weight: bold;
-    font-style: normal;
-  }
-
-  </style>
-
-
   <!--/radix_placeholder_navigation_in_header-->
   <!--radix_placeholder_distill-->
 
@@ -2037,23 +1438,17 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </script>
 
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
-  <script src="site_libs/popper-2.6.0/popper.min.js"></script>
-  <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
-  <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
-  <script src="site_libs/tippy-6.2.7/tippy.umd.min.js"></script>
-  <script src="site_libs/anchor-4.2.2/anchor.min.js"></script>
-  <script src="site_libs/bowser-1.9.3/bowser.min.js"></script>
-  <script src="site_libs/webcomponents-2.0.0/webcomponents.js"></script>
-  <script src="site_libs/distill-2.2.21/template.v2.js"></script>
+  <script src="lecture-2_files/header-attrs/header-attrs.js"></script>
+  <script src="lecture-2_files/jquery/jquery-3.6.0.min.js"></script>
+  <script src="lecture-2_files/popper/popper.min.js"></script>
+  <link href="lecture-2_files/tippy/tippy.css" rel="stylesheet" />
+  <link href="lecture-2_files/tippy/tippy-light-border.css" rel="stylesheet" />
+  <script src="lecture-2_files/tippy/tippy.umd.min.js"></script>
+  <script src="lecture-2_files/anchor/anchor.min.js"></script>
+  <script src="lecture-2_files/bowser/bowser.min.js"></script>
+  <script src="lecture-2_files/webcomponents/webcomponents.js"></script>
+  <script src="lecture-2_files/distill/template.v2.js"></script>
   <!--radix_placeholder_site_in_header-->
-  <script type="text/javascript" cookie-consent="tracking" async src="https://www.googletagmanager.com/gtag/js?id=G-PNBY03CMKW"></script>
-  <script type="text/javascript" cookie-consent="tracking">
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-PNBY03CMKW');
-  </script>
   <!--/radix_placeholder_site_in_header-->
 
 
@@ -2064,36 +1459,20 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Labor Market Dualism in the International Context","description":"Winter 2021 Semester Schedule","authors":[]}
+{"title":"Coordination as a political problem","description":"Lecture 2","authors":[],"publishedDate":"2021-11-09T00:00:00.000+09:00"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
 <!--radix_placeholder_navigation_before_body-->
-<header class="header header--fixed" role="banner">
-<nav class="distill-site-nav distill-site-header">
-<div class="nav-left">
-<a href="index.html" class="title">Labor Market Dualism</a>
-<input id="distill-search" class="nav-search hidden" type="text" placeholder="Search..."/>
-</div>
-<div class="nav-right">
-<a href="schedule.html">Schedule</a>
-<a href="syllabus.html">Syllabus</a>
-<a href="https://github.com/ko-suta/labor-dualism-tuebingen">
-<i class="fab fa-github" aria-hidden="true"></i>
-</a>
-<a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
-</div>
-</nav>
-</header>
 <!--/radix_placeholder_navigation_before_body-->
 <!--radix_placeholder_site_before_body-->
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>Labor Market Dualism in the International Context</h1>
+<h1>Coordination as a political problem</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>Winter 2021 Semester Schedule</p></p>
+<p><p>Lecture 2</p></p>
 </div>
 
 
@@ -2102,37 +1481,92 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <nav class="l-text toc figcaption" id="TOC">
 <h3>Contents</h3>
 <ul>
-<li><a href="#lectures">Lectures</a>
+<li><a href="#gist">Gist</a></li>
+<li><a href="#background">Background</a></li>
+<li><a href="#challenges-to-the-voc-framework">Challenges to the VoC framework</a></li>
+<li><a href="#coordinaiton-as-a-political-process-case-studies">Coordinaiton as a political process: case studies</a>
 <ul>
-<li><a href="#nov.-18-2021-introduction">1. Nov. 18, 2021 – Introduction</a></li>
-<li><a href="#nov.-19-2021-lecture-1">2. Nov. 19, 2021 – Lecture 1</a></li>
-<li><a href="#nov.-25-2021-lecture-2">2. Nov. 25, 2021 – Lecture 2</a></li>
+<li><a href="#germany">Germany</a></li>
 </ul></li>
 </ul>
 </nav>
 </div>
-<h2 id="lectures">Lectures</h2>
-<h3 id="nov.-18-2021-introduction">1. Nov. 18, 2021 – Introduction</h3>
-<p class="nospace">
-Materials:
-</p>
+<div class="layout-chunk" data-layout="l-body">
+
+</div>
+<!-- ## Article discussed -->
+<div class="define article" style="color: blue;">
+<p><a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1468-0491.2006.00302.x">Thelen, K., &amp; Kume, I. (2006). Coordination as a political problem in coordinated market economies. <em>Governance, 19</em> (1), 11-42.</a></p>
+</div>
+<h2 id="gist">Gist</h2>
+<p><strong>Purpose</strong>: to examine the differences in how <em>employer coordination</em> has been organized in Sweden, Germany, and Japan in the area of industrial relations.</p>
+<p><strong>Argument</strong>: intensification of <em>cooperation between labor and management</em> in some firms and industries has paradoxically had <span style="color:darkred">deeply destabilizing collateral effects</span> that have undermined these systems as they were traditionally constituted.</p>
+<h2 id="background">Background</h2>
+<p>Recent <strong>Varieties of Capitalism</strong> (VoC): industrial relations depend not only upon labor organization and strength, but also on the <em>coordination between employers</em>.</p>
+<p>Coordinated market economies (CMEs):</p>
 <ul>
-<li><a href="slides/Dual-Market-OECD/Labor-Market-Dualism-OECD.html">Slides</a></li>
+<li>Continental Europe</li>
+<li>Japan</li>
 </ul>
-<h3 id="nov.-19-2021-lecture-1">2. Nov. 19, 2021 – Lecture 1</h3>
-<p class="nospace">
-Materials:
-</p>
+<p>Liberal market economies (LMEs):</p>
 <ul>
-<li><a href="posts/lecture-1/">Notes</a></li>
+<li>U.S.</li>
+<li>U.K.</li>
 </ul>
-<h3 id="nov.-25-2021-lecture-2">2. Nov. 25, 2021 – Lecture 2</h3>
-<p class="nospace">
-Materials:
-</p>
+<p>Some argue that globalization and deregulation will lead to convergence – all capitalist systems will become liberal.</p>
+<p><strong><span style="color:white;background-color:black">VoC opinion</span></strong>:</p>
 <ul>
-<li><a href="posts/lecture-2/">Notes</a></li>
+<li><p><strong>continued diversity</strong> and even stronger divergence between LMEs and CMEs</p></li>
+<li><p>employers in the developed democracies will build on and deepen previous sources of <strong>comparative institutional advantage</strong></p>
+<ul>
+<li>employers in the <span style="color:darkred">U.S.</span> and the <span style="color:darkred">U.K.</span> – will seek <strong>deregulation</strong>;</li>
+<li>employers in <span style="color:darkred">Germany</span>, <span style="color:darkred">Sweden</span>, and <span style="color:darkred">Japan</span> – will hold to high degree of <strong>labor cooperation</strong>, strong investment in workers’ <strong>skill acquisition</strong>, and peaceful plant relations.</li>
+</ul></li>
 </ul>
+<p><strong>Basic logic</strong>: employers have organized their competitive strategies around these institutions <svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#cc0033;overflow:visible;position:relative;"><path d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zM140 300h116v70.9c0 10.7 13 16.1 20.5 8.5l114.3-114.9c4.7-4.7 4.7-12.2 0-16.9l-114.3-115c-7.6-7.6-20.5-2.2-20.5 8.5V212H140c-6.6 0-12 5.4-12 12v64c0 6.6 5.4 12 12 12z"/></svg> will not abandon them in the face of new market pressures.</p>
+<h2 id="challenges-to-the-voc-framework">Challenges to the VoC framework</h2>
+<blockquote>
+<p>Do institutions really resist deregulation thanks to employers’ genuine interest?</p>
+</blockquote>
+<p>Alternative explanations:</p>
+<ul>
+<li>institutional inertia</li>
+<li>successful union strategies</li>
+</ul>
+<p>Significant tensions in <span style="color:darkred">Sweden</span>, <span style="color:darkred">Germany</span> (declining union membership) and <span style="color:darkred;class=" data-bg-danger="">Japan</span> (departure from seniority wages and lifetime employment). Thus, not only “coordination”, but also <strong>struggles</strong> matter.</p>
+<p>Contemporary market conditions:</p>
+<ul>
+<li>not only new conflicts between labor and capital (as is widely known and theorized)</li>
+<li>new tensions <strong>among firms and industries</strong> that are differently situated in domestic and international markets</li>
+<li>employers’ coordination as a <strong>political problem</strong></li>
+</ul>
+<blockquote>
+<p>Intensification of cooperation between labor and management in some firms and industries (that the VoC literature correctly emphasizes) has paradoxically deep <strong>destabilizing</strong> collateral effects.</p>
+</blockquote>
+<h2 id="coordinaiton-as-a-political-process-case-studies">Coordinaiton as a political process: case studies</h2>
+<h3 id="germany">Germany</h3>
+<p>Background: organizational disarray in the Association of German Metalworking firms (<em>Gesamtmetall</em>) and its union counterpart (<em>IG Metall</em>), which together have played the key flagship role in Germany’s <em>de facto</em> system of <strong>pattern bargaining</strong> over most of the postwar period.</p>
+<p>Firms calling for greater flexibility to adapt central bargains to the needs of individual firms.</p>
+<p>1960s: <strong>collective bargaining</strong> was covering 80% of all firms accounting for 90% of all workers.</p>
+<p><strong>Union organization</strong> in <span style="color:darkred">Germany</span>: around 30% of all workers throughout the postwar period vs. <span style="color:darkred">Swedish</span> unions’ 80%.</p>
+<p><strong><span style="color:white;background-color:black">However</span></strong>, German employers have traditionally been extremely well-organized <svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#cc0033;overflow:visible;position:relative;"><path d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zM140 300h116v70.9c0 10.7 13 16.1 20.5 8.5l114.3-114.9c4.7-4.7 4.7-12.2 0-16.9l-114.3-115c-7.6-7.6-20.5-2.2-20.5 8.5V212H140c-6.6 0-12 5.4-12 12v64c0 6.6 5.4 12 12 12z"/></svg> contracts signed by the employer associations cover all workers in the member firms, regardless of their status as union members or not <svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#cc0033;overflow:visible;position:relative;"><path d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zM140 300h116v70.9c0 10.7 13 16.1 20.5 8.5l114.3-114.9c4.7-4.7 4.7-12.2 0-16.9l-114.3-115c-7.6-7.6-20.5-2.2-20.5 8.5V212H140c-6.6 0-12 5.4-12 12v64c0 6.6 5.4 12 12 12z"/></svg> stabilized encompassing bargaining</p>
+<p><strong>Large export firms</strong> <svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:blue;overflow:visible;position:relative;"><path d="M377.941 169.941V216H134.059v-46.059c0-21.382-25.851-32.09-40.971-16.971L7.029 239.029c-9.373 9.373-9.373 24.568 0 33.941l86.059 86.059c15.119 15.119 40.971 4.411 40.971-16.971V296h243.882v46.059c0 21.382 25.851 32.09 40.971 16.971l86.059-86.059c9.373-9.373 9.373-24.568 0-33.941l-86.059-86.059c-15.119-15.12-40.971-4.412-40.971 16.97z"/></svg> sizable sector of small and medium-sized firms (<em>Mittelstand</em>):</p>
+<ul>
+<li>large firms dominated the employer association, but also bore the <strong>burden of industrial conflicts</strong> <svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#cc0033;overflow:visible;position:relative;"><path d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zM140 300h116v70.9c0 10.7 13 16.1 20.5 8.5l114.3-114.9c4.7-4.7 4.7-12.2 0-16.9l-114.3-115c-7.6-7.6-20.5-2.2-20.5 8.5V212H140c-6.6 0-12 5.4-12 12v64c0 6.6 5.4 12 12 12z"/></svg> settlements with the unions on a range of issues such as wages</li>
+</ul>
+<p>Some of the most <span style="color:darkred">destabilizing trends</span>: intensified <strong>cooperation between labor and capital</strong> at the plant level (especially in larger firms).</p>
+<p>Clear tensions since 1980s: negotiations over <strong>working hours’ reduction</strong> (down to 35):</p>
+<ul>
+<li>larger firms – allowed greater flexibility in working times, expanding shift work or devising differentiated working time arrangements <svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#cc0033;overflow:visible;position:relative;"><path d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zM140 300h116v70.9c0 10.7 13 16.1 20.5 8.5l114.3-114.9c4.7-4.7 4.7-12.2 0-16.9l-114.3-115c-7.6-7.6-20.5-2.2-20.5 8.5V212H140c-6.6 0-12 5.4-12 12v64c0 6.6 5.4 12 12 12z"/></svg> <strong>offsetting the costs</strong> of such reductions</li>
+<li>smaller companies – not able to make same kinds of adjustments <svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#cc0033;overflow:visible;position:relative;"><path d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zM140 300h116v70.9c0 10.7 13 16.1 20.5 8.5l114.3-114.9c4.7-4.7 4.7-12.2 0-16.9l-114.3-115c-7.6-7.6-20.5-2.2-20.5 8.5V212H140c-6.6 0-12 5.4-12 12v64c0 6.6 5.4 12 12 12z"/></svg> were <strong>hit more heavily</strong> by the sheer costs of reduced working hours</li>
+</ul>
+<p>Subsequent collective bargaining rounds in the 1990s <svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#cc0033;overflow:visible;position:relative;"><path d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zM140 300h116v70.9c0 10.7 13 16.1 20.5 8.5l114.3-114.9c4.7-4.7 4.7-12.2 0-16.9l-114.3-115c-7.6-7.6-20.5-2.2-20.5 8.5V212H140c-6.6 0-12 5.4-12 12v64c0 6.6 5.4 12 12 12z"/></svg> exacerbated <strong>problems of solidarity</strong> on the employer side.</p>
+<p>German producers: facing much <strong>stiffer competition</strong> from high-quality (lower-cost) producers in Japan and elsewhere. Late 1990s: bargaining rounds that featured remarkable displays of <strong>disunity on the part of metalworking employers</strong> (that became risk-averse).</p>
+<p>Weaker firms: <span style="color:darkred">opting out</span> of the industry-level contract altogether <svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#cc0033;overflow:visible;position:relative;"><path d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zM140 300h116v70.9c0 10.7 13 16.1 20.5 8.5l114.3-114.9c4.7-4.7 4.7-12.2 0-16.9l-114.3-115c-7.6-7.6-20.5-2.2-20.5 8.5V212H140c-6.6 0-12 5.4-12 12v64c0 6.6 5.4 12 12 12z"/></svg> shrinking number of firms participating in central bargaining.</p>
+<p>Union leaders’ ability to conclude binding and encompassing agreements <svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:blue;overflow:visible;position:relative;"><path d="M377.941 169.941V216H134.059v-46.059c0-21.382-25.851-32.09-40.971-16.971L7.029 239.029c-9.373 9.373-9.373 24.568 0 33.941l86.059 86.059c15.119 15.119 40.971 4.411 40.971-16.971V296h243.882v46.059c0 21.382 25.851 32.09 40.971 16.971l86.059-86.059c9.373-9.373 9.373-24.568 0-33.941l-86.059-86.059c-15.119-15.12-40.971-4.412-40.971 16.97z"/></svg> continued organizational viability of employers. Unions’ achievements were muted, frequently accompanied by expressions of concern about the <strong>weakness of employers’ association</strong>.</p>
+<p><strong>Lack of unity and discord</strong>: prominent features of the IG Metall’s internal politics at present.</p>
+<p>In 2003, the <em>IG Metall</em> strike (over reducing the working time in East Germany from 38 to 35 hours, as in the West) failed for the first time since 1950s.</p>
+<p>Employers such as <em>Gesamtmetall</em>’s head Kannegiesser explicitly defend the <strong>collective bargaining</strong> system for the “order” and “predictability” that it helps to impose on the labor market.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
@@ -2146,30 +1580,12 @@ Materials:
 <!--/radix_placeholder_site_after_body-->
 <!--radix_placeholder_appendices-->
 <div class="appendix-bottom">
-<h3 id="updates-and-corrections">Corrections</h3>
-<p>If you see mistakes or want to suggest changes, please <a href="https://github.com/ko-suta/labor-dualism-tuebingen/issues/new">create an issue</a> on the source repository.</p>
+<h3 id="reuse">Reuse</h3>
+<p>Text and figures are licensed under Creative Commons Attribution <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. The figures that have been reused from other sources don't fall under this license and can be recognized by a note in their caption: "Figure from ...".</p>
 </div>
 <!--/radix_placeholder_appendices-->
 <!--radix_placeholder_navigation_after_body-->
-<div class="distill-site-nav distill-site-footer">
-<p>Kostiantyn Ovsiannikov © <script>document.write(new Date().getFullYear())</script></p>
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-
-
-    var t = setInterval(function(){
-      var resizeEvent = new Event('resize');
-      window.dispatchEvent(resizeEvent);
-    }, 1000);
-
-
-  });
-
-
-</script>
-</div>
 <!--/radix_placeholder_navigation_after_body-->
-
 
 </body>
 
