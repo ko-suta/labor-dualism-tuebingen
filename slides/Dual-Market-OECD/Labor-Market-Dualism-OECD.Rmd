@@ -219,7 +219,7 @@ knitr::include_graphics("assets/img/SDG8.png")
 
 <br>
 
-- <b>Insiders</b>: interested in job protection  🢂 voting for Social Democrats
+- <b>Insiders</b>: interested in job protection `r fa("arrow-right", fill = "blue")` voting for Social Democrats
 
 --
 
@@ -235,7 +235,7 @@ knitr::include_graphics("assets/img/SDG8.png")
 
 --
 
-- Reducing humans to .white.bg-black[homo economicus] 🢂 exaggerating insider/outsider differences. 
+- Reducing humans to .white.bg-black[homo economicus] `r fa("arrow-right", fill = "blue")` exaggerating insider/outsider differences. 
 Realistically, they may become blurred in the long run, because everyone has interest in employment protection.
 
 --
@@ -288,7 +288,7 @@ Realistically, they may become blurred in the long run, because everyone has int
   
   <br>
 
-  - cooperation between management and regular workers  🢂 *destabilizing* effect `r Citep(myBib, "thelen2006g", .opts = list(cite.style = "authoryear", style = "html"))`; gradual erosion of the industrial relations system `r Citep(myBib, "palier2010", .opts = list(cite.style = "authoryear", style = "html"))`
+  - cooperation between management and regular workers `r fa("arrow-right", fill = "blue")` *destabilizing* effect `r Citep(myBib, "thelen2006g", .opts = list(cite.style = "authoryear", style = "html"))`; gradual erosion of the industrial relations system `r Citep(myBib, "palier2010", .opts = list(cite.style = "authoryear", style = "html"))`
 ]
 
 
@@ -351,7 +351,7 @@ Realistically, they may become blurred in the long run, because everyone has int
 
 --
 
-- Post-bubble strategy of limiting the hiring of regular workers Regulars = long-term contracts + social benefits, Lower proportion of core workforce  🢂 **curbing average labor costs** during economic downturns
+- Post-bubble strategy of limiting the hiring of regular workers Regulars = long-term contracts + social benefits, Lower proportion of core workforce `r fa("arrow-right", fill = "blue")` **curbing average labor costs** during economic downturns
 
 --
 
@@ -418,7 +418,7 @@ knitr::include_graphics("assets/img/unions.png")
 
 --
 
-- Currently, proportion of non-regular employees is almost **40%**, their chances of switching to regular employment are **1.7 ~ 10.3 %** compared to 30% in the UK and 45% in Germany `r Citep(myBib, "aoyagi2015labor", .opts = list(cite.style = "authoryear", style = "html"))` 🢂 labor bifurcation
+- Currently, proportion of non-regular employees is almost **40%**, their chances of switching to regular employment are **1.7 ~ 10.3 %** compared to 30% in the UK and 45% in Germany `r Citep(myBib, "aoyagi2015labor", .opts = list(cite.style = "authoryear", style = "html"))` `r fa("arrow-right", fill = "blue")` labor bifurcation
 
 --
 
