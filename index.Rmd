@@ -2,9 +2,10 @@
 title: "Labor Market Dualism in the International Context"
 description: Transdisciplinary Course Program at the University of Tübingen 
 site: distill::distill_website
-# preview: images/berries.jpg
-# twitter:
-#   creator: "@kovsiann"
+base_url: https://dual-market.netlify.app
+preview: images/berries.jpg
+twitter:
+  creator: "@kovsiann"
 ---
 
 ```{r setup, include=FALSE}

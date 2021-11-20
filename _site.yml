@@ -6,9 +6,9 @@ output_dir: "_site"
 base_url: https://dual-market.netlify.app/
 google_analytics: "G-PNBY03CMKW"
 repository_url: https://github.com/ko-suta/labor-dualism-tuebingen
-preview: images/berries.jpg
-twitter:
-  creator: "@kovsiann"
+# preview: images/berries.jpg
+# twitter:
+#   creator: "@kovsiann"
 navbar:
   # logo:
   #   image: images/robot.png
