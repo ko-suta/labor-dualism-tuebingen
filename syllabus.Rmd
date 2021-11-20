@@ -2,7 +2,7 @@
 title: "Syllabus"
 description: ""
 base_url: https://dual-market.netlify.app
-preview: images/berries.png
+preview: images/berries.jpg
 twitter:
   site: "@kovsiann"
 output:
