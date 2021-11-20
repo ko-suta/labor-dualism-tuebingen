@@ -1,7 +1,7 @@
 name: "labor-dualism-tuebingen"
 title: "Labor Market Dualism"
-description: |
-  Labor Market Dualism
+# description: |
+#   Labor Market Dualism
 output_dir: "_site"
 base_url: https://dual-market.netlify.app
 preview: images/berries.png
