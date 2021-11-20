@@ -5,6 +5,7 @@ base_url: https://dual-market.netlify.app
 preview: images/berries.jpg
 twitter:
   site: "@kovsiann"
+  creator: "@kovsiann"
 output:
   distill::distill_article:
     toc: true
