@@ -1,6 +1,10 @@
 ---
 title: "Syllabus"
 description: ""
+base_url: https://dual-market.netlify.app
+preview: images/berries.png
+twitter:
+  site: "@kovsiann"
 output:
   distill::distill_article:
     toc: true
