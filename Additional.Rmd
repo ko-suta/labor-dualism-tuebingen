@@ -4,11 +4,6 @@ output: html_notebook
 ---
 
 ```{r}
-# library(chromote)
-# library(progress)
-# library(jsonlite)
-# library(pdftools)
-# library(digest)
 library(pagedown)
 library(xaringan)
 library(xaringanBuilder)
