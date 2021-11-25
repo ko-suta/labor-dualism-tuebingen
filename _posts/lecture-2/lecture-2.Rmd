@@ -17,7 +17,7 @@ creative_commons: CC BY
 
 ```{r setup, include=FALSE}
 library(knitr)
-library(summarytools)
+#library(summarytools)
 library(here)
 library(ymlthis)
 library(tidyverse)
@@ -164,3 +164,108 @@ Unions' achievements were muted, frequently accompanied by expressions of concer
 In 2003, the *IG Metall* strike (over reducing the working time in East Germany from 38 to 35 hours, as in the West) failed for the first time since 1950s.
 
 Employers such as *Gesamtmetall*’s head Kannegiesser explicitly defend the **collective bargaining** system for the “order” and “predictability” that it helps to impose on the labor market.
+
+
+### Japan
+
+Postwar system of **"lifetime employment"** (sh&#363;shin koy&#333;) + **seniority wages** (nenk&#333; joretsu): incentive mechanisms for workers.
+
+Japanese management practices operate on a **firm level** (rather than on industrial, as in Germany).
+
+Importance of <span style="color:darkred">coordination</span> (rather than competition) between employers.
+
+Lifetime employment only works if workers start at low wages, and then gradually acquire skills that make them increasingly productive and valuable to the company.
+
+Management-labor coordination is less formal than in Germany.
+Conducted via the seasonal *Shunt&#333;* **wage bargaining** system.
+
+Since 1960s: the metal industry had become the main pattern-setting industry.  Unions, organized in the IMF-JC (International Metal Workers’ Federation Japan Council), have traditionally demanded “economically rational” wage increases.
+
+Recent years: intensified questioning of the traditional wage system. 
+Employer organizations such as *Keidanren* (Federation of Economic Organizations) and **Nikkeiren** have criticized seniority wages as rigid and harmful for Japanese firms. 
+Reasons:
+
+1. **Demographic change** (aging workforce) has increased the number of older workers, and with that, increased also the total wage costs that firms must bear.
+
+2. **Seniority wage system change**: came closer to an automatic wage raise for many workers despite different job capabilities among workers of the same age.
+
+3. **“IT revolution”**: changed the kinds of skills that firms need. 
+Traditional on-the-job training over a worker’s career may be less attractive than hiring engineers with the relevant skills from outside the company.
+
+Thus, many companies have moved to abolish the seniority wage system, often replacing this with **performance-based wages** (*seikashugi*).
+
+However, as in Germany, one finds in Japan evidence of continued employer support for both lifetime employment practices and substantial aspects of traditional wage systems. 
+1995 *Nikkeiren* report <span style="color:darkred">“A Japanese Management System in the New Era”</span>.
+Urging firms to distinguish among three different types of workers: 
+
+- long-term employed workers with accumulated skills; 
+
+- workers with professional skills; 
+
+- short-term/flexibly employed workers.
+
+
+<span style="color:darkred">Toyota</span> management: 
+
+ - if Toyota (profiting from the weak yen) raised the regular wage `r fa("arrow-alt-circle-right", fill = "#cc0033")` spilling over into other industries `r fa("arrow-alt-circle-right", fill = "#cc0033")` exacerbating the high cost problem;
+ 
+ - alternative suggestion: redistributing increased company profit in the form of **bonus payments**, which are less linked to *Shunt&#333;*;
+ 
+ - **result**: Toyota increased its regular wage by a larger margin than other companies in the metal sector `r fa("arrow-alt-circle-right", fill = "#cc0033")` abdicating its role as benchmark and pattern setter;
+ 
+ - Toyota is convinced that **secure employment** should be the basis of its competitiveness.
+
+<span style="color:darkred">Toyota</span> chairman Hiroshi Okuda in 1999: 
+
+> “Even if there are redundant workers, it is management’s responsibility to seek new business opportunities to redeploy them.
+Employers without the entrepreneurship to find such business opportunities should retire.” 
+
+The chairman of the board of <span style="color:darkred">Fujitsu</span> concurred with Okuda, citing his company’s successful efforts to retain workers through **retraining** and **redeployment**.
+Fujitsu management: it is important to evaluate workers’ **potential ability** and “work process” independently of “outcome”.
+
+**<span style="color:white;background-color:black">On contrary</span>**, pioneer of the performance-based system, <span style="color:darkred">Takeda Chemical</span> (the largest pharmaceutical company in Japan), found it difficult to keep employees committed to the company.
+
+1990s: <span style="color:darkred">Takeda Chemical</span> and <span style="color:darkred">Mitsui Mining and Smelting</span> adopted performance-based wages, leaving the *Shunt&#333;* framework altogether.
+
+**The major problem**: how to make individualistic wages compatible with the **group-oriented** work organization of Japanese firms.
+
+<span style="color:darkred">Nissan</span> case:
+
+ - taken over by the French automaker <span style="color:darkred">Renault</span> in 1998 due to its financial difficulties;
+ 
+ - went through a very tough restructuring with massive dismissals (in the form of voluntary retirements);
+ 
+ - however, after achieving a V-curve recovery, president Carlos Ghosn maintained a bottom-up decision-making style, (which is regarded as very Japanese) and made it clear that the company’s main strength should reside in **worker commitment** to the firm; 
+ 
+ - wage bargaining for 2001, and in the context of concerns about revitalizing work organization: Nissan unilaterally declared that it would pay the **full amount of bonuses** demanded by the union.
+
+
+**<span style="color:white;background-color:black">However</span>**, not all companies can accomplish this same balance (traditional employment practices + fine-tuning wage systems). 
+
+**New divide** among core firms in the Japanese economy:
+
+ - stronger firms (such as Toyota); 
+ 
+ - weaker firms: traditional practices (including laying off workers) `r fa("arrow-alt-circle-right", fill = "#cc0033")` straightforward efforts to reduce labor costs;
+ 
+ - for example, <span style="color:darkred">Mazda</span>: seniority-based wages `r fa("arrow-alt-circle-right", fill = "#cc0033")` performance-based system.
+ Reason: it could no longer afford Toyota-style wage and employment practices. 
+ Radical reform of the wage system `r fa("arrow-alt-circle-right", fill = "#cc0033")` **demoralizing** workers, not improving company competitiveness.
+ 
+ 
+Increasing adoption of performance-based wage systems `r fa("arrow-alt-circle-right", fill = "#cc0033")` difficult to maintain the traditional *Shunt&#333;* system:
+
+  - *Shunt&#333;* coordination `r fa("arrows-alt-h", fill = "blue")` leading firms acting as pattern setters both within their own industry and also with an eye to other industries;
+  - **performance-based wages** interfere with this. 
+  Difficulty of **coordinating wages** `r fa("arrows-alt-h", fill = "blue")` company profits begin to play a prominent role in wage determination.
+  
+  
+## Conclusion
+
+Recent market developments `r fa("arrow-alt-circle-right", fill = "#cc0033")` intensification of **cooperation** between labor and management `r fa("arrow-alt-circle-right", fill = "#cc0033")` weakening traditional forms of coordination among employers, undermining solidarity among workers and the system of **institutional coordination**.
+
+Common trends: 
+
+ - new, more virulent forms of **intensified cooperation** between management and labor; 
+ 
+ - **<span style="color:white;background-color:black">but</span>**, growing gap between practices and outcomes within the new core and those outside it.
