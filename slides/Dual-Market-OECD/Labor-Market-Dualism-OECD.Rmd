@@ -19,7 +19,7 @@ output:
 
 ```{r setup, include=FALSE}
 library(knitr)
-library(summarytools)
+#library(summarytools)
 library(here)
 library(ymlthis)
 library(tidyverse)
@@ -78,13 +78,13 @@ xaringanExtra::style_share_again(
   share_buttons = c("twitter", "linkedin", "facebook")
 )
 
-xaringanExtra::use_logo(
-  width = "220px",
-  height = "256px",
-  position = xaringanExtra::css_position(top = "2em", right = "2em"),
-  image_url = "assets/img/KUT.jpg",
-  exclude_class = "hide_logo"
-)
+# xaringanExtra::use_logo(
+#   width = "220px",
+#   height = "256px",
+#   position = xaringanExtra::css_position(top = "2em", right = "2em"),
+#   image_url = "assets/img/KUT.jpg",
+#   exclude_class = "hide_logo"
+# )
 
 xaringanExtra::use_extra_styles(
   hover_code_line = TRUE,         #<<
@@ -100,23 +100,23 @@ xaringanExtra::use_progress_bar(
 
 
 ```{r metathis, echo=FALSE, include=FALSE}
-meta() %>%
-  meta_name("github-repo" = "ko-suta/academic-new") %>% 
-  meta_social(
-    title = "Market Valuation of Corporate Technological Assets: <br> The Case of Japan's Institutional Adaptability",
-    description = paste(
-      "Market Valuation of Corporate Technological Assets.",
-      "Presented at 2021 SASE Conference."
-    ),
-    url = "https://kovsiannikov.com/slides/sase-2021/sase-2021",
-    image = "https://kovsiannikov.com/img/Techno-screen.png",
-    image_alt = "2021 SASE Conference Presentation",
-    og_type = "website",
-    og_author = "Kostiantyn Ovsiannikov",
-    twitter_card_type = "summary_large_image",
-    twitter_creator = "@kovsiann"
-  ) %>%
-  include_meta()
+# meta() %>%
+#   meta_name("github-repo" = "ko-suta/academic-new") %>% 
+#   meta_social(
+#     title = "Market Valuation of Corporate Technological Assets: <br> The Case of Japan's Institutional Adaptability",
+#     description = paste(
+#       "Market Valuation of Corporate Technological Assets.",
+#       "Presented at 2021 SASE Conference."
+#     ),
+#     url = "https://kovsiannikov.com/slides/sase-2021/sase-2021",
+#     image = "https://kovsiannikov.com/img/Techno-screen.png",
+#     image_alt = "2021 SASE Conference Presentation",
+#     og_type = "website",
+#     og_author = "Kostiantyn Ovsiannikov",
+#     twitter_card_type = "summary_large_image",
+#     twitter_creator = "@kovsiann"
+#   ) %>%
+#   include_meta()
 ```
 
 
@@ -437,7 +437,6 @@ PrintBibliography(myBib)
 ---
 
 class: title-slide-final, middle
-background-image: url(assets/img/SASE.png)
 background-size: 200px
 background-position: 5% 1%
 
