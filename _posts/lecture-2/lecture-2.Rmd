@@ -101,7 +101,7 @@ Some argue that globalization and deregulation will lead to convergence – all 
 **Basic logic**: employers have organized their competitive strategies around these institutions `r fa("arrow-alt-circle-right", fill = "#cc0033")` will not abandon them in the face of new market pressures.
 
 
-## Challenges to the VoC framework
+### Challenges to the VoC framework
 
 > Do institutions really resist deregulation thanks to employers’ genuine interest?
 
@@ -114,7 +114,6 @@ Significant tensions in <span style="color:darkred">Sweden</span>, <span style="
 Thus, not only “coordination”, but also **struggles** matter.
 
 
-
 Contemporary market conditions:
 
  - not only new conflicts between labor and capital (as is widely known and theorized) 
@@ -124,9 +123,7 @@ Contemporary market conditions:
 > Intensification of cooperation between labor and management in some firms and industries (that the VoC literature correctly emphasizes) has paradoxically deep **destabilizing** collateral effects.
 
 
-## Coordinaiton as a political process: case studies
-
-### Germany
+## Germany
 
 Background: organizational disarray in the Association of German Metalworking firms (*Gesamtmetall*) and its union counterpart (*IG Metall*), which together have played the key flagship role in Germany’s *de facto* system of **pattern bargaining** over most of the postwar period.
 
@@ -166,7 +163,7 @@ In 2003, the *IG Metall* strike (over reducing the working time in East Germany 
 Employers such as *Gesamtmetall*’s head Kannegiesser explicitly defend the **collective bargaining** system for the “order” and “predictability” that it helps to impose on the labor market.
 
 
-### Japan
+## Japan
 
 Postwar system of **"lifetime employment"** (sh&#363;shin koy&#333;) + **seniority wages** (nenk&#333; joretsu): incentive mechanisms for workers.
 
