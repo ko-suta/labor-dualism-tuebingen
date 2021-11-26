@@ -214,7 +214,7 @@ Urging firms to distinguish among three different types of workers:
 
 <span style="color:darkred">Toyota</span> chairman Hiroshi Okuda in 1999: 
 
-> “Even if there are redundant workers, it is management’s responsibility to seek new business opportunities to redeploy them.
+  > “Even if there are redundant workers, it is management’s responsibility to seek new business opportunities to redeploy them.
 Employers without the entrepreneurship to find such business opportunities should retire.” 
 
 The chairman of the board of <span style="color:darkred">Fujitsu</span> concurred with Okuda, citing his company’s successful efforts to retain workers through **retraining** and **redeployment**.
@@ -256,7 +256,140 @@ Increasing adoption of performance-based wage systems `r fa("arrow-alt-circle-ri
   - **performance-based wages** interfere with this. 
   Difficulty of **coordinating wages** `r fa("arrows-alt-h", fill = "blue")` company profits begin to play a prominent role in wage determination.
   
+
+## Sweden
+
+### Background
+
+High level of **centralization**.
+
+1956-1983: **broad wage settlements** blue-collar union confederation *Landorganisationen* (LO) `r fa("arrows-alt-h", fill = "blue")` *National Confederation of Swedish Employers* (SAF).
+
+1980-90s: **collapse of the system**, as SAF eliminated its own bargaining unit.
+
+**<span style="color:white;background-color:black">However</span>**, from 1990s on: **re-equilibration** of wage bargaining instead of decentralization.
+
+Currently: highly **coordinated bargaining** across industries within the export sector.
+Much stronger **cooperation** than ever before between blue-collar unions and white-collar workers. 
+
+**<span style="color:white;background-color:black">However</span>**: much looser coordination between the exposed and sheltered sectors of the economy.
+
+`r fa("arrow-alt-circle-right", fill = "#cc0033")` growing **wage differentiation** within and especially between these broad bargaining clusters `r fa("arrow-alt-circle-right", fill = "#cc0033")` significant compression of wages across the economy.
+
+
+### The case
+
+Swedish employers: originally agreed to centralized bargaining `r fa("arrow-alt-circle-right", fill = "#cc0033")` ensuring wage moderation. 
+However, over time wage settlements became **rigid** and highly **inflationary**.
+
+Before 1960s: centralized bargaining `r fa("arrows-alt-h", fill = "blue")` wage solidarism `r fa("arrow-alt-circle-right", fill = "#cc0033")` equalizing pay across industries and plants (**"equal pay for equal work"** regardless of a firm’s profitability) `r fa("arrow-alt-circle-right", fill = "#cc0033")` shift in resources (including labor) out of declining and into more competitive industries.
+
+From late 1960s: wage solidarity took an **egalitarian** turn `r fa("arrow-alt-circle-right", fill = "#cc0033")` compressing relative wages across the board. 
+
+`r fa("arrow-alt-circle-right", fill = "#cc0033")` compensating low-paid groups (public sector and low-skilled industrial workers) for wage drift enjoyed by skilled industrial workers `r fa("arrow-alt-circle-right", fill = "#cc0033")` chronic, institutionalized **ratcheting up** of wages.
   
+1980s and 1990s: negative effects felt especially in the **engineering industry** `r fa("arrow-alt-circle-right", fill = "#cc0033")` employer association in that sector (*Verkstadsf&#246;reningen*, or VF; later *Verstadsindustrier*, or VI) led the drive for **bargaining decentralization**.
+  
+VF/VI opposed the new wage-leveling clauses `r fa("arrow-alt-circle-right", fill = "#cc0033")` **no resonance** among employers in other industries that were less affected `r fa("arrow-alt-circle-right", fill = "#cc0033")` 1983: VI withdrew from traditional bargaining altogether `r fa("arrows-alt-h", fill = "blue")` separate deal with the metalworkers’ union, Metall `r fa("arrow-alt-circle-right", fill = "#cc0033")` **decisive blow** to the traditional nationally-coordinated system.
+
+Employers in the **engineering industry** led the charge against the old system. 
+Rather than "neoliberal employer offensive" against the traditional Swedish system,
+**cross-class realignment** `r fa("arrow-alt-circle-right", fill = "#cc0033")` bringing together employers and unions in the export sectors (especially in the engineering industry), at the expense of traditional, more encompassing forms of coordination and solidarity.
+
+1983: initial break with centralized bargaining -- not through conflict, but through a **deal**. 
+VF offered the metalworkers’ union (Metall) a **wage increase** above what the union had demanded `r fa("arrows-alt-h", fill = "blue")` **decoupling** negotiations from the peak bargain and eliminating contractual provisions that compressed the wages of skilled and unskilled workers.
+
+**Engineering workers** -- thinking of public-sector workers as **"pay parasites"** `r fa("arrow-alt-circle-right", fill = "#cc0033")` resented their ability to **free-ride** on the productivity gains in engineering through the compensation clauses.
+
+Furthermore, interoccupational **leveling clauses** (between skilled and unskilled workers) -- a problem for *Metall*.
+Technological changes in engineering `r fa("arrow-alt-circle-right", fill = "#cc0033")` blurring the line between **skilled blue-collar** and **white-collar** occupations `r fa("arrow-alt-circle-right", fill = "#cc0033")` high-skill metalworkers working in jobs similar to that of members of the separate white-collar union, *Svenska Industritj&#228;nstemannaf&#246;rbundet* (SIF). 
+**<span style="color:white;background-color:black">But</span>**, wage compression within *Metall* `r fa("arrow-alt-circle-right", fill = "#cc0033")` receiving much lower wages than white-collar workers.
+
+VI’s break with the system `r fa("arrow-alt-circle-right", fill = "#cc0033")` **uncertainty** `r fa("arrows-alt-h", fill = "blue")` demands from firms like <span style="color:darkred">Volvo</span>, <span style="color:darkred">Ericsson</span>, and <span style="color:darkred">ABB</span> for further **decentralization** to the plant level. 
+
+Plus, *SAF* dismantling of its own bargaining apparatus in 1990.
+Employers continued to oppose any recentralization of national bargaining under the auspices of the *LO* and *SAF*.
+
+But, other firms and sectors advocating for more **intermediate solution** of industry-level negotiations `r fa("arrow-alt-circle-right", fill = "#cc0033")` both full decentralization to the plant level and return to national-level bargaining are **impossible**.
+
+<span style="color:darkred">1995 bargaining round</span>: 
+
+ - highlighting potential pitfalls (for employers) of a **lack of cooperation** across industries within private sector manufacturing;
+ 
+ - underscoring disadvantages of completely uncoordinated (industry-level) bargaining in a context in which unions are capable of backing up their demands with actions that export-dependent industries find extremely expensive in highly competitive and tightly integrated global markets;
+ 
+ - reconfiguration of bargaining that is based on: 
+ 
+    * cooperation across industries;
+    
+    * cooperation between labor and capital within the export sector; 
+    
+    * abandoning encompassing forms of coordination and solidarity at the national level 
+
+
+1996: *Metall* joined with its white-collar counterpart (*SIF*) and other unions in export sectors `r fa("arrow-alt-circle-right", fill = "#cc0033")` invited other employers to engage in joint negotiations over wage formation.
+
+1997: 8 unions and 12 employer associations `r fa("arrow-alt-circle-right", fill = "#cc0033")` new "Agreement on Industrial Development and Wage Formation":
+
+ - establishing **mediators** to promote peaceful compromise within industries, as well as to broker coordination across industries in the exposed sector as a whole;
+ 
+ - importance for **unions**, but especially for *Metall*: prompting the *VI* to abandon its earlier efforts to push for full decentralization, ending years of struggle in this key industry over the structure of negotiations;
+ 
+ - importance for **employers**: the new conflict mediation procedures that lie at the center of the agreement, crucial to managing their heightened vulnerability to interruptions in production, including strikes; 
+
+ - **decoupling** bargaining in the exposed sector from that in the sheltered sector, facilitating a closer interface between white- and blue-collar contracts in industry;
+ 
+ - completely sidelining the national trade union confederation *LO* `r fa("arrow-alt-circle-right", fill = "#cc0033")` *LO* unenthusiastic about the industry agreement;
+ 
+ - the **export sector** (on both the labor and employer sides) opposed any government machinery (be it *SAF* or *LO*) that would circumvent or supersede the successful procedures they had worked out for themselves, a position that was respected in the legislation that ultimately emerged in 2000;
+ 
+ - public-sector workers concerned with preserving the right to strike `r fa("arrow-alt-circle-right", fill = "#cc0033")` hurried to conclude a voluntary agreement similar to the industry agreement `r fa("arrow-alt-circle-right", fill = "#cc0033")` keeping themselves out of government mediation machinery;
+
+ - prospect of state regulation `r fa("arrow-alt-circle-right", fill = "#cc0033")` greater attempts at self-regulation `r fa("arrow-alt-circle-right", fill = "#cc0033")` end of 2001: 16 agreements covering over half of the entire workforce
+ 
+ 
+2000: a new national Mediation Authority (*Medlingsinstitutet*) was established,
+replacing the old, weaker National Conciliator’s Office:
+
+ - intended only to **complement** the voluntary industry agreements;
+ 
+  - promotes and works around existing agreements and covers those industries (**transportation** and **retail** trade among them) that have no such voluntary agreement;
+  
+  - mediators only have power of **persuasion**, and cannot impose a solution. 
+  Less powerful than its **Danish** counterpart, despite similar goals -- to avoid industrial strife and especially to facilitate coordination across industries behind the lead of the exposed sectors
+  
+
+### Summary
+
+**Employer coordination** has proved more resilient than adherents to a strict neoliberal offensive thesis might have predicted. 
+
+Full decentralization to the plant level (as advocated in the 1980s and 1990s by prominent firms such as ABB, Volvo, and Ericsson) has been averted, and there is significant coordination across the industry sector as a whole.
+
+Confederal level (with white- and blue-collar workers negotiating separately) `r fa("arrow-alt-circle-right", fill = "#cc0033")` coordination across the blue-/ white-collar divide and across export industries.
+
+Since 1990s: union alliances based upon class increasingly replaced by **constellations based upon sector**.
+
+**Renegotiation** of the terms of coordination:
+
+1. Confederal bargaining `r fa("arrow-alt-circle-right", fill = "#cc0033")` industry-level bargaining: employers sloughed off several layers of coordination dragging on their ability to **restructure production** and to maneuver effectively in increasingly competitive international markets. 
+
+*VI*’s initial withdrawal from peak negotiations `r fa("arrow-alt-circle-right", fill = "#cc0033")` blow to solidaristic wage bargaining as traditionally practiced in Sweden. 
+
+Not that much neoliberal offensive by employers against labor, but the **intensified cooperation between labor and capital** in the metalworking industry at the expense of solidarity and coordination across sectors.
+
+2. **Relinking** metal industry to other export industries, thus bringing back coordination organized around what the industry sector as a whole can bear. 
+
+**Significant shift**:
+
+ - *LO* relegated to the distant sidelines when it comes to wage negotiations; 
+ 
+ - wage solidarity on the old terms is irretrievably gone;
+ 
+ - employers are "dead against" any return to national-level bargaining; 
+  
+ - employers have been massively aided by the most **powerful industrial unions** (especially *Metall*), which have their own reasons to support the arrangements that rest on a new form of accommodation between labor and capital within **key export
+industries**
+
 ## Conclusion
 
 Recent market developments `r fa("arrow-alt-circle-right", fill = "#cc0033")` intensification of **cooperation** between labor and management `r fa("arrow-alt-circle-right", fill = "#cc0033")` weakening traditional forms of coordination among employers, undermining solidarity among workers and the system of **institutional coordination**.
@@ -265,4 +398,4 @@ Common trends:
 
  - new, more virulent forms of **intensified cooperation** between management and labor; 
  
- - **<span style="color:white;background-color:black">but</span>**, growing gap between practices and outcomes within the new core and those outside it.
+ - **<span style="color:white;background-color:black">but</span>**, growing gap between practices and outcomes within the new core and those outside it
