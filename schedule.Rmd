@@ -34,3 +34,9 @@ knitr::opts_chunk$set(echo = FALSE)
 
 - [Notes](posts/lecture-2/) 
 
+
+### 4. Dec. 2, 2021 -- Lecture 3
+
+<p class="nospace">Materials:</p>
+
+- [Notes](posts/lecture-3/) 

@@ -1,0 +1,96 @@
+---
+title: "Institutionalizing Dualism"
+description: |
+  Lecture 3
+# author:
+#   - name: Kostiantyn Ovsiannikov
+date: 2021-11-27
+output:
+  distill::distill_article:
+    toc: true
+    toc_depth: 3
+    self_contained: false
+    # code_folding: hide
+creative_commons: CC BY
+---
+
+
+```{r setup, include=FALSE}
+library(knitr)
+library(here)
+library(ymlthis)
+library(tidyverse)
+library(fontawesome)
+library(readr)
+library(ggthemes)
+library(ggpubr)
+library(RColorBrewer)
+library(kableExtra)
+library(data.table)
+library(metathis)
+library(xaringanthemer)
+library(xaringanExtra)
+library(data.table)
+library(RefManageR)
+library(plm)
+library(mgcv)
+library(mgcViz)
+library(stargazer)
+library(plotly)
+library(htmlwidgets)
+library(modelsummary)
+```
+
+
+```{r echo=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(collapse = TRUE,
+                      fig.retina = 3)
+```
+
+
+::: {.define .article style="color: blue;"}
+[Palier, B., & Thelen, K. (2010). Institutionalizing dualism: Complementarities and change in France and Germany. *Politics & Society, 38* (1), 119-148.](https://journals.sagepub.com/doi/abs/10.1177/0032329209357888)
+:::
+
+## Argument
+
+> Contrary to theoretical accounts that suggest that institutional complementarities support stability and institutional reproduction, the authors argue that the linkages across these realms have helped to translate employer strategies that originated in the realm of industrial relations into a stable, new, and less egalitarian model with state support.
+
+
+Centralized collective bargaining `r fa("arrow-alt-circle-right", fill = "#cc0033")` firm-based bargaining.
+
+**Labor markets**: not solely deregulated, but the number of "atypical" or "nonstandard" employment relationships + working poor -- risen sharply in recent years.
+
+Significant changes `r fa("arrows-alt-h", fill = "blue")` high degree of formal institutional stability
+
+- negotiated and “sold” politically as ways of preserving, not undermining, traditional arrangements and the social order they reflect and represent.
+
+
+**Focus of the article**: 3 institutional arenas (industrial relations, labor markets, and social protection) in the political economies of <span style="color:darkred">Germany</span> and <span style="color:darkred">France</span>.
+
+Some authors: see it as liberalization and a move toward the American model.
+
+This article' **argument**: politics and the outcomes `r fa("arrow-alt-circle-right", fill = "#cc0033")` institutionalization of **<span style="color:white;background-color:black">new forms of dualism</span>** (less harsh than the American model but also distinctly less egalitarian than before). 
+
+**Cross-class coalitions** `r fa("arrow-alt-circle-right", fill = "#cc0033")` European countries not succumbing to liberalization, but also helping to promote **dualization**. 
+
+France \& Germany: 
+
+ - actors in the "core" economy well-positioned to defend traditional institutions and practices for themselves, but no longer serving as leaders;
+ 
+ - able to resist outright liberalization, but especially vulnerable to dualization
+
+
+More recent work on "dualization": **macro-political** perspective. 
+The theory by <span style="color:blue">David Rueda</span>: 
+
+ -labor market **insiders** and **outsiders** have distinct (and in many ways contradictory) preferences with respect to labor market policy;
+ 
+ - insiders: preferring strong employment protections over more flexibility to ease the reentry of outsiders into the labor market; 
+ 
+ - outsiders: preferring the opposite;
+
+ - **social-democratic** governments `r fa("arrow-alt-circle-right", fill = "#cc0033")` interests of **insiders** over those of outsiders;
+ 
+ - corporatist arrangements: do not increase social democrats' propensity to bring the interests of outsiders on board
