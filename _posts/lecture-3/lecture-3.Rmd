@@ -82,10 +82,10 @@ France \& Germany:
  - able to resist outright liberalization, but especially vulnerable to dualization
 
 
-More recent work on "dualization": **macro-political** perspective. 
+More recent work on "dualization": **macro-political** perspective.   
 The theory by <span style="color:blue">David Rueda</span>: 
 
- -labor market **insiders** and **outsiders** have distinct (and in many ways contradictory) preferences with respect to labor market policy;
+ - labor market **insiders** and **outsiders** have distinct (and in many ways contradictory) preferences with respect to labor market policy;
  
  - insiders: preferring strong employment protections over more flexibility to ease the reentry of outsiders into the labor market; 
  
@@ -93,4 +93,66 @@ The theory by <span style="color:blue">David Rueda</span>:
 
  - **social-democratic** governments `r fa("arrow-alt-circle-right", fill = "#cc0033")` interests of **insiders** over those of outsiders;
  
- - corporatist arrangements: do not increase social democrats' propensity to bring the interests of outsiders on board
+ - corporatist arrangements: do not stimulate social democrats to bring the interests of outsiders on board;
+ 
+ - social democracy: not a problem (as Rueda argues) but a part of the solution 
+(to resist dualism);
+
+ - dualist trends: far more pronounced in the continental European countries than in the Nordic countries, where social democratic parties are stronger and in some cases near hegemonic;
+ 
+ - **political coalitions** `r fa("arrow-alt-circle-right", fill = "#cc0033")` labor market policy, industrial relations, social protection.
+ 
+ - institutionalization of dualism `r fa("arrows-alt-h", fill = "blue")` industrial relations changes, labor market policy, and welfare state reforms. 
+ 
+Theoretical lenses: political economy `r fa("arrows-alt-h", fill = "blue")` **institutional complementarities**. 
+
+Core industrial sectors `r fa("arrow-alt-circle-right", fill = "#cc0033")` “standard employment relationships”:
+
+ - <span style="color:darkred">Germany</span>: large export firms in manufacturing (e.g., automobiles and machine
+tools);
+
+ - <span style="color:darkred">France</span>: nationalized firms like *Renault* + large public enterprises such as *EDF* (electricity) or *SNCF* (railways)
+ 
+**Manufacturing** industry `r fa("people-carry", fill = "green")` **unions** from the public sector `r fa("people-carry", fill = "green")` **state** policies `r fa("arrow-alt-circle-right", fill = "#cc0033")` diffusion, generalization, and **institutionalization** `r fa("arrow-alt-circle-right", fill = "#cc0033")` (almost) the whole population: directly for male wage earners and indirectly for their families.
+
+Popular opinion: connections across related institutional `r fa("arrow-alt-circle-right", fill = "#cc0033")` stabilizing force.  
+Reason: reformers in one area will have to consider as well the costs of possible “collateral damage” to **complementary institutions**.
+
+**<span style="color:white;background-color:black">However</span>**, reverse effect is possible: changes in one area destabilize relations in others.   
+More consistent with Germany and France: tight coupling among institutional realms `r fa("arrow-alt-circle-right", fill = "#cc0033")` reforms in adjoining policy arenas as well.
+ 
+Germany and France: responses to the economic crisis of the 1970s and 1980s organized around saving the **core manufacturing economy**:
+
+ - reducing the size of the workforce employed in the industrial sectors (extensive use of early retirement);
+ 
+ - increasing the productivity among remaining workers through increased internal flexibility and intensification of work; 
+ 
+ - negotiating new kinds of company-based deals with the remaining workforce that traded job security against increased productivity.
+
+
+**<span style="color:white;background-color:black">Collateral damage</span>**: 
+
+ - robbing the core industry of its ability to serve as lead for the rest of the economy;
+ 
+ - new types of jobs on the outside `r fa("arrow-alt-circle-right", fill = "#cc0033")` secondary labor market for **nonstandard employment** relationships;
+ 
+ - state institutionalization of these new types of employment: more **flexibility**, less security;
+ 
+ - "exceptional" employment growing `r fa("arrow-alt-circle-right", fill = "#cc0033")` not allowed to compete with the core sector (i.e., putting so much
+pressure on it as to compromise wages and security there);
+
+ - growth of the secondary labor market `r fa("arrow-alt-circle-right", fill = "#cc0033")` financial and political pressure for the development of a secondary type of welfare protection;
+ 
+ - traditionally **segregated risk pools**: 
+ 
+   * financed by social contributions paid by employees and employers (payroll and not general taxes) 
+   
+   * past contributions `r fa("arrow-alt-circle-right", fill = "#cc0033")` eligibility for benefits 
+   
+   * increase in unemployment and in the number of jobs that are (partially) exempted from contributions 
+   
+   * system not designed to finance the social protection of those who did not participate in the “normal” economy and contribute to the social insurance funds
+   
+   * undermining financial basis of the traditional regime 
+   
+ - welfare reforms: sharpening the line between **social insurance** (for those who had paid their social contributions) and **social assistance** + in-work benefits for those excluded from the normal labor market and for whom the state was asked to take responsibility.
