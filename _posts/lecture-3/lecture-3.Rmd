@@ -156,3 +156,87 @@ pressure on it as to compromise wages and security there);
    * undermining financial basis of the traditional regime 
    
  - welfare reforms: sharpening the line between **social insurance** (for those who had paid their social contributions) and **social assistance** + in-work benefits for those excluded from the normal labor market and for whom the state was asked to take responsibility.
+ 
+
+## Industrial Relations: Local "Egoism" and the Erosion of Collective Bargaining
+
+<span style="color:darkred">Germany</span>:
+
+ - **organization rate**: 35 \% in the 1970s `r fa("arrow-alt-circle-right", fill = "#cc0033")` below 25 \% today; 
+ 
+ - **labor movement**: relatively centralized, featuring a few noncompeting multi-industrial unions;
+ 
+ - **coordination**: manufacturing sector. 
+ High levels of employer organization `r fa("people-carry", fill = "green")` pattern bargaining led informally by the powerful Metalworkers Union (*IG Metall*) `r fa("arrow-alt-circle-right", fill = "#cc0033")` 1970-80s: corporatist models like those of Scandinavia.
+ 
+<span style="color:darkred">France</span>:
+
+ - **organization rate**: 20 \% in 1955 `r fa("arrow-alt-circle-right", fill = "#cc0033")` < 10 \% currently;
+ 
+ - **labor movement**: fragmented along ideological lines;
+ 
+ - **coordination**: nationalized companies `r fa("people-carry", fill = "green")` sector- or national-level agreements `r fa("arrow-alt-circle-right", fill = "#cc0033")` all firms active within the industry or the country, even if they are signed by only a minority of the trade unions and employers’ associations
+
+<span style="color:darkred">Both countries</span>: very high levels of **collective bargaining** coverage (at around 80 \%) `r fa("people-carry", fill = "green")` high degree of national-level harmonization of working conditions and wages.
+
+
+**<span style="color:white;background-color:black">However</span>**, since 1980s: shrinkage in the traditional "core" `r fa("arrow-alt-circle-right", fill = "#cc0033")` "inward turn" on the part of firms and sectors that once led the economy.
+
+<span style="color:darkred">Germany</span>:
+
+ - decline of employment in manufacturing `r fa("arrow-alt-circle-right", fill = "#cc0033")` union density among the actively employed: 32.7 \% in 1980 `r fa("arrow-alt-circle-right", fill = "#cc0033")` 21.7 \% in 2004;
+ 
+ - membership in German unions \& employer associations `r fa("arrows-alt-h", fill = "blue")` employment structures of 1960s, with strongholds in **manufacturing** and low representation in services
+ 
+<span style="color:darkred">France</span>:
+
+ - decline of employment in industrial sector: 25 \% in 1978 `r fa("arrow-alt-circle-right", fill = "#cc0033")` 14 \% in 2006; 
+ 
+ - leading public companies (unions' stronghold): **privatized** from mid-1980s and increasingly after 1993;
+ 
+ - **unionization**: 17 \% `r fa("arrow-alt-circle-right", fill = "#cc0033")` 8 \%; same composition: membership rates 3 times higher in big companies (public or private) than in small ones and 2~3 times higher in industry than in the service sectors (including services to industry)
+
+
+First oil crisis `r fa("arrow-alt-circle-right", fill = "#cc0033")` protecting core skilled workers. 
+
+"Inward turn" `r fa("arrow-alt-circle-right", fill = "#cc0033")` decentralized negotiations.
+
+<span style="color:darkred">Germany</span>: 
+
+ - 1972 *Revised Works Constitution Act* empowered works councils in their negotiations with management, but enhanced their autonomy vis-à-vis the overarching industrial unions;
+
+ - 1995: position of Metal Employers’ Association (*Gesamtmetall*) collapsed when plant **managers** proved unwilling to disrupt relations with their local works councils, refusing to heed the association’s call for a lockout;
+ 
+ - 2003: works councils in the West unwilling to continue striking for gains that would redound to the benefit of **workers** in the East. 
+
+<span style="color:darkred">France</span>: 
+
+ - *Auroux Laws* of 1983: government's idea to strengthen unions by anchoring their position in firms; 
+
+ - result: wounding up weakening unions by giving unorganized groups a boost;
+
+ - wave of privatizations was explicitly relieving large, former state-owned enterprises from their public responsibilities.
+
+
+**Statutory minimum wage** in Germany (€9.82): 
+
+ - <span style="color:darkred">supported</span> by: 
+ 
+   * German Food and Restaurant Workers’ Union (NGG) -- representing poorly organized workers with low skills
+   
+   * 2004 Germany’s new (and more encompassing) *United Service Sector Union* (ver.di) 
+   
+ - <span style="color:darkred">opposed</span> by:
+ 
+   * manufacturing unions -- enjoying considerable market power.
+   Fearing it would compromise bargaining autonomy and put downward pressure on wages in their sectors. 
+   
+   * main employer confederations, the *German Employers’ Association* (BDA), and the *Confederation of German Industries* (BDI).
+   
+In France (€9.67):
+
+ - relatively high statutory wage; preventing strong wage dispersion among regular full-time employees;
+ 
+ - previous (*Fordist*) model: every job linked to a coefficient included in salary scales; negotiated by unions and employers at the sectorial level; 
+ 
+ - 1980s onward: **range of wages** has increased as firms have added different bonuses to a basic wage.
