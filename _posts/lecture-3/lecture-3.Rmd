@@ -64,7 +64,7 @@ Centralized collective bargaining `r fa("arrow-alt-circle-right", fill = "#cc003
 
 Significant changes `r fa("arrows-alt-h", fill = "blue")` high degree of formal institutional stability
 
-- negotiated and “sold” politically as ways of preserving, not undermining, traditional arrangements and the social order they reflect and represent.
+- negotiated and "sold" politically as ways of **preserving**, not undermining, traditional arrangements and the social order they reflect and represent.
 
 
 **Focus of the article**: 3 institutional arenas (industrial relations, labor markets, and social protection) in the political economies of <span style="color:darkred">Germany</span> and <span style="color:darkred">France</span>.
@@ -100,13 +100,13 @@ The theory by <span style="color:blue">David Rueda</span>:
 
  - dualist trends: far more pronounced in the continental European countries than in the Nordic countries, where social democratic parties are stronger and in some cases near hegemonic;
  
- - **political coalitions** `r fa("arrow-alt-circle-right", fill = "#cc0033")` labor market policy, industrial relations, social protection.
+ - **political coalitions** `r fa("arrow-alt-circle-right", fill = "#cc0033")` labor market policy, industrial relations, social protection;
  
- - institutionalization of dualism `r fa("arrows-alt-h", fill = "blue")` industrial relations changes, labor market policy, and welfare state reforms. 
+ - institutionalization of dualism `r fa("arrows-alt-h", fill = "blue")` changes in industrial relations, labor market policy, and welfare state reforms. 
  
 Theoretical lenses: political economy `r fa("arrows-alt-h", fill = "blue")` **institutional complementarities**. 
 
-Core industrial sectors `r fa("arrow-alt-circle-right", fill = "#cc0033")` “standard employment relationships”:
+Core industrial sectors `r fa("arrow-alt-circle-right", fill = "#cc0033")` "standard employment relationships":
 
  - <span style="color:darkred">Germany</span>: large export firms in manufacturing (e.g., automobiles and machine
 tools);
@@ -115,8 +115,8 @@ tools);
  
 **Manufacturing** industry `r fa("people-carry", fill = "green")` **unions** from the public sector `r fa("people-carry", fill = "green")` **state** policies `r fa("arrow-alt-circle-right", fill = "#cc0033")` diffusion, generalization, and **institutionalization** `r fa("arrow-alt-circle-right", fill = "#cc0033")` (almost) the whole population: directly for male wage earners and indirectly for their families.
 
-Popular opinion: connections across related institutional `r fa("arrow-alt-circle-right", fill = "#cc0033")` stabilizing force.  
-Reason: reformers in one area will have to consider as well the costs of possible “collateral damage” to **complementary institutions**.
+Popular opinion: connections across related institutional domains `r fa("arrow-alt-circle-right", fill = "#cc0033")` stabilizing force.  
+Reason: reformers in one area will have to consider as well the costs of possible "collateral damage" to **complementary institutions**.
 
 **<span style="color:white;background-color:black">However</span>**, reverse effect is possible: changes in one area destabilize relations in others.   
 More consistent with Germany and France: tight coupling among institutional realms `r fa("arrow-alt-circle-right", fill = "#cc0033")` reforms in adjoining policy arenas as well.
@@ -213,7 +213,7 @@ First oil crisis `r fa("arrow-alt-circle-right", fill = "#cc0033")` protecting c
 
  - *Auroux Laws* of 1983: government's idea to strengthen unions by anchoring their position in firms; 
 
- - result: wounding up weakening unions by giving unorganized groups a boost;
+ - **<span style="color:white;background-color:black">result</span>**: wounding up weakening unions by giving unorganized groups a boost;
 
  - wave of privatizations was explicitly relieving large, former state-owned enterprises from their public responsibilities.
 
