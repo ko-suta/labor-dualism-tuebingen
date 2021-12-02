@@ -218,7 +218,7 @@ First oil crisis `r fa("arrow-alt-circle-right", fill = "#cc0033")` protecting c
  - wave of privatizations was explicitly relieving large, former state-owned enterprises from their public responsibilities.
 
 
-**Statutory minimum wage** in Germany (€9.82): 
+**Statutory minimum wage** in Germany (&#8364; 9.82): 
 
  - <span style="color:darkred">supported</span> by: 
  
@@ -233,7 +233,7 @@ First oil crisis `r fa("arrow-alt-circle-right", fill = "#cc0033")` protecting c
    
    * main employer confederations, the *German Employers’ Association* (BDA), and the *Confederation of German Industries* (BDI).
    
-In France (€9.67):
+In France (&#8364; 9.67):
 
  - relatively high statutory wage; preventing strong wage dispersion among regular full-time employees;
  
