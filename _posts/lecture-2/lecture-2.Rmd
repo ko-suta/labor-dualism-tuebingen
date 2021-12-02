@@ -263,7 +263,7 @@ Increasing adoption of performance-based wage systems `r fa("arrow-alt-circle-ri
 
 High level of **centralization**.
 
-1956-1983: **broad wage settlements** blue-collar union confederation *Landorganisationen* (LO) `r fa("arrows-alt-h", fill = "blue")` *National Confederation of Swedish Employers* (SAF).
+1956-1983: **broad wage settlements** -- blue-collar union confederation *Landorganisationen* (LO) `r fa("arrows-alt-h", fill = "blue")` *National Confederation of Swedish Employers* (SAF).
 
 1980-90s: **collapse of the system**, as SAF eliminated its own bargaining unit.
 
@@ -307,7 +307,7 @@ Technological changes in engineering `r fa("arrow-alt-circle-right", fill = "#cc
 
 VI’s break with the system `r fa("arrow-alt-circle-right", fill = "#cc0033")` **uncertainty** `r fa("arrows-alt-h", fill = "blue")` demands from firms like <span style="color:darkred">Volvo</span>, <span style="color:darkred">Ericsson</span>, and <span style="color:darkred">ABB</span> for further **decentralization** to the plant level. 
 
-Plus, *SAF* dismantling of its own bargaining apparatus in 1990.
+Plus, *SAF* dismantling its own bargaining apparatus in 1990.
 Employers continued to oppose any recentralization of national bargaining under the auspices of the *LO* and *SAF*.
 
 But, other firms and sectors advocating for more **intermediate solution** of industry-level negotiations `r fa("arrow-alt-circle-right", fill = "#cc0033")` both full decentralization to the plant level and return to national-level bargaining are **impossible**.
