@@ -239,4 +239,141 @@ In France (&#8364; 9.67):
  
  - previous (*Fordist*) model: every job linked to a coefficient included in salary scales; negotiated by unions and employers at the sectorial level; 
  
- - 1980s onward: **range of wages** has increased as firms have added different bonuses to a basic wage.
+ - 1980s onward: **range of wages** increased as firms added different bonuses to a basic wage;
+ 
+ - divide between workers:
+ 
+   * **large firms**: 
+   
+     1) favorable deals through local bargaining for regular employees
+     2) buying cheaper labor from the outside instead of hiring staff to perform services such as cleaning, security, recycling, and transportation `r fa("arrow-alt-circle-right", fill = "#cc0033")`
+     3) 1959 and 2006: share of services bought by firms **multiplied by 2.5** -- fourth largest category of intermediary expenditure
+   
+   * **smaller firms**: outsourcing, atypical working contracts, protection and working conditions deteriorated
+   
+   
+1993-2000 laws on working-time reduction:
+
+ - large industrial firms and the public sector -- **unions** maintaining a presence.
+ Trading working-time flexibility and increased productivity for **job security**;
+ 
+ - small firms and low-skill service sectors: working arrangements and conditions deteriorated and **external flexibility** has increased;
+ 
+ - high-skill and white-collar workers: working-time reduction `r fa("arrow-alt-circle-right", fill = "#cc0033")` improvements in work and life quality;
+ 
+ - lower paid and less skilled workers: income losses, more variable schedules, and intensified work.
+
+
+Germany and France -- industrial restructuring in the 1980s and 1990s:
+
+ - reducing the size of the workforce and increasing the productivity of the remaining workers `r fa("arrow-alt-circle-right", fill = "#cc0033")` increasing competitiveness of core sectors by reducing the size of the workforce and increasing the productivity of the remaining workers;
+ 
+ - massive use of early retirement `r fa("arrow-alt-circle-right", fill = "#cc0033")` stabilizing the remaining jobs that became harder and more flexible than before 
+ 
+ - rather than conflict between labor and capital, intensification of cooperation between **managers and workers** in leading firms (Germany’s manufacturing sector and in France’s large companies);
+ 
+ - exacerbated coordination at higher levels; 
+ 
+ - reason: unanticipated working out of developments in collective bargaining, some of which had been designed to empower organized labor; 
+ 
+ - structures put in place in the 1970s and early 1980s to enhance labor’s voice at the plant level `r fa("arrow-alt-circle-right", fill = "#cc0033")` fueling trends toward dualism when economic hard times hit
+ 
+ 
+## Labor market reforms: the institutionalization of a secondary labor market
+
+Labor market reforms -- not affecting the status of core workers. 
+
+<span style="color:darkred">Germany</span>: 
+ 
+ - legal stipulations; provisions in collective contracts `r fa("arrow-alt-circle-right", fill = "#cc0033")` protecting older workers and employees with long tenure;
+ 
+ - large and well-unionized companies: strong works councils with significant rights in the area of plant personnel policy;
+ 
+ - mid-1980s: increase in "atypical" jobs;
+ 
+ - late 1990s: numbers have increased steadily, even as their pay and benefits
+have declined relative to "regular" employees; 
+
+ - reforms in the 1980s and 1990s:
+ 
+   * agency workers: 3 months in 1972 `r fa("arrow-alt-circle-right", fill = "#cc0033")` 12 months by 1997 `r fa("arrow-alt-circle-right", fill = "#cc0033")` **unlimited** in 2003; 
+   
+   * fixed-term contracts: 1985 \& 1996 reforms --  up to 2 years without special justification;
+   
+ - growth in atypical employment (primarily: mini-jobs):
+ 
+   * previously occupied by students, housewives, and others who did not rely on such jobs as primary sources of income or benefits;
+   
+   * traditionally exempt from all contributions up to a threshold of earnings (in 1998 the limit was DM630; 
+   
+   * employees paid no payroll taxes at all;
+   
+   * employers could pass their taxes on to the workers, who in many cases were tax exempt;
+   
+   * non-wage labor costs grew in the 1980s and 1990s `r fa("arrow-alt-circle-right", fill = "#cc0033")` employers found this arrangement increasingly attractive `r fa("arrow-alt-circle-right", fill = "#cc0033")` number of such jobs increased well beyond the originally intended clientele
+   
+ - 1999 reform (not welcomed by employers):
+ 
+   * replacing employer tax with employer **contributions** into the social insurance funds amounting to 22 percent of gross earnings (without, however, requiring matching contributions on the part of the worker). 
+   
+ - 2002 reform (welcomed by employers):
+ 
+   * raising threshold of earnings for mini-jobs (to a maximum 400 Euro per month),
+   * eliminating a previous limit of 15 hours per month,
+   * allowing mini-jobs as second jobs
+   
+Mini-jobs: 2 million in 1991 `r fa("arrow-alt-circle-right", fill = "#cc0033")` 4.7 million in 2005. 
++ 1.7 million mini-jobs as secondary employment (thanks to the 2002 legislation).
+ 
+**Gender component**: new possibilities for women to enter the labor market. 
+
+**<span style="color:white;background-color:black">However</span>**: conflicts of interest among women who participate in the labor market for different reasons and on different terms:
+
+ - single-mother mini-jobbers in Germany: 
+ 
+   * welcoming regularization of benefits
+   
+   * incentives for working in mini-jobs (being contribution-free on the worker side) `r fa("arrow-alt-circle-right", fill = "#cc0033")` often yielding higher take-home pay than regular part-time work
+   
+   * fearing wage increases `r fa("arrow-alt-circle-right", fill = "#cc0033")` taking them above the upper earnings limit attached to mini-jobs `r fa("arrow-alt-circle-right", fill = "#cc0033")` push them into an employment zone (subject to contributions) `r fa("arrow-alt-circle-right", fill = "#cc0033")` drastically reducing their take-home pay
+ 
+ - women who already enjoy benefits through their **insider husbands** and are simply supplementing family income: 
+ 
+   * part of the (manufacturing-based) coalition `r fa("arrow-alt-circle-right", fill = "#cc0033")`
+   * defending the status and positions of their insider husbands (mostly successfully)
+
+
+<span style="color:darkred">France</span>:
+
+ - 1988 Mitterand reelection: reinstated protections for regular workers; 
+ 
+ - 1993: required social plans to contain detailed provisions concerning the workers to be dismissed;
+ 
+ - shrinking core `r fa("arrow-alt-circle-right", fill = "#cc0033")` outsourcing of certain functions to smaller firms that could make use of more flexible forms of employment;
+ 
+ - expansion of services (construction, restaurants, goods delivery, child care, elderly care) `r fa("arrow-alt-circle-right", fill = "#cc0033")` rise of a secondary labor market `r fa("arrows-alt-h", fill = "blue")` "non-standard" work contracts and lower standards (for pay, working conditions, and social protection); 
+ 
+ - **trade unions**: successfully resisted major changes in employment protection for core workers, but experienced growing pressure to accept **increased flexibility** for other types of jobs.
+ 
+
+**Atypical jobs** (fixed-term, part-time, and agency jobs): 3 \% in 1970 `r fa("arrow-alt-circle-right", fill = "#cc0033")` 25 \% by 2007. 
+Currently, **70 \%** of the new job contracts are currently "atypical".
+
+1986: enabling firms to hire temporary workers for their normal activities + extending the maximum term to 2 years.
+
+1990-2000s: creation of subsidized, fixed-term, low-paid jobs for low-skilled workers.
+Peaked in 2005 at around 500,000.
+
+**Official goal**: enabling the unskilled young and long-term unemployed to remain in the mainstream of society by providing a minimum income in exchange for some kind of activity, be it work or training.
+
+1990 -- 2000: 
+
+ - short-term employment grew by 60 percent; 
+ 
+ - trainees, recipients of special contracts via public financing: + 65 \%; 
+ 
+ - temporary employment grew by 130 percent;
+ 
+ - regular employment increased by only 2 \%
+ 
+ 
