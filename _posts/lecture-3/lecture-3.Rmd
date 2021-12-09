@@ -268,7 +268,7 @@ Germany and France -- industrial restructuring in the 1980s and 1990s:
 
  - reducing the size of the workforce and increasing the productivity of the remaining workers `r fa("arrow-alt-circle-right", fill = "#cc0033")` increasing competitiveness of core sectors by reducing the size of the workforce and increasing the productivity of the remaining workers;
  
- - massive use of early retirement `r fa("arrow-alt-circle-right", fill = "#cc0033")` stabilizing the remaining jobs that became harder and more flexible than before 
+ - massive use of early retirement `r fa("arrow-alt-circle-right", fill = "#cc0033")` stabilizing the remaining jobs that became harder and more flexible than before; 
  
  - rather than conflict between labor and capital, intensification of cooperation between **managers and workers** in leading firms (Germany’s manufacturing sector and in France’s large companies);
  
@@ -376,4 +376,103 @@ Peaked in 2005 at around 500,000.
  
  - regular employment increased by only 2 \%
  
+
+Unions tend to support the protection of the core and flexibilization of the periphery `r fa("arrow-alt-circle-right", fill = "#cc0033")` **dual reform**
+
+**Women**: 
+
+ - fill 80 \% of part-time jobs;
+ - 30 \% working part-time
+
  
+## The Dualizing Dynamic of Welfare Reforms in France and Germany
+
+1970s and 1980s: increasing numbers of inactive workers `r fa("arrow-alt-circle-right", fill = "#cc0033")` supported by fewer active workers `r fa("arrow-alt-circle-right", fill = "#cc0033")` driving up non-wage labor costs (to more than 40 \% of gross wages) and dampening job creation.
+
+**Core problem**: growing number of workers making less contributions, drawing out of more from the system
+
+Occupational insurance/contributory benefits `r fa("arrows-alt-h", fill = "blue")` nonoccupational/noncontributory benefits (taken care by the state)
+
+
+**<span style="color:darkred">France</span>**:
+
+1984: those with the shortest contribution records are **excluded** from any entitlement to unemployment insurance benefits `r fa("arrow-alt-circle-right", fill = "#cc0033")` pressing social problem
+
+1988: RMI (*Revenu Minimum d’Insertion*):
+
+ - **noncontributory** scheme for persons with no or very low income (in some cases having exhausted their right to unemployment insurance);
+ - guarantees a minimum level of income-tested differential benefits to anyone aged 25 or older;
+ - benefits are attached to an activation dimension, in the form of a contract between the recipient and "society";
+ - recipients: obliged to take part in some **reinsertion program** (intensified searching for employment, vocational training etc.);
+ - was supposed to be delivered to 300,000~400,000 people. 
+ However, by March 2009, 1.13 million persons (3 \% of the French active population) were receiving RMI;
+ - currently -- **10 \%** of French population receiving welfare;
+ - easing cuts in the unemployment insurance system `r fa("arrow-alt-circle-right", fill = "#cc0033")` from insurance benefits `r fa("arrow-alt-circle-right", fill = "#cc0033")` to **social assistance**
+ 
+1992: AUD (*Allocation Unique Dégressive*):
+
+ - **deggressivity** principle -- unemployed person's insurance benefits expire entirely (after thirty months) `r fa("arrow-alt-circle-right", fill = "#cc0033")` must rely on tax-financed income-tested benefits;
+ - later on (2001) -- incentives to return to the job market (negative income tax for low-paid jobs);
+ - 2009 onward -- *Revenu de solidarité active* (an income given to those entering subsidized low-skill, low-paid jobs) is planned to progressively replace RMI
+ 
+
+**<span style="color:darkred">Germany</sobservedpan>**:
+
+1990s: social insurance system became untenable:
+
+ - staggering costs of supporting the early retired and the unemployed (particularly in the East); 
+ - division of labor between social insurance funds and state assistance became increasingly blurred and ultimately broke down;
+ - government repeatedly called on to bail out the insurance funds on a massive scale
+ 
+From 1998 onward:
+
+ - Red-Green government policies similar to French;
+ - **sharper line** between those supported by insurance funds and on a contributory basis and those on state-financed, income-tested assistance;
+ - Harz reforms
+ 
+**Harz IV**:
+
+ - reducing the duration of unemployment insurance; 
+   * **older** workers: 32 `r fa("arrow-alt-circle-right", fill = "#cc0033")` 18 months 
+   * **other** workers: 32 `r fa("arrow-alt-circle-right", fill = "#cc0033")` 12 months
+   
+ - removing middle tier of unemployment assistance `r fa("arrow-alt-circle-right", fill = "#cc0033")` merging this with **social assistance** `r fa("arrow-alt-circle-right", fill = "#cc0033")`;
+ - exhausting unemployment insurance benefits `r fa("arrow-alt-circle-right", fill = "#cc0033")` flat-rate income-tested social assistance `r fa("arrow-alt-circle-right", fill = "#cc0033")`;
+ - *Arbeitslosengeld II* (ALG II) -- designed for those of employable age who are "able to work" and thus obliged to seek employment;
+ - played into the previous labor market divisions (though not necessarily benefiting insiders -- contra Rueda): 
+   * workers in **large core firms** not likely to become unemployed in the first place
+   * skilled workers (particularly in the West) are highly unlikely to stay unemployed for more than a year
+   * preserving a social insurance logic for skilled workers in manufacturing
+   * for the less-skilled: breaking with status-protection `r fa("arrow-alt-circle-right", fill = "#cc0033")` poverty reduction
+   * meeting social insurance institutions demands since the 1990s: benefit components not based on contributions out of own earnings (*versicherungsfremde Leistungen*) should not be borne by the community of insured but rather by the state
+ 
+ - centrist unions such as the chemical workers union (representing **highly-skilled workers** with stable employment) overall **supporting** reforms;
+ - **metalworkers union** -- motivated to maintain unemployment support `r fa("arrows-alt-h", fill = "blue")` "bridge" to full pensions on which early retirement agreements with employers rested `r fa("arrow-alt-circle-right", fill = "#cc0033")` **opposing** reforms;
+ - **low-skill workers** and service-sector unions (*ver.di*) matter of concern: ALG II recipients have to accept any legal job they are offered, whether or not it is covered by a collective bargain;
+ - contributions for regular workers (and their employers) lowered from 6.5 to 3.3 \% by 2008
+ 
+ 
+**Regional dimension** (disadvantaged East vis-à-vis West):
+
+ - long-term unemployment is a much bigger problem than in the West;
+ - collective bargaining coverage (since 1980s it has included protections against layoffs of older and/or long-serving workers) is much lower than in the West;
+ - protests & strikes -- mostly East participating, **no national solidarity** among unions
+
+
+**<span style="color:darkred">France & Germany</span>**:
+
+ - 1990s: changes not as a means of dismantling the Bismarckian welfare state but of **shoring it up** in a changed economic environment (slow growth, high unemployment, aging population);
+ - recent reforms: strengthened the link between the amount of contribution and the volume of the benefits;
+ - welfare system: relying more heavily on taxation to support the (noncontributing) working poor
+ 
+ 
+Differences with a would-be typical **neoliberal deregulation**:
+ 
+ - atypical jobs are still subject to extensive state regulation, and even outsiders benefit
+from state support `r fa("arrow-alt-circle-right", fill = "#cc0033")` minimum income is guaranteed;
+ - Hartz IV (the harshest of the recent reforms) -- provided a boost for an estimated one-third of those who were previously in the lowest tier of the old social assistance system;
+ - **<span style="color:white;background-color:black">however</span>**, played a role in the observed increases in income inequality and poverty since the mid-1980s for Germany;
+ - somewhat more egalitarian situation for France (stable inequality and poverty rates) despite weaker unions;
+ - expansion of the basic safety net `r fa("arrow-alt-circle-right", fill = "#cc0033")` check on the growth of poverty in France
+
+
