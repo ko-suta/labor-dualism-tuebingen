@@ -151,3 +151,28 @@ Strictly regulated labor markets: costly dismissals `r fa("arrow-alt-circle-righ
 
  - Finland, Poland, Sweden: high share of temps but no reforms
  
+ 
+### Temporary employment
+
+Incentives:
+
+- making temporary contracts more expensive for employers; 
+- offering monetary incentives to allow for transitions into permanent jobs 
+
+<span style="color:darkred">Slovenia</span> 2013 labor market reform: 
+
+ - raised employers’ unemployment insurance contributions for temporary jobs; 
+ - if temporary job is converted into a permanent one `r fa("arrow-alt-circle-right", fill = "#cc0033")` employers are exempted from contributions for a limited time;
+ - 2013 reform limited temporary contracts to 2 years
+ 
+<span style="color:darkred">France</span>: employers are exempt from contributions for a limited period if they hire younger or older workers on **permanent contracts**.
+
+<span style="color:darkred">Italy</span> higher contribution for temporary than permanent workers.
+
+<span style="color:darkred">Spain</span> from 2015 onward: 
+
+ - temporary workers receive a higher severance pay at the end of their contract;
+ - payment corresponds to the salary of 12 days; much lower than for permanent workers
+ 
+ 
+<span style="color:darkred">Netherlands</span> 2015: 3 `r fa("arrow-alt-circle-right", fill = "#cc0033")` 2 years
