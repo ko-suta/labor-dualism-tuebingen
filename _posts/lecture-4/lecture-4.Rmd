@@ -154,7 +154,7 @@ Strictly regulated labor markets: costly dismissals `r fa("arrow-alt-circle-righ
  
 ### Temporary employment
 
-Incentives:
+**Incentives**:
 
 - making temporary contracts more expensive for employers; 
 - offering monetary incentives to allow for transitions into permanent jobs 
@@ -176,3 +176,97 @@ Incentives:
  
  
 <span style="color:darkred">Netherlands</span> 2015: 3 `r fa("arrow-alt-circle-right", fill = "#cc0033")` 2 years
+
+
+**Re-regulation** (opposite tendency):
+
+<span style="color:darkred">Italy</span>: 
+
+ - abolished the need to indicate a valid reason for temporary employment;
+ - extended the maximum duration as well as the possible number of renewals (also in Spain and Greece);
+ - **<span style="color:white;background-color:black">however</span>**, firms not allowed to use temporary contracts for **> 20\%** of the workforce and Spain
+ 
+**Overall trends**: 
+
+ - lower dismissal costs for permanent workers + moderate / ambiguous re-regulation of temporary contracts;
+ 
+ - long-term declining trend in permanent hirings (Austria, Belgium and Luxembourg);
+ 
+ - exceptions: Baltic states, Denmark, Romania
+ 
+ - EPL for temps: significantly related to a decrease in temporary employment (when not controlling for country- and year-effects)
+
+
+### Unemployment benefits
+
+**Flexicurity** rationale: 
+
+ - access to social benefits
+ 
+ - avoiding double disadvantage: losing job + lacking access to unemployment insurance benefits
+ 
+ 
+<span style="color:darkred">Italy</span>:
+
+ - 2013: **Assicurazione Sociale per l’Impiego* (ASPI) `r fa("arrow-alt-circle-right", fill = "#cc0033")` more generous and encompassing system;
+ 
+ - 2015: (NASPI) more permissive eligibility criteria (13 weeks of contributions in the 4 years before unemployment);
+ 
+ - new unemployment benefit scheme for atypical employees
+ 
+ 
+<span style="color:darkred">France</span>:
+4 months of employment over the last 28 months `r fa("arrow-alt-circle-right", fill = "#cc0033")` eligible for 4-months+ unemployment insurance benefits.
+
+
+<span style="color:darkred">Spain</span>:
+
+ - more access to unemployment benefits for temporary and younger workers as well as self-employed;
+ 
+ - stronger work incentives and activation policies for the unemployed
+
+2007-2015 **Overall trend**: declining share of short-term unemployed receiving benefits 
+
+
+### Active labor market policies (ALMPs)
+
+**Segmented labor markets**: vulnerable workers have a higher risk of becoming unemployed `r fa("arrow-alt-circle-right", fill = "#cc0033")` entering into contact with public employment services (PES).
+
+Effective ALMPs and PESs `r fa("arrow-alt-circle-right", fill = "#cc0033")`:
+
+ - quick and sustainable re-employment;
+ - subsidizing hirings on a temporary basis (has its downsides as well); 
+ - incentives for conversions into permanent positions
+ 
+Increased **training expenditure**: Austria, Finland, Sweden
+
+Increased **expenditure per unemployed**: Germany (note: declining number of unemployed), Denmark, Sweden, Estonia
+
+**Low-skilled workers**: 
+
+ - prime beneficiaries of training;
+ - but, *minority* of all temporary workers in all countries
+ 
+> **1/4** ~ **1/3** of all temporary workers have tertiary education `r fa("arrow-alt-circle-right", fill = "#cc0033")` unlikely to benefit from ALMP intervention (e.g. training) `r fa("arrow-alt-circle-right", fill = "#cc0033")` still insufficient jobs for skilled workers
+
+## Conclusions
+
+EU-states:
+
+ - policy initiatives `r fa("arrow-alt-circle-right", fill = "#cc0033")` intending to overcome labor market divides;
+ 
+ - **<span style="color:white;background-color:black">however</span>**, temporary employment `r fa("arrow-alt-circle-up", fill = "#cc0033")`; youth unemployment remains high
+ 
+1. Temporary employment can serve as **bridge** to permanent jobs `r fa("arrow-alt-circle-right", fill = "#cc0033")` prohibitive regulation -- not an option
+
+2. **Deregulation** of permanent contracts `r fa("arrow-alt-circle-up", fill = "#cc0033")` not automatically translating into encompassing job security
+
+<span style="color:darkred">France</span> **insecurity bonuses**: employers paying a bonus to the worker (10\% of the total gross wage) if the employment relationship is not continued after the contract has expired.
+
+Main **challenges**:
+
+ - political preferences: reducing social rights of "insiders" `r fa("arrow-alt-circle-right", fill = "#cc0033")` difficult to organize democratic majorities; 
+ 
+ - expanding social protection for vulnerable workers `r fa("arrow-alt-circle-right", fill = "#cc0033")` resistance from the majority with a low unemployment risk (net payers);
+ 
+ - insufficient labor demand `r fa("arrow-alt-circle-right", fill = "#cc0033")` workers and policy-makers view temporary employment as the **lesser of two evils**
