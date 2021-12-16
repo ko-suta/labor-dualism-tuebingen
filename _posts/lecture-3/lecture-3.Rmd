@@ -304,7 +304,7 @@ have declined relative to "regular" employees;
  
    * previously occupied by students, housewives, and others who did not rely on such jobs as primary sources of income or benefits;
    
-   * traditionally exempt from all contributions up to a threshold of earnings (in 1998 the limit was DM630; 
+   * traditionally exempt from all contributions up to a threshold of earnings (in 1998 the limit was DM630); 
    
    * employees paid no payroll taxes at all;
    
@@ -314,7 +314,7 @@ have declined relative to "regular" employees;
    
  - 1999 reform (not welcomed by employers):
  
-   * replacing employer tax with employer **contributions** into the social insurance funds amounting to 22 percent of gross earnings (without, however, requiring matching contributions on the part of the worker). 
+   * replacing employer tax with employer **contributions** into the social insurance funds amounting to 22 percent of gross earnings (without, however, requiring matching contributions on the part of the worker); 
    
  - 2002 reform (welcomed by employers):
  
@@ -362,17 +362,17 @@ Currently, **70 \%** of the new job contracts are currently "atypical".
 1986: enabling firms to hire temporary workers for their normal activities + extending the maximum term to 2 years.
 
 1990-2000s: creation of subsidized, fixed-term, low-paid jobs for low-skilled workers.
-Peaked in 2005 at around 500,000.
+Peaked in 2005 at around **500,000**.
 
 **Official goal**: enabling the unskilled young and long-term unemployed to remain in the mainstream of society by providing a minimum income in exchange for some kind of activity, be it work or training.
 
 1990 -- 2000: 
 
- - short-term employment grew by 60 percent; 
+ - short-term employment grew by 60 \%; 
  
  - trainees, recipients of special contracts via public financing: + 65 \%; 
  
- - temporary employment grew by 130 percent;
+ - temporary employment grew by 130 \%;
  
  - regular employment increased by only 2 \%
  
@@ -405,9 +405,9 @@ Occupational insurance/contributory benefits `r fa("arrows-alt-h", fill = "blue"
  - benefits are attached to an activation dimension, in the form of a contract between the recipient and "society";
  - recipients: obliged to take part in some **reinsertion program** (intensified searching for employment, vocational training etc.);
  - was supposed to be delivered to 300,000~400,000 people. 
- However, by March 2009, 1.13 million persons (3 \% of the French active population) were receiving RMI;
+ However, by March 2009, **1.13 million** persons (3 \% of the French active population) were receiving RMI;
  - currently -- **10 \%** of French population receiving welfare;
- - easing cuts in the unemployment insurance system `r fa("arrow-alt-circle-right", fill = "#cc0033")` from insurance benefits `r fa("arrow-alt-circle-right", fill = "#cc0033")` to **social assistance**
+ - easing cuts in the unemployment insurance system: insurance benefits `r fa("arrow-alt-circle-right", fill = "#cc0033")` **social assistance**
  
 1992: AUD (*Allocation Unique Dégressive*):
 
@@ -427,7 +427,7 @@ Occupational insurance/contributory benefits `r fa("arrows-alt-h", fill = "blue"
 From 1998 onward:
 
  - Red-Green government policies similar to French;
- - **sharper line** between those supported by insurance funds and on a contributory basis and those on state-financed, income-tested assistance;
+ - **sharper line** between those supported by insurance funds + on a contributory basis and those on state-financed, income-tested assistance;
  - Harz reforms
  
 **Harz IV**:
@@ -436,8 +436,8 @@ From 1998 onward:
    * **older** workers: 32 `r fa("arrow-alt-circle-right", fill = "#cc0033")` 18 months 
    * **other** workers: 32 `r fa("arrow-alt-circle-right", fill = "#cc0033")` 12 months
    
- - removing middle tier of unemployment assistance `r fa("arrow-alt-circle-right", fill = "#cc0033")` merging this with **social assistance** `r fa("arrow-alt-circle-right", fill = "#cc0033")`;
- - exhausting unemployment insurance benefits `r fa("arrow-alt-circle-right", fill = "#cc0033")` flat-rate income-tested social assistance `r fa("arrow-alt-circle-right", fill = "#cc0033")`;
+ - removing middle tier of unemployment assistance `r fa("arrow-alt-circle-right", fill = "#cc0033")` merging this with **social assistance**;
+ - exhausting unemployment insurance benefits `r fa("arrow-alt-circle-right", fill = "#cc0033")` flat-rate income-tested social assistance;
  - *Arbeitslosengeld II* (ALG II) -- designed for those of employable age who are "able to work" and thus obliged to seek employment;
  - played into the previous labor market divisions (though not necessarily benefiting insiders -- contra Rueda): 
    * workers in **large core firms** not likely to become unemployed in the first place
