@@ -1,0 +1,225 @@
+---
+title: "Economic Distress, Labor Market Reforms, and Dualism in Japan and Korea"
+description: |
+  Lecture 5
+#author: []
+date: 2021-12-22
+output:
+  distill::distill_article:
+    toc: true
+    toc_depth: 3
+    self_contained: false
+    # code_folding: hide
+creative_commons: CC BY
+---
+
+<div class="snowflakes" aria-hidden="true">
+  <div class="snowflake">
+  ❅
+  </div>
+  <div class="snowflake">
+  ❅
+  </div>
+  <div class="snowflake">
+  ❆
+  </div>
+  <div class="snowflake">
+  ❄
+  </div>
+  <div class="snowflake">
+  ❅
+  </div>
+  <div class="snowflake">
+  ❆
+  </div>
+  <div class="snowflake">
+  ❄
+  </div>
+  <div class="snowflake">
+  ❅
+  </div>
+  <div class="snowflake">
+  ❆
+  </div>
+  <div class="snowflake">
+  ❄
+  </div>
+</div>
+
+
+```{css echo = FALSE}
+/*Source: https://codepen.io/codeconvey/pen/xRzQay*/
+  
+/* customizable snowflake styling */
+.snowflake {
+  color: lightblue;
+  font-size: 5em;
+  font-family: Arial;
+  text-shadow: 0 0 1px #000;
+}
+@-webkit-keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}
+@-webkit-keyframes snowflakes-shake{
+    0%{-webkit-transform:translateX(0px);transform:translateX(0px)}
+   50%{-webkit-transform:translateX(80px);transform:translateX(80px)}
+  100%{-webkit-transform:translateX(0px);transform:translateX(0px)}}
+@keyframes snowflakes-fall{
+    0%{top:-10%}
+  100%{top:100%}}
+@keyframes snowflakes-shake{
+    0%{transform:translateX(0px)}
+   50%{transform:translateX(80px)}
+  100%{transform:translateX(0px)}}
+.snowflake{
+  position:fixed;
+  top:-10%;
+  z-index:9999;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
+  cursor:default;
+  -webkit-animation-name:snowflakes-fall,snowflakes-shake;
+  -webkit-animation-duration:10s,3s;
+  -webkit-animation-timing-function:linear,ease-in-out;
+  -webkit-animation-iteration-count:infinite,infinite;
+  -webkit-animation-play-state:running,running;
+  animation-name:snowflakes-fall,snowflakes-shake;
+  animation-duration:10s,3s;
+  animation-timing-function:linear,ease-in-out;
+  animation-iteration-count:infinite,infinite;
+  animation-play-state:running,running}
+.snowflake:nth-of-type(0){left: 1%;-webkit-animation-delay:  0s,  0s;animation-delay:  0s,  0s}
+.snowflake:nth-of-type(1){left:10%;-webkit-animation-delay:  1s,  1s;animation-delay:  1s,  1s}
+.snowflake:nth-of-type(2){left:20%;-webkit-animation-delay:  6s,0.5s;animation-delay:  6s,0.5s}
+.snowflake:nth-of-type(3){left:30%;-webkit-animation-delay:  4s,  2s;animation-delay:  4s,  2s}
+.snowflake:nth-of-type(4){left:40%;-webkit-animation-delay:  2s,  2s;animation-delay:  2s,  2s}
+.snowflake:nth-of-type(5){left:50%;-webkit-animation-delay:  8s,  3s;animation-delay:  8s,  3s}
+.snowflake:nth-of-type(6){left:60%;-webkit-animation-delay:  6s,  2s;animation-delay:  6s,  2s}
+.snowflake:nth-of-type(7){left:70%;-webkit-animation-delay:2.5s,  1s;animation-delay:2.5s,  1s}
+.snowflake:nth-of-type(8){left:80%;-webkit-animation-delay:  1s,  0s;animation-delay:  1s,  0s}
+.snowflake:nth-of-type(9){left:90%;-webkit-animation-delay:  3s,1.5s;animation-delay:  3s,1.5s}
+```
+
+
+```{r setup, include=FALSE}
+library(knitr)
+library(here)
+library(ymlthis)
+library(tidyverse)
+library(fontawesome)
+library(readr)
+library(ggthemes)
+library(ggpubr)
+library(RColorBrewer)
+library(kableExtra)
+library(data.table)
+library(metathis)
+library(xaringanthemer)
+library(xaringanExtra)
+library(data.table)
+library(RefManageR)
+library(plm)
+library(mgcv)
+library(mgcViz)
+library(stargazer)
+library(plotly)
+library(htmlwidgets)
+library(modelsummary)
+```
+
+
+```{r echo=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(collapse = TRUE,
+                      fig.retina = 3)
+```
+
+
+::: {.define .article style="color: blue;"}
+[Song, J. (2012). Economic distress, labor market reforms, and dualism in Japan and Korea. *Governance, 25* (3), 415-438.](https://doi.org/10.1111/j.1468-0491.2012.01566.x)
+:::
+
+> Path-dependent trajectories of labor market and social protection reforms biased in favor of the interests of **labor market insiders** explain the rapid rise of **dualism** and inequality in the two countries.
+
+
+## Intro
+
+**VoC** framework: does not provide a sufficient explanation of the variations in labor market dualism and inequality within CMEs.
+
+<span style="color:darkred">Japan</span>: conservative policymakers `r fa("arrows-alt-h", fill = "blue")` large firms `r fa("arrows-alt-h", fill = "blue")` core regular workers `r fa("arrow-alt-circle-right", fill = "#cc0033")` shielding labor market insiders from regulatory pressure + eroding regulations protecting outsiders for flexibility `r fa("arrow-alt-circle-right", fill = "#cc0033")` **dualism and inequality**
+
+<span style="color:darkred">Korea</span>: strength of large **chaebol** unions `r fa("arrow-alt-circle-right", fill = "#cc0033")` obstructing the implementation of state’s labor reforms at the firm level `r fa("arrow-alt-circle-right", fill = "#cc0033")` labor market dualism and inequality
+
+
+## Explaining labor market dualism and inequality in Japan and Korea
+
+Both Japan & Korea: traditional absence of social-democratic parties `r fa("arrow-alt-circle-right", fill = "#cc0033")` weak explanatory power of "political" argument compared to EU
+
+<span style="color:darkred">Japan</span>: 
+
+ - liberalized temporary employment for non-regulars; 
+ - decentralized wage bargaining;
+ - consolidation of the dualistic welfare state
+
+<span style="color:darkred">Korea</span>: 
+
+ - policymakers & *chaebol* employers position: full-scale labor market reforms for insiders and outsiders + flexible labor markets;
+ 
+ - large *chaebol* unions: fiercely opposed such reforms
+ 
+ 
+## Insider-outsider differences
+
+<span style="color:darkred">Japan's</span> labor policy: 
+
+ - representing interests of **large firms** and their core **regular workers**;
+ - deregulation of temporary employment -- **agency temps** (*haken shain*) and contract workers;
+ - maintaining employment protection for insiders
+
+Period of high growth: large Japanese firms promoted **skilled** non-regular workers to regular employment -- tight job security, wages & welfare benefits `r fa("arrow-alt-circle-right", fill = "#cc0033")` solving the problem of labor shortage
+
+**1970s oil crises**:
+
+ - layoffs for non-regular workers (mostly female part-time and temps workers);
+ - protecting core regular male workers; 
+ - share of non-regular workers -- 15-20\% till the late 1980s; 
+ - most non-regulars: middle-aged **female part-timers**, secondary-income earners in families
+ 
+ 
+**Worker Dispatch Law**:
+
+ - 1986 legalized employers' rights to hire agency temps (*haken shain*) 
+ - 1990 and 1996 revisions: occupational categories expanded to 16 and then to 26, but they were restricted to professionals (e.g., interpreters and software engineers);
+ - 1999: "negative list system";
+ - 2003: complete lifting of restrictions
+ 
+Number of agency temps: 280,000 in 1999 `r fa("arrow-alt-circle-right", fill = "#cc0033")` 1,400,000 in 2008
+
+**Global financial crisis**: 
+
+ - agency temps in the manufacturing sector -- primary target of labor adjustment;
+ - 207,381 workers laid off between October 2008 and June 2009;
+ - \> 60\% of the laid-off workers: agency temps in the manufacturing sector
+ 
+**In-house subcontracting**:
+
+ - Electronics -- 53.9\%
+ - Precision machinery -- 34.9\%
+ 
+By 2010: 
+
+ - \> 50\% of females and young workers -- non-regulars; 
+ - \> 80\% of middle-aged male workers -- core regular workers
+
+ 
+<span style="color:darkred">Korea</span>:
+
+ - **1987 democratic transition** `r fa("arrow-alt-circle-right", fill = "#cc0033")` labor reform initiative;
+ - chaebols & their unions: not accepting the state’s labor reform proposals for wage moderation;
+ - president Kim Dae-jung in 1998: reforms to allow employers to lay off
+redundant core regular workers `r fa("arrows-alt-h", fill = "blue")` improvement of workers' basic rights;
+ - **chaebol unions**: blocked the initiative;
+ - 2000: **Hyundai Motors** union -- pushed for regular workers' protection guarantees;
+ - chaebols choice: increase in non-regular hiring + **subcontracting**;
+ - SMEs' labor productivity vis-à-vis large firms: 40.3\% in 1996 `r fa("arrow-alt-circle-right", fill = "#cc0033")` 31.4% in 2004;
+ - automobile recovery `r fa("cart-arrow-down", fill = "#cc0033")` no increase in the hiring of regular workers;
