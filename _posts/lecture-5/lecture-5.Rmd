@@ -152,6 +152,115 @@ Inter-firm discrepancies (unionization rates):
  - Japan: 45.3\% of firms with > 1,000 workers `r fa("arrows-alt-h", fill = "blue")` 1.1\% of firms with < 99 workers;
  - Korea: 45.4\% firms with > 300 workers `r fa("arrows-alt-h", fill = "blue")` 3.1\% of firms with < 99 workers
 
+
+<span style="color:darkred">Japan</span>:
+
 1975 *shunt&#333;*: business, labor, and government `r fa("arrow-alt-circle-right", fill = "#cc0033")` **political compromise**: employment protection `r fa("arrows-alt-h", fill = "blue")` wage restraints `r fa("arrows-alt-h", fill = "blue")` price stability
 
 Number of **labor strikes**: peaked in 1974 `r fa("arrow-alt-circle-right", fill = "#cc0033")` **dramatically subsided** in late 1970s
+
+Mid-1990s onward: SMEs not able to follow the guidelines for wage increases established by large labor unions `r fa("arrow-alt-circle-right", fill = "#cc0033")` wage increase differentials across firms became more salient
+
+Most unions representing insiders: forced to accept a trade-off between **employment protection** and **wage restraints**
+
+Increase in hiring non-regular workers `r fa("arrow-alt-circle-right", fill = "#cc0033")` weakened bargaining leverage for labor unions
+
+
+<span style="color:darkred">Korea</span>:
+
+**Democratization**: 
+
+ - `r fa("arrow-alt-circle-right", fill = "#cc0033")` industrial disputes: 276 in 1986 `r fa("arrow-alt-circle-right", fill = "#cc0033")` 3,749 in 1987;
+ - union organization rates: 13.8\% `r fa("arrow-alt-circle-right", fill = "#cc0033")` 17.8\%; 
+ - distributional conflicts between *chaebols* and their unions
+ 
+In contrast to Japan: **Korean state** took the primary role of coordinator in wage bargaining
+
+*Chaebol* firms:
+ - historically prioritized stabilization of industrial relations in their firms and workplaces `r fa("arrow-alt-circle-right", fill = "#cc0033")` buying industrial peace;
+ - gave up the demand for high wages and generous corporate welfare benefits;
+ - hiring of more non-regulars + subcontracting of production lines to SMEs `r fa("arrow-alt-circle-right", fill = "#cc0033")` controlling labor costs;
+ 
+Post-1997 (**Asian financial crisis**):
+ - few large competitive *chaebols* still capable of offering high wages to core regular workers under the protection of strong unions;
+ - smaller *chaebols* and SMEs struggled to survive; 
+ - industry federations (e.g., the financial and metal industries) `r fa("arrow-alt-circle-right", fill = "#cc0033")` attempt to lead industry-wide wage bargaining during the 2000s;
+ - **<span style="color:white;background-color:black">however</span>**, enterprise unions in large competitive *chaebol* firms refused to join `r fa("arrow-alt-circle-right", fill = "#cc0033")` opted for more decentralized collective bargaining at the firm level
+ 
+
+## Expansion and retrenchment of social protections
+
+Japan & Korea: unable to effectively enhance social protections for labor market outsiders:
+
+ - expansion of social protections for SME and non-regulars;
+ - however, limited impact on the economic gap between **insiders and outsiders**
+ 
+```{r echo=FALSE, include=TRUE, out.width = "100%", fig.align='center'}
+knitr::include_graphics("table1.png")
+```
+
+Some social welfare reforms:
+
+ - protections and benefits for core regular workers in large firms; 
+ - persistence (or even widening) of gaps between insiders and outsiders;
+ - intentionally reinforced the dualistic welfare regime
+ 
+<span style="color:darkred">Japan</span>: 
+
+1974 (immediately after the first oil crisis) -- **Employment Insurance Program**:
+
+ - steady economic growth and low unemployment rates did not cause worries about unemployment and the sustainability of the program;
+ - however, in 1990s: financial deficits of the Employment Insurance Program (especially in 1994) + rise of non-regulars `r fa("arrow-alt-circle-right", fill = "#cc0033")` concerns about the fiscal stability and extent of the program;
+ - **voluntarily unemployed**: duration of insurance benefits shortened from 90-300 days to 90-180 days. 
+ Mostly outsiders; 
+ - **laid-off workers** (because of corporate bankruptcy and/or industrial restructuring): extended from 90-300 days to 90-330 days. 
+ Mostly insiders
+ 
+ 
+**Pensions**:
+
+ - 1985 pension reform: **first retrenchment** of pension benefits since the establishment in 1961;
+ - increased contribution premiums of the Employee’s Pension Insurance (*Kosei Nenkin Hoken*) for private sector workers from 10.6\% to 12.4\% `r fa("arrow-alt-circle-right", fill = "#cc0033")` tackling financial instability of the public pension system confronting pressure of an aging society;
+ - reduced earning-related benefits by 5\%, raised contribution premiums for the Employee’s Pension Insurance;
+ - began to shift the minimum age for pension insurance benefits from 60 to 65 years old;
+ - firms’ introduction of "the wage peak system" `r fa("arrow-alt-circle-right", fill = "#cc0033")` restraining annual wage increases for older workers
+ 
+**Non-regular employment**:
+
+ - part-time workers: 25\% of the labor force by early 2000s, more than 2/3 of the non-regular workforce;
+ - business and organized labor: strongly opposed government’s reform proposal to extend the Employees’ Pension Insurance to part-timers;
+ - middle-aged women (part-timers' majority): also opposed the extension of the program coverage. 
+ Reason: already covered by their husbands’ public pension programs `r fa("arrow-alt-circle-right", fill = "#cc0033")` preferred to keep the amount of the take-home pay without paying additional welfare contributions
+ 
+<span style="color:darkred">Korea</span>: 
+
+From 1987 onward: expansion of social welfare programs. 
+
+Roh Tae-woo administration (1988-1992) launched the National Pension Program (*Kukmin Younkeum*) for firms with more than 10 workers in 1988 and expanded the **National Health Insurance** Program
+
+1995 -- **Employment Insurance** Program: 
+
+ - for firms with > 30 workers, SMEs and non-regulars;
+ - insurance benefits: from 30-210 days to 90-240 days;
+ - however, as of 2005, only 2/3 of the regulars and 1/3 of non-regulars covered
+
+Kim Dae-jung administration (1998-2002): rapidly extended the coverage of the **National Pension** Program to the urban self-employed, informal urban workers, and SME workers.
+
+However, pension reforms in 1998 **retrenched** insurance benefits, raised insurance premiums, and increased the age of pension.
+
+2007 pension reform: 
+
+ - reduced the level of **replacement ratio** from 60\% to 40\%;
+ - failed to alleviate insider–outsider gaps.
+ Non-regulars not qualified as “waged workers” `r fa("arrow-alt-circle-right", fill = "#cc0033")` employers not required to pay half of the premiums `r fa("arrow-alt-circle-right", fill = "#cc0033")` non-regulars would have to pay the entire contribution premiums `r fa("arrow-alt-circle-right", fill = "#cc0033")` non-regulars discouraged from enrolling in the National Pension Program;
+ - discouraging or even blocking non-regulars from enrolling in the program `r fa("arrow-alt-circle-right", fill = "#cc0033")` favored core regular workers by protecting financial stability of the National Pension Program
+ 
+After the 1997 financial crisis: economic gaps between regulars non-regulars **exacerbated** the expansion of the Employment Insurance Program and the National Pension Program
+
+
+## Conclusions
+
+ - labor market **insiders**: continued to enjoy strong employment protection, high wages, and generous welfare benefits even after labor market and social protection reforms; 
+
+ - labor market **outsiders**: forced to absorb the costs of the business cycle and economic distress due to a high risk of job insecurity, low wages, and poor benefits
+ 
