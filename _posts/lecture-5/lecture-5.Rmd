@@ -170,18 +170,20 @@ Increase in hiring non-regular workers `r fa("arrow-alt-circle-right", fill = "#
 
 **Democratization**: 
 
- - `r fa("arrow-alt-circle-right", fill = "#cc0033")` industrial disputes: 276 in 1986 `r fa("arrow-alt-circle-right", fill = "#cc0033")` 3,749 in 1987;
+ - industrial disputes: 276 in 1986 `r fa("arrow-alt-circle-right", fill = "#cc0033")` 3,749 in 1987;
  - union organization rates: 13.8\% `r fa("arrow-alt-circle-right", fill = "#cc0033")` 17.8\%; 
  - distributional conflicts between *chaebols* and their unions
  
 In contrast to Japan: **Korean state** took the primary role of coordinator in wage bargaining
 
 *Chaebol* firms:
+
  - historically prioritized stabilization of industrial relations in their firms and workplaces `r fa("arrow-alt-circle-right", fill = "#cc0033")` buying industrial peace;
  - gave up the demand for high wages and generous corporate welfare benefits;
  - hiring of more non-regulars + subcontracting of production lines to SMEs `r fa("arrow-alt-circle-right", fill = "#cc0033")` controlling labor costs;
  
 Post-1997 (**Asian financial crisis**):
+
  - few large competitive *chaebols* still capable of offering high wages to core regular workers under the protection of strong unions;
  - smaller *chaebols* and SMEs struggled to survive; 
  - industry federations (e.g., the financial and metal industries) `r fa("arrow-alt-circle-right", fill = "#cc0033")` attempt to lead industry-wide wage bargaining during the 2000s;
