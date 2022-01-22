@@ -1,6 +1,6 @@
 ---
 title: "Labor Market Dualism in the International Context"
-description: Transdisciplinary Course Program at the University of T&#252;bingen 
+description: <a href="https://uni-tuebingen.de/studium/studienangebot/ueberfachliche-kompetenzen/transdisciplinary-course-program/" target="_blank" rel="noopener noreferrer">"Transdisciplinary Course Program" at the University of T&#252;bingen</a> 
 site: distill::distill_website
 ---
 
@@ -8,7 +8,7 @@ site: distill::distill_website
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-This is the home page for the **<span style="color:white;background-color:black">Labor Market Dualism in the International Context</span>** course at the **<span style="color:darkred">University of T&#252;bingen</span>** (Winter 2021).
+This is the home page for the **<span style="color:white;background-color:black">Labor Market Dualism in the International Context</span>** course at the **<span style="color:darkred">University of T&#252;bingen</span>**, <a href="https://uni-tuebingen.de/studium/studienangebot/ueberfachliche-kompetenzen/transdisciplinary-course-program/" target="_blank" rel="noopener noreferrer">"Transdisciplinary Course Program"</a> (Winter 2021-22).
 All course materials will be posted on this site.
 
 **Instructor**: [Kostiantyn Ovsiannikov](https://kovsiannikov.com)  
