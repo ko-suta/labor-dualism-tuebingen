@@ -29,22 +29,23 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Background
 
-What defines a “decent job”? 
+What defines a **<span style="color:darkred">decent job</span>**? 
 Quantitative dimension – labor cost – is the amount workers are paid to produce a unit of output. 
 Qualitatively, there are several factors is play. 
 They can be summarized under the umbrella of “social protection”. 
 Whereas labor cost has been by and large stagnant among the OECD states over the last two decades, the social guarantees have been gradually watered down. 
-One of the most prominent trends has been the increase in non-regular employment. This course aims at unpacking the phenomenon of “precarious work” by analyzing the case studies of OECD states. 
-We will pay a particular attention to the “dual (segmented) labor markets”, whereby, decent jobs coexist and depend on precarious forms of employment. 
+One of the most prominent trends has been the increase in **<span style="color:darkred">non-regular employment</span>**. 
+This course aims at unpacking the phenomenon of **<span style="color:darkred">"precarious work"</span>** by analyzing the case studies of OECD states. 
+We will pay a particular attention to the **<span style="color:darkred">"dual (segmented) labor markets"</span>**, whereby, decent jobs coexist and depend on precarious forms of employment. 
 
 
 ## Purpose and contents of the class
 
-The proposed course will concentrate on the *labor dualism* issue from the comparative perspective. 
+The proposed course will concentrate on the **<span style="color:darkred">labor dualism</span>** issue from the comparative perspective. 
 It will focus on the underlying causes as well as the socio-economic consequences of this phenomenon.
 From an empirical point, it will investigate countries that range from those where low labor turnover costs are combined with representative industrial unions (e.g. Sweden), to those where labor bifurcation is relatively more rigid and centered on inter-corporate rather than industrial coordination (e.g. Japan). 
 
-According to the "dual labor market hypothesis" formulated by Doeringer & Piore (1971), employers often benefit from classifying their personnel into "internal" and "external" camps. 
+According to the **<span style="color:darkred">"dual labor market hypothesis"</span>** formulated by [Doeringer & Piore (1971)](https://doi.org/10.4324/9781003069720), employers often benefit from classifying their personnel into "internal" and "external" camps. 
 While the members of the internal labor market enjoy long-term career paths, on-the-job training and accompanying social benefits, external market is mostly composed of non-regular workers who can be fired relatively easy as part of the "optimization efforts" during the economic crises such as the one caused by the COVID-19 pandemic.
 
 
@@ -52,13 +53,13 @@ While the members of the internal labor market enjoy long-term career paths, on-
 
 The class will focus on the cutting-edge political and economic issues around the world.
 It will therefore be of a particular interest to those willing to explore labor-related problems pertaining to different countries and to engage in the comparative analysis.
-The offered course fits best into the "Thinking and acting economically" cluster of the Transdisciplinary Course Program.
+The offered course fits best into the ["Economic Thinking and Acting"](https://uni-tuebingen.de/en/study/finding-a-course/transdisciplinary-competencies/transdisciplinary-course-program/bachelor/#c1397368) cluster of the Transdisciplinary Course Program.
 
 
 ## Objective
 
 The comparative context of this course will go beyond mere geographic distinctions, focusing on institutional legacies that shape national responses to market challenges. 
-The students who complete this course will not only become familiar with OECD case studies but will also learn to apply, evaluate, and challenge such theories as *Varieties of Capitalism* and *Political Economy of Labor Market Institutions*. 
+The students who complete this course will not only become familiar with OECD case studies but will also learn to apply, evaluate, and challenge such theories as **<span style="color:darkred">Varieties of Capitalism</span>** and **<span style="color:darkred">Political Economy of Labor Market Institutions</span>**. 
 Since the analyzed topics constitute the core of the SDG 8 and are among the priorities of the International Labor Organization (ILO), obtained knowledge will come in handy for those seeking employment in international organizations.
 
 
