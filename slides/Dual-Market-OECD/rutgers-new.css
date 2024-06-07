@@ -115,7 +115,7 @@ thead, tfoot, tr:nth-child(even) { background: none; }
 /* Add image and change bg color */
 .title-slide {
   background-image: url(assets/img/berries.jpg);
-  background-position: 415% 50%;
+  background-position: 430% 50%;
   background-size: 1100px;
   background-color: #000000;
  /* padding-left: 100px;  /* delete this for 4:3 aspect ratio */

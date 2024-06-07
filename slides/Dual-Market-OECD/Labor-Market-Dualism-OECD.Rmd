@@ -390,14 +390,14 @@ Realistically, they may become blurred in the long run, because everyone has int
 
 ---
 
-```{r nonreg, echo=FALSE, fig.align="center", out.width = "80%"}
+```{r nonreg, echo=FALSE, fig.align="center", out.width = "70%"}
 knitr::include_graphics("assets/img/nonreg.png")
 ```
 
 
 ---
 
-```{r nonreg-ind, echo=FALSE, fig.align="center", out.width = "80%"}
+```{r nonreg-ind, echo=FALSE, fig.align="center", out.width = "100%"}
 knitr::include_graphics("assets/img/nonreg-ind.png")
 ```
 

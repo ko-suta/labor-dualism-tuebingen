@@ -1,9 +1,9 @@
 ---
-title: "Labor Market Dualism <br> Across the OECD States"
+title: "Unpacking precarious work <br> OECD case studies"
 subtitle: "Transdisciplinary Course Program <br> at the University of Tübingen"
 author: "Kostiantyn Ovsiannikov, Ph.D."
 institute: ".white.bg-green[Kochi University of Technology]"
-date: "18 November 2021"
+date: "13 June 2024"
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -390,14 +390,14 @@ Realistically, they may become blurred in the long run, because everyone has int
 
 ---
 
-```{r nonreg, echo=FALSE, fig.align="center", out.width = "80%"}
+```{r nonreg, echo=FALSE, fig.align="center", out.width = "70%"}
 knitr::include_graphics("assets/img/nonreg.png")
 ```
 
 
 ---
 
-```{r nonreg-ind, echo=FALSE, fig.align="center", out.width = "80%"}
+```{r nonreg-ind, echo=FALSE, fig.align="center", out.width = "100%"}
 knitr::include_graphics("assets/img/nonreg-ind.png")
 ```
 
