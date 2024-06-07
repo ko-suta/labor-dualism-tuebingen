@@ -1,5 +1,5 @@
 ---
-title: "Labor Market Dualism in the International Context"
+title: "Unpacking precarious work: OECD case studies"
 description: | 
   Summer 2024 Semester Schedule
 output:

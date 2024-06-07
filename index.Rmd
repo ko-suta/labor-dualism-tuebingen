@@ -1,5 +1,5 @@
 ---
-title: "Labor Market Dualism in the International Context"
+title: "Unpacking precarious work: OECD case studies"
 description: <a href="https://uni-tuebingen.de/studium/studienangebot/ueberfachliche-kompetenzen/transdisciplinary-course-program/" target="_blank" rel="noopener noreferrer">"Transdisciplinary Course Program" at the University of T&#252;bingen</a> 
 site: distill::distill_website
 ---

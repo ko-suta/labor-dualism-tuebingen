@@ -19,7 +19,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Course title and instructor
 
-**Title:** Labor Market Dualism in the International Context (Summer 2024)<br>
+**Title:** Unpacking precarious work: OECD case studies (Summer 2024)<br>
 
 
 **Instructor:** [Kostiantyn Ovsiannikov](https://kovsiannikov.com)<br>
