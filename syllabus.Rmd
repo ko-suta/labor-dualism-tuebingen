@@ -19,13 +19,24 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Course title and instructor
 
-**Title:** Labor Market Dualism in the International Context (Winter 2021)<br>
+**Title:** Labor Market Dualism in the International Context (Summer 2024)<br>
 
 
 **Instructor:** [Kostiantyn Ovsiannikov](https://kovsiannikov.com)<br>
-**Email:** k.ovsiannikov@gmail.com<br>
+**Email:** mail@kovsiannikov.com<br>
 **Office Hours:** by appointment <br>
 **GitHub:** [ko-suta](https://github.com/ko-suta) <br>
+
+## Background
+
+What defines a “decent job”? 
+Quantitative dimension – labor cost – is the amount workers are paid to produce a unit of output. 
+Qualitatively, there are several factors is play. 
+They can be summarized under the umbrella of “social protection”. 
+Whereas labor cost has been by and large stagnant among the OECD states over the last two decades, the social guarantees have been gradually watered down. 
+One of the most prominent trends has been the increase in non-regular employment. This course aims at unpacking the phenomenon of “precarious work” by analyzing the case studies of OECD states. 
+We will pay a particular attention to the “dual (segmented) labor markets”, whereby, decent jobs coexist and depend on precarious forms of employment. 
+
 
 ## Purpose and contents of the class
 
@@ -44,9 +55,21 @@ It will therefore be of a particular interest to those willing to explore labor-
 The offered course fits best into the "Thinking and acting economically" cluster of the Transdisciplinary Course Program.
 
 
+## Objective
+
+The comparative context of this course will go beyond mere geographic distinctions, focusing on institutional legacies that shape national responses to market challenges. 
+The students who complete this course will not only become familiar with OECD case studies but will also learn to apply, evaluate, and challenge such theories as *Varieties of Capitalism* and *Political Economy of Labor Market Institutions*. 
+Since the analyzed topics constitute the core of the SDG 8 and are among the priorities of the International Labor Organization (ILO), obtained knowledge will come in handy for those seeking employment in international organizations.
+
+
+
 ## Selected literature to be used for the class 
 
-+ Rueda, D. (2006). Social democracy and active labour-market policies: insiders, outsiders and the politics of employment promotion. *British Journal of Political Science, 36*(3), 385-406.
++ Kalleberg, A. L. (2000). Nonstandard employment relations: Part-time, temporary and contract work. *Annual review of sociology, 26*(1), 341-365.
 + Thelen, K., & Kume, I. (2006). Coordination as a political problem in coordinated market economies. *Governance, 19*(1), 11-42.
++ Song, J. (2012). Economic distress, labor market reforms, and dualism in Japan and Korea. *Governance, 25*(3), 415-438.
++ Häusermann, S., Kurer, T., & Schwander, H. (2015). High-skilled outsiders? Labor market vulnerability, education and welfare state preferences. *Socio-Economic Review, 13*(2), 235-258.
++ Eichhorst, W., Marx, P., & Wehner, C. (2017). Labor market reforms in Europe: towards more flexicure labor markets? *Journal for Labour Market Research, 51*(1), 1-17.
 + Witt, M.A. & Jackson, G., (2016). Varieties of Capitalism and institutional comparative advantage: a test and reinterpretation. *Journal of International Business Studies, 47*(7), pp.778-806.
 + Hudson, K. (2007). The new labor market segmentation: Labor market dualism in the new economy. *Social science research, 36*(1), 286-312.
++ Rueda, D. (2006). Social democracy and active labour-market policies: insiders, outsiders and the politics of employment promotion. *British Journal of Political Science, 36*(3), 385-406.

@@ -463,8 +463,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
 
   <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
-  <link href="site_libs/font-awesome-6.2.1/css/all.min.css" rel="stylesheet"/>
-  <link href="site_libs/font-awesome-6.2.1/css/v4-shims.min.css" rel="stylesheet"/>
+  <link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet"/>
+  <link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet"/>
   <script src="site_libs/headroom-0.9.4/headroom.min.js"></script>
   <script src="site_libs/autocomplete-0.37.1/autocomplete.min.js"></script>
   <script src="site_libs/fuse-6.4.1/fuse.min.js"></script>
@@ -834,9 +834,21 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     display: none !important;
   }
 
+  hr.section-separator {
+    border: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    margin: 0px;
+  }
+
+
+  d-byline {
+    border-top: none;
+  }
+
   d-article {
     padding-top: 2.5rem;
     padding-bottom: 30px;
+    border-top: none;
   }
 
   d-appendix {
@@ -931,6 +943,11 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   d-article div.sourceCode pre {
     padding-left: 18px;
     font-size: 14px;
+  }
+
+  /* tweak for Pandoc numbered line within distill */
+  d-article pre.numberSource code > span {
+      left: -2em;
   }
 
   d-article pre {
@@ -1692,6 +1709,12 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     // create d-title
     $('.d-title').changeElementType('d-title');
 
+    // separator
+    var separator = '<hr class="section-separator" style="clear: both"/>';
+    // prepend separator above appendix
+    $('.d-byline').before(separator);
+    $('.d-article').before(separator);
+
     // create d-byline
     var byline = $('<d-byline></d-byline>');
     $('.d-byline').replaceWith(byline);
@@ -1769,8 +1792,9 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     $('.distill-force-highlighting-css').parent().remove();
 
     // remove empty line numbers inserted by pandoc when using a
-    // custom syntax highlighting theme
-    $('code.sourceCode a:empty').remove();
+    // custom syntax highlighting theme, except when numbering line
+    // in code chunk
+    $('pre:not(.numberLines) code.sourceCode a:empty').remove();
 
     // load distill framework
     load_distill_framework();
@@ -1796,12 +1820,13 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
       // add orcid ids
       $('.authors-affiliations').find('.author').each(function(i, el) {
         var orcid_id = front_matter.authors[i].orcidID;
+        var author_name = front_matter.authors[i].author
         if (orcid_id) {
           var a = $('<a></a>');
           a.attr('href', 'https://orcid.org/' + orcid_id);
           var img = $('<img></img>');
           img.addClass('orcid-id');
-          img.attr('alt', 'ORCID ID');
+          img.attr('alt', author_name ? 'ORCID ID for ' + author_name : 'ORCID ID');
           img.attr('src','data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg==');
           a.append(img);
           $(this).append(a);
@@ -2079,7 +2104,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </script>
 
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.21/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.27/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2133,6 +2158,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 <div class="d-title">
 <h1>Syllabus</h1>
+
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
 
@@ -2144,19 +2170,29 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <nav class="l-text toc figcaption" id="TOC">
 <h3>Contents</h3>
 <ul>
-<li><a href="#course-title-and-instructor">Course title and instructor</a></li>
-<li><a href="#purpose-and-contents-of-the-class">Purpose and contents of the class</a></li>
-<li><a href="#prerequisites">Prerequisites</a></li>
-<li><a href="#selected-literature-to-be-used-for-the-class">Selected literature to be used for the class</a></li>
+<li><a href="#course-title-and-instructor" id="toc-course-title-and-instructor">Course title and instructor</a></li>
+<li><a href="#background" id="toc-background">Background</a></li>
+<li><a href="#purpose-and-contents-of-the-class" id="toc-purpose-and-contents-of-the-class">Purpose and contents of the class</a></li>
+<li><a href="#prerequisites" id="toc-prerequisites">Prerequisites</a></li>
+<li><a href="#objective" id="toc-objective">Objective</a></li>
+<li><a href="#selected-literature-to-be-used-for-the-class" id="toc-selected-literature-to-be-used-for-the-class">Selected literature to be used for the class</a></li>
 </ul>
 </nav>
 </div>
 <h2 id="course-title-and-instructor">Course title and instructor</h2>
-<p><strong>Title:</strong> Labor Market Dualism in the International Context (Winter 2021)<br></p>
+<p><strong>Title:</strong> Labor Market Dualism in the International Context (Summer 2024)<br></p>
 <p><strong>Instructor:</strong> <a href="https://kovsiannikov.com">Kostiantyn Ovsiannikov</a><br>
-<strong>Email:</strong> <a href="mailto:k.ovsiannikov@gmail.com" class="email">k.ovsiannikov@gmail.com</a><br>
+<strong>Email:</strong> <a href="mailto:mail@kovsiannikov.com" class="email">mail@kovsiannikov.com</a><br>
 <strong>Office Hours:</strong> by appointment <br>
 <strong>GitHub:</strong> <a href="https://github.com/ko-suta">ko-suta</a> <br></p>
+<h2 id="background">Background</h2>
+<p>What defines a “decent job”?
+Quantitative dimension – labor cost – is the amount workers are paid to produce a unit of output.
+Qualitatively, there are several factors is play.
+They can be summarized under the umbrella of “social protection”.
+Whereas labor cost has been by and large stagnant among the OECD states over the last two decades, the social guarantees have been gradually watered down.
+One of the most prominent trends has been the increase in non-regular employment. This course aims at unpacking the phenomenon of “precarious work” by analyzing the case studies of OECD states.
+We will pay a particular attention to the “dual (segmented) labor markets”, whereby, decent jobs coexist and depend on precarious forms of employment.</p>
 <h2 id="purpose-and-contents-of-the-class">Purpose and contents of the class</h2>
 <p>The proposed course will concentrate on the <em>labor dualism</em> issue from the comparative perspective.
 It will focus on the underlying causes as well as the socio-economic consequences of this phenomenon.
@@ -2167,12 +2203,20 @@ While the members of the internal labor market enjoy long-term career paths, on-
 <p>The class will focus on the cutting-edge political and economic issues around the world.
 It will therefore be of a particular interest to those willing to explore labor-related problems pertaining to different countries and to engage in the comparative analysis.
 The offered course fits best into the “Thinking and acting economically” cluster of the Transdisciplinary Course Program.</p>
+<h2 id="objective">Objective</h2>
+<p>The comparative context of this course will go beyond mere geographic distinctions, focusing on institutional legacies that shape national responses to market challenges.
+The students who complete this course will not only become familiar with OECD case studies but will also learn to apply, evaluate, and challenge such theories as <em>Varieties of Capitalism</em> and <em>Political Economy of Labor Market Institutions</em>.
+Since the analyzed topics constitute the core of the SDG 8 and are among the priorities of the International Labor Organization (ILO), obtained knowledge will come in handy for those seeking employment in international organizations.</p>
 <h2 id="selected-literature-to-be-used-for-the-class">Selected literature to be used for the class</h2>
 <ul>
-<li>Rueda, D. (2006). Social democracy and active labour-market policies: insiders, outsiders and the politics of employment promotion. <em>British Journal of Political Science, 36</em>(3), 385-406.</li>
+<li>Kalleberg, A. L. (2000). Nonstandard employment relations: Part-time, temporary and contract work. <em>Annual review of sociology, 26</em>(1), 341-365.</li>
 <li>Thelen, K., &amp; Kume, I. (2006). Coordination as a political problem in coordinated market economies. <em>Governance, 19</em>(1), 11-42.</li>
+<li>Song, J. (2012). Economic distress, labor market reforms, and dualism in Japan and Korea. <em>Governance, 25</em>(3), 415-438.</li>
+<li>Häusermann, S., Kurer, T., &amp; Schwander, H. (2015). High-skilled outsiders? Labor market vulnerability, education and welfare state preferences. <em>Socio-Economic Review, 13</em>(2), 235-258.</li>
+<li>Eichhorst, W., Marx, P., &amp; Wehner, C. (2017). Labor market reforms in Europe: towards more flexicure labor markets? <em>Journal for Labour Market Research, 51</em>(1), 1-17.</li>
 <li>Witt, M.A. &amp; Jackson, G., (2016). Varieties of Capitalism and institutional comparative advantage: a test and reinterpretation. <em>Journal of International Business Studies, 47</em>(7), pp.778-806.</li>
 <li>Hudson, K. (2007). The new labor market segmentation: Labor market dualism in the new economy. <em>Social science research, 36</em>(1), 286-312.</li>
+<li>Rueda, D. (2006). Social democracy and active labour-market policies: insiders, outsiders and the politics of employment promotion. <em>British Journal of Political Science, 36</em>(3), 385-406.</li>
 </ul>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
@@ -2205,7 +2249,8 @@ The offered course fits best into the “Thinking and acting economically” clu
 
   gtag('config', 'G-PNBY03CMKW');
 </script>
-<p>Kostiantyn Ovsiannikov © <script>document.write(new Date().getFullYear())</script></p>
+<p>Kostiantyn Ovsiannikov © <script>document.write(new
+Date().getFullYear())</script></p>
 <script>
   document.addEventListener("DOMContentLoaded", function() {
 
