@@ -351,7 +351,9 @@ Realistically, they may become blurred in the long run, because everyone has int
 
 --
 
-- Post-bubble strategy of limiting the hiring of regular workers Regulars = long-term contracts + social benefits, Lower proportion of core workforce `r fa("arrow-right", fill = "blue")` **curbing average labor costs** during economic downturns
+- Post-bubble strategy of limiting the hiring of regular workers 
+  + Regulars = long-term contracts + social benefits; 
+  + Lower proportion of core workforce `r fa("arrow-right", fill = "blue")` **curbing average labor costs** during economic downturns
 
 --
 
