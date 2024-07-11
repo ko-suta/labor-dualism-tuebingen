@@ -1,0 +1,224 @@
+---
+title: "Flexicurity and welfare reform: a review"
+description: |
+  Lecture 5 (part 2)
+#author: []
+date: 2024-07-10
+output:
+  distill::distill_article:
+    toc: true
+    toc_depth: 3
+    self_contained: false
+    # code_folding: hide
+creative_commons: CC BY
+---
+
+
+```{r setup, include=FALSE}
+library(knitr)
+library(here)
+library(ymlthis)
+library(tidyverse)
+library(fontawesome)
+library(readr)
+library(ggthemes)
+library(ggpubr)
+library(RColorBrewer)
+library(kableExtra)
+library(data.table)
+library(metathis)
+library(xaringanthemer)
+library(xaringanExtra)
+library(data.table)
+library(RefManageR)
+library(plm)
+library(mgcv)
+library(mgcViz)
+library(stargazer)
+library(plotly)
+library(htmlwidgets)
+library(modelsummary)
+```
+
+
+```{r echo=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(collapse = TRUE,
+                      fig.retina = 3)
+```
+
+
+::: {.define .article style="color: blue;"}
+[Viebrock, E., & Clasen, J. (2009). Flexicurity and welfare reform: a review. *Socio-Economic Review, 7*(2), 305-331.](https://doi.org/10.1093/ser/mwp001)
+:::
+
+> Traditional social protection programmes, largely modelled on male-dominated, full-time and continuous career patterns, have become both increasingly inadequate for a growing section of employees engaged in non-standard types of employment and more difficult to sustain financially owing to economic and demographic pressures.
+
+
+## Intro
+
+**Flexible labour markets**:
+
+ - beneficial to job creation, but;
+ 
+ - reduce levels of economic security.
+
+<span style="color:darkred">Flexicurity</span>:
+
+ - employment policies: best conditions for job growth;
+ 
+ - social policies: acceptable levels of economic and social security to all, including those who enter de-regulated labour markets. 
+ 
+ Model countries: Denmark and the Netherlands.
+ Why: models of how labour markets can be
+made more **dynamic** without compromising **social protection**.
+
+
+## The concept of flexicurity
+
+**Neo-liberal perspective**: persistent levels of unemployment and widespread long-term unemployment in many European countries `r fa("arrow-alt-circle-right", fill = "#cc0033")` need for greater flexibilization and the de-regulation of labour markets.
+
+**European Commission** (2007) critique:
+
+ - often ‘policies aim to increase either flexibility for enterprises or security for workers; as a result they neutralise or contradict each other’; 
+
+ - flexicurity: response to this one-sided approach, satisfying the needs of both employers and workers;
+
+ - ‘third way’: between the Anglo-Saxon flexibility and (Southern) European strict job security
+ 
+ 
+**Origins**:
+
+ - first used by the Dutch sociologist Hans Adriaansens in the mid-1990s in connection with the Dutch Flexibility and Security Act and the Act concerning the Allocation of Workers via Intermediaries;
+
+ - neologism was picked up by academics in the Netherlands and in other European countries (Denmark, Belgium and Germany) `r fa("arrow-alt-circle-right", fill = "#cc0033")` European Commission;
+
+ - labour market policy reforms by the Danish social-democratic government in 1993 onward
+ 
+ 
+> Flexicurity is (1) a degree of job, employment, income and ‘combination’ security that facilitates the labour market careers and biographies of workers with a relatively weak position and allows for enduring and high quality labour market participation and social inclusion, while at the same time providing (2) a degree of numerical (both external and internal), functional and wage flexibility that allows for labour markets’ (and individual companies’) timely and adequate adjustment to changing conditions in order to maintain and enhance competitiveness and productivity.
+ 
+ 
+Types of flexibility -- <span style="color:darkred">employer perspective</span> (following Atkinson, 1984):
+
+ - **external-numerical**: the ease of hiring and firing workers and the use
+of flexible forms of labour contracts;
+
+ - **internal-numerical**: the ability of companies to meet market fluctuations (e.g. via over-time, flexi-time, part-time, temporary work, casual work or sub-contracting);
+
+ - **functional**: the ability of firms to adjust and deploy the skills of their employees to match changing working task requirements;
+
+ - **payment/wage**: the ability to introduce variable pay based on performance or results.
+
+
+Forms of security (<span style="color:darkred">employee perspective</span>): 
+
+ - **job**: the certainty of retaining a specific job (with the same employer), e.g. via employment protection legislation; 
+
+ - **employment**: the certainty of remaining in paid work (but not necessarily in the same job or with the same employer), e.g. via training and education (and high levels of employment);
+
+ - **income**: the certainty of receiving adequate and stable levels of income in the event that paid work is interrupted or terminated; 
+
+ - **combination**: the reliance on being able to combine work with other [family] responsibilities (work-life balance)
+
+
+Flexicurity typology: 
+
+ - specific trade-offs (job security `r fa("people-arrows", fill = "#cc0033")` employment security). 
+
+ - European Commission: external-numerical flexibility `r fa("people-arrows", fill = "#cc0033")` income/employment security
+
+
+## Diverse labour market problems, policy components and obstacles to more flexicurity
+
+ - <span style="color:darkred">South Europe</span>: large share of ‘outsiders’ lacking security and limited opportunity to make transitions to more permanent and secure jobs owing to the impact of strict employment regulation.
+ - <span style="color:darkred">Continental Europe</span>: large share of workers with high levels of job security, especially within large industrial firms, but few opportunities to find new employment in the event of redundancy. 
+ Labour flexibility -- the firm level, labour turnover -- low, long-term unemployment -- high.
+ - <span style="color:darkred">U.K.</span>: flexible labour markets with a large share of low-skilled workers and a clear segmentation between low-paid and high-paid workers. 
+ Raising job quality in the low-skilled sector and tackling low productivity rates are the major challenges.
+ - <span style="color:darkred">Central and Eastern Europe</span>: high proportion of non-active working-age people receiving long-term benefits with few activation incentives + low productivity and many informal sector workers.
+
+Policy domains addressing these challenges according to European Commission:
+
+ 1. Flexible and reliable **employment protection** arrangements. 
+
+Strict employment protection `r fa("arrow-alt-circle-right", fill = "#cc0033")` reduces the number of dismissals but hampers the transition from unemployment to work (OECD, 2007) `r fa("arrow-alt-circle-right", fill = "#cc0033")` Divisions between labour market insiders and outsiders, particularly where regulations differentiate between regular and other forms of employment contracts.
+
+Majority of changes in employment protection took place **at the margin** transition from unemployment to work (OECD, 2007) `r fa("arrow-alt-circle-right", fill = "#cc0033")` favours the creation of **segmented labour markets** transition from unemployment to work (OECD, 2007) `r fa("arrow-alt-circle-right", fill = "#cc0033")` employees with atypical contracts carry the burden of adjustment to economic shocks transition from unemployment to work (OECD, 2007) `r fa("arrow-alt-circle-right", fill = "#cc0033")` more precarious employment, lack of adequate provision of training for those with atypical contracts and negative impacts on productivity.
+
+
+2. Comprehensive **lifelong learning** strategies.
+
+High participation rates in lifelong learning `r fa("people-arrows", fill = "#cc0033")` high employment and low long-term unemployment.
+
+Investment in human resources over the life course and strategies of so-called active ageing are strongly promoted by the EU as a response to rapid technological change and innovation in the face of demographic pressure `r fa("arrow-alt-circle-right", fill = "#cc0033")` increasing both the competitiveness of firms and the long-term employability of workers
+
+
+3. Effective **active labour market policies**.
+
+Unemployment benefits are able to protect more effectively against labour market risks than employment protection, offsetting negative income consequences during job changes `r fa("arrow-alt-circle-right", fill = "#cc0033")`
+Reduce the risk of labour market segmentation and lower aggregate unemployment
+
+4. Modern **social security** systems `r fa("arrow-alt-circle-right", fill = "#cc0033")` improving the "work-life balance"
+
+
+<span style="color:darkred">Flexicurity</span> -- integrated approach to optimize the trade-off between these four components.
+
+Possible reform strategy: more flexible employment protection `r fa("people-arrows", fill = "#cc0033")` improved social rights to the unemployed.
+
+
+## Real worlds of flexicurity
+
+### Denmark
+
+Main elements:
+
+ - **flexible labour markets**; 
+ High external-numerical flexibility (little protection against dismissal)
+
+ - generous **unemployment support**; 
+ High levels of income security (generous unemployment benefits)
+ 
+ - strong emphasis on **activation**. 
+ High levels of employment security (labour market policy based on a right for retraining)
+ 
+ This combination is known as the **‘golden triangle’** of Danish labour market policy
+
+
+Empirical examples:
+
+ - **grant for employers** to cover the cost of hiring an unemployed person replacing employees on leave
+ 
+ - avoidance of a low-wage segment of the labour market (the **‘working poor’**) which is typical for many liberal economies such as the USA.
+
+
+**Result**: since the early 1990s, employment rates in Denmark in both the public and the private sector increased substantially and unemployment declined from 12\% in 1993 to 5% in 2001
+
+
+### The Netherlands
+
+**Normalizing non-standard work**: combination of atypical, flexible types of work with social security rights which are similar to those for persons in standard employment.
+
+**Active labour market** programmes: providing temporary agency workers with employment protection, rights to training, wage guarantees and supplementary pensions
+
+Prior to 1997: dual dismissal system (disadvantageous to temps)
+
+**1997 "Flexibility and Security Bill"**: more employment and employability security for non-standard workers.
+
+**Critique**: part-time workers -- gained from better social protection, other groups such as so-called ‘flex-workers’ remained disadvantaged
+
+**Comparative context**: less emphasis on activation strategies than in the Danish case and a more important role for other aspects such as temporary work agencies. 
+
+### Austria
+
+ - high spending on active labour market programmes;
+ 
+ - decentralized public employment services;
+ 
+ - emphasis on job security `r fa("arrow-alt-circle-right", fill = "#cc0033")` emphasis on employment security;
+ 
+ - **lifelong learning**: in 1998, it was made possible for employees to take paid leave for up to 12 months for further education without additional costs for the employers.
+ 
+ - **social policies**: the right of parents of young children to switch to part-time work, covered by full redundancy protection and the right to revert back to the previous working hours
+ 
+ - **external flexibility** + **activation**: workers loosing accumulated rights to severance pay when changing jobs `r fa("arrow-alt-circle-right", fill = "#cc0033")` transferable entitlements `r fa("arrow-alt-circle-right", fill = "#cc0033")` reducing disincentives to labour mobility.
