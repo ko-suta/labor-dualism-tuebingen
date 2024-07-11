@@ -184,7 +184,7 @@ Strictly regulated labor markets: costly dismissals `r fa("arrow-alt-circle-righ
 
  - abolished the need to indicate a valid reason for temporary employment;
  - extended the maximum duration as well as the possible number of renewals (also in Spain and Greece);
- - **<span style="color:white;background-color:black">however</span>**, firms not allowed to use temporary contracts for **> 20\%** of the workforce and Spain
+ - **<span style="color:white;background-color:black">however</span>**, firms not allowed to use temporary contracts for **> 20\%** of the workforce
  
 **Overall trends**: 
 
@@ -208,7 +208,7 @@ Strictly regulated labor markets: costly dismissals `r fa("arrow-alt-circle-righ
  
 <span style="color:darkred">Italy</span>:
 
- - 2013: **Assicurazione Sociale per l’Impiego* (ASPI) `r fa("arrow-alt-circle-right", fill = "#cc0033")` more generous and encompassing system;
+ - 2013: **Assicurazione Sociale per l’Impiego** (ASPI) `r fa("arrow-alt-circle-right", fill = "#cc0033")` more generous and encompassing system;
  
  - 2015: (NASPI) more permissive eligibility criteria (13 weeks of contributions in the 4 years before unemployment);
  
