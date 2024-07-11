@@ -70,8 +70,8 @@ knitr::opts_chunk$set(collapse = TRUE,
  - social policies: acceptable levels of economic and social security to all, including those who enter de-regulated labour markets. 
  
  Model countries: Denmark and the Netherlands.
- Why: models of how labour markets can be
-made more **dynamic** without compromising **social protection**.
+ 
+ Why: models of how labour markets can be made more **dynamic** without compromising **social protection**.
 
 
 ## The concept of flexicurity
@@ -222,3 +222,31 @@ Prior to 1997: dual dismissal system (disadvantageous to temps)
  - **social policies**: the right of parents of young children to switch to part-time work, covered by full redundancy protection and the right to revert back to the previous working hours
  
  - **external flexibility** + **activation**: workers loosing accumulated rights to severance pay when changing jobs `r fa("arrow-alt-circle-right", fill = "#cc0033")` transferable entitlements `r fa("arrow-alt-circle-right", fill = "#cc0033")` reducing disincentives to labour mobility.
+
+
+### Spain
+
+Since 1980s:
+
+ - increased **flexibility at the margins** through liberalizing fixed-term contracts and temporary work agencies;
+ 
+ - regulations concerning core jobs remained virtually unchanged; 
+ 
+ - employment growth restricted to flexible ‘outsider’ labour market; 
+ 
+ - transitions from fixed-term or part-time to open-ended or full-time contracts remained difficult `r fa("arrow-alt-circle-right", fill = "#cc0033")` segmented labour markets; 
+ 
+ - fixed-term workers -- 1/3 of total employment;
+ mainly consist of the young; 
+ lower wages + limited access to internal further training
+ 
+ 
+Reforms since 2001:
+
+ - eased the dismissal regulations of the insider labour market;
+ 
+ - introduced security elements for fixed-term employees, although not fully overcoming the dual character;
+ 
+ - easing dismissal protection in exchange for stricter regulation of temporary agency work;
+ 
+ - employees who have signed two or more fixed-term contracts with the same company and have worked in the same post for more than 24 months automatically acquire an open-ended contract
